@@ -1,8 +1,7 @@
 
 const fs = require('fs');
 const path = require('path');
-
-const logDir = 'logs';
+const { logDir } = require('config');
 
 class Logger {
 	constructor() {

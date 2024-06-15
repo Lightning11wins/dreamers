@@ -1,8 +1,7 @@
+
 const { spawn } = require('child_process');
 const fs = require('fs');
-
-const outputFile = 'output.txt', interval = 5000;
-const prompt_end = '-END OF OUTPUT-';
+const { tmpFile, promptEnd, pollingInterval } = require('config');
 
 function checkFile(file, interval) {
 	return new Promise((resolve) => {
@@ -21,13 +20,13 @@ function checkFile(file, interval) {
 function watchFile(file, interval) {
 	return new Promise((resolve) => {
 		const watchInterval = setInterval(() => {
-			fs.readFile(outputFile, 'utf8', (readErr, data) => {
+			fs.readFile(tmpFile, 'utf8', (readErr, data) => {
 				if (readErr) {
-					console.error(`Error reading file ${outputFile}: ${readErr}`);
+					console.error(`Error reading file ${tmpFile}: ${readErr}`);
 					return;
 				}
 
-				const index = data.indexOf(prompt_end);
+				const index = data.indexOf(promptEnd);
 				if (index === -1) {
 					console.log('AI is typing...');
 					return;
@@ -41,20 +40,24 @@ function watchFile(file, interval) {
 }
 
 async function ollama(prompt) {
-	prompt += ` To indicate the end of your response, include EXACTLY "${prompt_end}". Do NOT include this text anywhere else in your response.`;
+	prompt += ` To indicate the end of your response, include EXACTLY "${promptEnd}". Do NOT include this text anywhere else in your response.`;
 
-	fs.unlink(outputFile, (err) => {
+	fs.unlink(tmpFile, (err) => {
 		if (err) console.error('Error deleting file:', err);
 	});
 
-	const child = spawn('wsl', ['ollama', 'run', 'llama3', `"${prompt}"`, '>', outputFile], {
+	const child = spawn('wsl', ['ollama', 'run', 'llama3', `"${prompt}"`, '>', tmpFile], {
 		detached: true,
 		stdio: 'ignore'
 	});
 	child.unref();
 
-	await checkFile(outputFile, interval);
-	return await watchFile(outputFile, interval);
+	await checkFile(tmpFile, pollingInterval);
+	return await watchFile(tmpFile, pollingInterval);
 }
 
 ollama('What pet should I get?').then(((answer) => console.log('program:', answer)));
+
+module.exports = {
+	ollama,
+}
