@@ -1,23 +1,29 @@
 
+const { prompt } = require('./config')
 const { Logger } = require('./utils');
 const { Discord, channel } = require('./discord');
-// const { ollama } = require('./ai');
+const fs = require("fs");
+const { ollama } = require('./ai');
 
 const logger = new Logger();
 logger.log('Program started');
 
 const discord = new Discord();
-discord.system = 'Program started';
+// discord.system = 'Program started';
 
-function annoy() {
-	if (discord.isSending) return;
-	discord.get(channel.general).then((data) => {
-		if (data[0].handle !== 'evs17.') {
-			discord.general = data[0].text;
-		}
-	});
+async function scan() {
+	logger.log('Scanning #general chat...');
+	const history = (await discord.get(channel.general)).map(m => m.text);
+	logger.log('Recent messages in #general:\n' + history.join('\n'));
+
+	logger.log('Querying AI...');
+	const response = await ollama.query(prompt(history));
+
+	logger.log('Sending response: ' + response);
+	discord.general = response;
+
+	logger.log('Scan completed.\n');
 }
 
-setInterval(annoy, 5000);
-
-// ollama('What pet should I get?').then(((answer) => console.log('program:', answer)));
+scan();
+setInterval(scan, 100_000);
