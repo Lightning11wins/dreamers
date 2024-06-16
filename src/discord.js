@@ -1,5 +1,5 @@
 
-const { headers, rateLimitInterval } = require('./config');
+const { headers, rateLimitInterval, warnLength } = require('./config');
 
 const channelList = {
 	system: "https://discord.com/api/v9/channels/1196575384804802661/messages",
@@ -17,8 +17,14 @@ class Discord {
 		this.messageQueue = [];
 		this.msgInterval = -1;
 	}
+	get isSending() {
+		return this.messageQueue.length > 0;
+	}
 	send(msg) {
 		this.messageQueue.push(msg);
+		if (this.messageQueue.length > warnLength) {
+			console.warn(`[Discord] Queue ${this.messageQueue.length}/${warnLength}!`);
+		}
 
 		if (this.msgInterval !== -1) return;
 		this.msgInterval = setInterval(() => {
@@ -45,10 +51,13 @@ class Discord {
 		})).map((message) => {
 			const { content, author: { username, global_name }, timestamp } = message;
 			return {
-				date: new Date(timestamp),
+				time: new Date(timestamp),
+				handle: username,
+				nickname: global_name,
+				content,
 				text: `${global_name} (${username}): ${content}`,
 			};
-		}).sort((a, b) => a.date - b.date);
+		}).sort((a, b) => b.time - a.time);
 	}
 }
 
