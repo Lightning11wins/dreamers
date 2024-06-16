@@ -1,7 +1,9 @@
 
 const { spawn } = require('child_process');
 const fs = require('fs');
-const { tmpFile, promptEnd, pollingInterval } = require('./config');
+const { promptEnd, filePollingInterval } = require('./config');
+
+let id = 0;
 
 function checkFile(file, interval) {
 	return new Promise((resolve) => {
@@ -20,9 +22,9 @@ function checkFile(file, interval) {
 function watchFile(file, interval) {
 	return new Promise((resolve) => {
 		const watchInterval = setInterval(() => {
-			fs.readFile(tmpFile, 'utf8', (readErr, data) => {
+			fs.readFile(file, 'utf8', (readErr, data) => {
 				if (readErr) {
-					console.error(`Error reading file ${tmpFile}: ${readErr}`);
+					console.error(`Error reading file ${file}: ${readErr}`);
 					return;
 				}
 
@@ -42,9 +44,8 @@ function watchFile(file, interval) {
 async function query(prompt) {
 	prompt += ` To indicate the end of your response, include EXACTLY "${promptEnd}". Do NOT include this text anywhere else in your response.`;
 
-	fs.unlink(tmpFile, (err) => {
-		if (err) console.error('Error deleting file:', err);
-	});
+	const tmpFile = `tmp/${id++}-output.txt`;
+	fs.unlink(tmpFile, () => undefined);
 
 	const child = spawn('wsl', ['ollama', 'run', 'llama3', `"${prompt}"`, '>', tmpFile], {
 		detached: true,
@@ -52,8 +53,14 @@ async function query(prompt) {
 	});
 	child.unref();
 
-	await checkFile(tmpFile, pollingInterval);
-	return await watchFile(tmpFile, pollingInterval);
+	await checkFile(tmpFile, filePollingInterval);
+	const data = await watchFile(tmpFile, filePollingInterval);
+
+	fs.unlink(tmpFile, (error) => {
+		if (error) console.error('Failed to delete temp file:', error)
+	});
+
+	return data;
 }
 
 module.exports = {
