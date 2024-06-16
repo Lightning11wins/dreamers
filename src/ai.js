@@ -39,7 +39,7 @@ function watchFile(file, interval) {
 	});
 }
 
-async function ollama(prompt) {
+async function query(prompt) {
 	prompt += ` To indicate the end of your response, include EXACTLY "${promptEnd}". Do NOT include this text anywhere else in your response.`;
 
 	fs.unlink(tmpFile, (err) => {
@@ -57,5 +57,5 @@ async function ollama(prompt) {
 }
 
 module.exports = {
-	ollama,
+	ollama: { query },
 }

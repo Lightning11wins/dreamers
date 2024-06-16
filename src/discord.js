@@ -27,6 +27,7 @@ class Discord {
 		}
 
 		if (this.msgInterval !== -1) return;
+		sendUnrestricted(this.messageQueue.shift());
 		this.msgInterval = setInterval(() => {
 			if (this.messageQueue.length === 0) {
 				clearInterval(this.msgInterval);
