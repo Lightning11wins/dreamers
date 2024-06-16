@@ -1,7 +1,7 @@
 
 const { spawn } = require('child_process');
 const fs = require('fs');
-const { tmpFile, promptEnd, pollingInterval } = require('config');
+const { tmpFile, promptEnd, pollingInterval } = require('./config');
 
 function checkFile(file, interval) {
 	return new Promise((resolve) => {
@@ -55,8 +55,6 @@ async function ollama(prompt) {
 	await checkFile(tmpFile, pollingInterval);
 	return await watchFile(tmpFile, pollingInterval);
 }
-
-ollama('What pet should I get?').then(((answer) => console.log('program:', answer)));
 
 module.exports = {
 	ollama,
