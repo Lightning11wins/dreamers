@@ -154,8 +154,9 @@ function formatMessage(message) {
 
 // Helper function to send Discord messages.
 // WARNING: Bypasses rate limiting.
-function sendUnrestricted({ channel, msg }) {
-	fetch(channel, { headers, body: `{"content":"${msg}"}`, method: "POST" }).then();
+function sendUnrestricted({ channel, message, reply }) {
+	const ref = reply ? `"message_reference":{"guild_id":"1237645376782078004","channel_id":"1237645376782078007","message_id":"${reply}"}` : '';
+	fetch(channel, { headers, body: `{"content":"${message}",${ref}}`, method: "POST" }).then(console.log);
 }
 
 class Discord {
@@ -178,15 +179,16 @@ class Discord {
 			if (this.messageQueue.length === 0) {
 				clearInterval(this.msgInterval);
 				this.msgInterval = -1;
+				console.log(`[Discord] Queue drained.`);
 			}
 			else sendUnrestricted(this.messageQueue.shift());
 		}, rateLimitInterval);
 	}
-	set system(msg) {
-		this.send({ channel: channelList.system, msg });
+	set system({ message, reply }) {
+		this.send({ channel: channelList.system, message, reply });
 	}
-	set general(msg) {
-		this.send({ channel: channelList.general, msg });
+	set general({ message, reply }) {
+		this.send({ channel: channelList.general, message, reply });
 	}
 
 	async get(channel, messages = 10) {

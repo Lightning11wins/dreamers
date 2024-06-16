@@ -24,7 +24,11 @@ async function totalScan() {
 	logger.log('Scan completed.\n');
 }
 
-let mostRecentMessageID = 1252014462190489692;
+let mostRecentMessageID = 0;
+async function startup() {
+	mostRecentMessageID = (await discord.get(channel.general, 1))[0].id;
+}
+
 async function pingScan() {
 	logger.log('Scanning #general chat for pings...');
 	let done = false;
@@ -51,6 +55,7 @@ async function pingScan() {
 	const answers = pings.map(async (message) => {
 		logger.log('Querying AI...');
 		return {
+			id: message.id,
 			username: message.author.username,
 			text: ollama.query(promptRespond(message.author.username, message.content)),
 		};
@@ -58,7 +63,10 @@ async function pingScan() {
 
 	while (answers.length > 0) {
 		const answer = await answers.shift(), response = await answer.text;
-		discord.general = `To ${answer.username}: ${response}`;
+		discord.general = {
+			message: `To ${answer.username}: ${response}`,
+			reply: answer.id,
+		};
 	}
 }
 
@@ -67,5 +75,5 @@ async function test() {
 }
 
 // Run the bot
-pingScan();
+startup();
 setInterval(pingScan, discordPollingInterval);
