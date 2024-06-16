@@ -5,7 +5,7 @@ const { logDir } = require('./config');
 
 class Logger {
 	constructor() {
-		const now = Date.now().toString();
+		const now = Date.now().toLocaleString();
 		this.filename = `log-${now}.txt`;
 		this.filepath = path.join(logDir, this.filename);
 
@@ -13,7 +13,7 @@ class Logger {
 	}
 
 	log(msg) {
-		const now = Date.now().toString();
+		const now = Date.now().toLocaleString();
 		const data = `[${now}]: ${msg}\n`;
 		fs.appendFile(this.filepath, data, (err) => {
 			if (err) {
