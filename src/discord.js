@@ -2,9 +2,13 @@
 const { headers, rateLimitInterval, warnLength } = require('./config');
 
 const channelList = {
-	system: "https://discord.com/api/v9/channels/1196575384804802661/messages",
-	general: "https://discord.com/api/v9/channels/1237645376782078007/messages",
+	// system: '1196575384804802661',  // DMs
+	// general: '1237645376782078007', // Epic Alliance # general
+	general: '1085641893217583157',    // E-Cord #general
 }
+// Epic Alliance Guild ID: '1237645376782078004'
+// Gee Server Guild ID: '1085641892772978799'
+const guildID = '1085641892772978799';
 
 // Discord format examples:
 /* Dreamers says 'Hello World!': {
@@ -149,13 +153,17 @@ function formatMessage(message) {
 	});
 }
 
+function channelURL(channel) {
+	return `https://discord.com/api/v9/channels/${channel}/messages`;
+}
+
 // Helper function to send Discord messages.
 // WARNING: Bypasses rate limiting.
 function sendUnrestricted({ channel, message, reply }) {
 	message = message.replaceAll('"', '');
-	const ref = reply ? `,"message_reference":{"guild_id":"1237645376782078004","channel_id":"1237645376782078007","message_id":"${reply}"}` : '';
+	const ref = reply ? `,"message_reference":{"guild_id":"${guildID}","channel_id":"${channel}","message_id":"${reply}"}` : '';
 	const body = `{"content":"${message}"${ref}}`;
-	fetch(channel, { headers, body, method: "POST" }).then();
+	fetch(channelURL(channel), { headers, body, method: "POST" }).then();
 }
 
 class Discord {
@@ -183,16 +191,10 @@ class Discord {
 			else sendUnrestricted(this.messageQueue.shift());
 		}, rateLimitInterval);
 	}
-	set system({ message, reply }) {
-		this.send({ channel: channelList.system, message, reply });
-	}
-	set general({ message, reply }) {
-		this.send({ channel: channelList.general, message, reply });
-	}
 
 	async get(channel, messages = 10) {
 		return (await new Promise((resolve, reject) => {
-			fetch(`${channel}?limit=${messages}`, { headers, body: null, method: "GET" }).then((response) => {
+			fetch(`${channelURL(channel)}?limit=${messages}`, { headers, body: null, method: "GET" }).then((response) => {
 				if (!response.ok) reject(response.error);
 				else resolve(response.json());
 			});

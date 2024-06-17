@@ -19,7 +19,7 @@ async function totalScan() {
 	const response = await ollama.query(promptNice(history));
 
 	logger.log('Sending response: ' + response);
-	discord.general = response;
+	discord.send({ channel: channel.general, message: response });
 
 	logger.log('Scan completed.\n');
 }
@@ -33,10 +33,10 @@ async function setup() {
 	markMessageAsRead(await discord.get(channel.general, 1));
 	ollama.setup(); // Set up the AI (clears tmp directory).
 }
-async function pingScan() {
+async function pingScan(textChannel) {
 	logger.log('Scanning #general chat for pings...');
 	let done = false;
-	const messages = await discord.get(channel.general, 25);
+	const messages = await discord.get(textChannel, 25);
 	const newMessages = messages.filter((message) => {
 		// Skip old messages.
 		if (done || readMessages.includes(message.id)) {
@@ -49,7 +49,7 @@ async function pingScan() {
 		return message.mentions.filter((user) => {
 			logger.log('Found mention of ' + user.username);
 			return user.username === me.username;
-		}).length > 0
+		}).length > 0;
 	});
 	markMessageAsRead(messages);
 
@@ -69,7 +69,7 @@ async function pingScan() {
 			const response = await responses.shift(), message = await response.text;
 
 			logger.log(`Sending response for ${response.username} (message: ${response.id}): ${message}`);
-			discord.general = { message, reply: response.id };
+			discord.send({ channel: textChannel, message, reply: response.id });
 		}
 	}
 
@@ -82,4 +82,4 @@ async function test() {
 
 // Run the bot
 setup();
-setInterval(pingScan, discordPollingInterval);
+setInterval(() => pingScan(channel.general), discordPollingInterval);
