@@ -24,19 +24,22 @@ async function totalScan() {
 	logger.log('Scan completed.\n');
 }
 
-let mostRecentMessageID = '0', cycle = 1;
+let readMessages = [], cycle = 1;
+function markMessageAsRead(message) {
+	readMessages.unshift(message[0].id);
+	readMessages.slice(0, 5);
+}
 async function setup() {
-	mostRecentMessageID = (await discord.get(channel.general, 1))[0].id;
+	markMessageAsRead(await discord.get(channel.general, 1));
 	ollama.setup(); // Set up the AI (clears tmp directory).
 }
-
 async function pingScan() {
 	logger.log('Scanning #general chat for pings...');
 	let done = false;
 	const messages = await discord.get(channel.general, 25);
 	const newMessages = messages.filter((message) => {
 		// Skip old messages.
-		if (done || message.id === mostRecentMessageID) {
+		if (done || readMessages.includes(message.id)) {
 			done = true;
 			return false;
 		}
@@ -48,7 +51,7 @@ async function pingScan() {
 			return user.username === me.username;
 		}).length > 0
 	});
-	mostRecentMessageID = messages[0].id;
+	markMessageAsRead(messages);
 
 	logger.log(`Found ${newMessages.length} new messages from other members.`);
 	if (pings.length === 0) logger.log('No recent pings in #general');
