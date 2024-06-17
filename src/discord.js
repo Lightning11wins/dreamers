@@ -140,9 +140,6 @@ const channelList = {
 function formatMessage(message) {
 	return Object.assign(message, {
 		// Reformatting
-		type: Number(message.type),
-		channel_id: Number(message.channel_id),
-		id: Number(message.id),
 		timestamp: new Date(message.timestamp),
 		edited_timestamp: message.edited_timestamp !== null ? new Date(message.edited_timestamp) : null,
 		referenced_message: message.referenced_message ? formatMessage(message.referenced_message) : undefined,
@@ -155,8 +152,10 @@ function formatMessage(message) {
 // Helper function to send Discord messages.
 // WARNING: Bypasses rate limiting.
 function sendUnrestricted({ channel, message, reply }) {
-	const ref = reply ? `"message_reference":{"guild_id":"1237645376782078004","channel_id":"1237645376782078007","message_id":"${reply}"}` : '';
-	fetch(channel, { headers, body: `{"content":"${message}",${ref}}`, method: "POST" }).then(console.log);
+	message = message.replaceAll('"', '');
+	const ref = reply ? `,"message_reference":{"guild_id":"1237645376782078004","channel_id":"1237645376782078007","message_id":"${reply}"}` : '';
+	const body = `{"content":"${message}"${ref}}`;
+	fetch(channel, { headers, body, method: "POST" }).then();
 }
 
 class Discord {

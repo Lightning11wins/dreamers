@@ -34,6 +34,7 @@ class Logger {
 	}
 
 	log(msg) {
+		msg = msg.replaceAll('\n', '\n ⤷ ');
 		const data = `[${now(time)}]: ${msg}\n`;
 		fs.appendFile(this.filepath, data, (err) => {
 			if (err) {
