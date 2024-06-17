@@ -24,50 +24,53 @@ async function totalScan() {
 	logger.log('Scan completed.\n');
 }
 
-let mostRecentMessageID = 0;
-async function startup() {
+let mostRecentMessageID = '0', cycle = 1;
+async function setup() {
 	mostRecentMessageID = (await discord.get(channel.general, 1))[0].id;
+	// ollama.setup(); // Set up the AI (clears tmp directory).
 }
 
 async function pingScan() {
 	logger.log('Scanning #general chat for pings...');
 	let done = false;
 	const messages = await discord.get(channel.general, 25);
-	const pings = messages.filter((message) => {
-		// Skip all messages that have already been seen.
+	const newMessages = messages.filter((message) => {
+		// Skip old messages.
 		if (done || message.id === mostRecentMessageID) {
 			done = true;
 			return false;
 		}
+		return message.author.username !== me.username;
+	}), pings = newMessages.filter((message) => {
 		if (message.mention_everyone) return true;
 		return message.mentions.filter((user) => {
 			logger.log('Found mention of ' + user.username);
 			return user.username === me.username;
-		}).length > 0;
+		}).length > 0
 	});
 	mostRecentMessageID = messages[0].id;
-	if (pings.length === 0) {
-		logger.log('No recent pings in #general');
-		return;
+
+	logger.log(`Found ${newMessages.length} new messages from other members.`);
+	if (pings.length === 0) logger.log('No recent pings in #general');
+	else {
+		logger.log('Pings in #general:\n' + pings.map(m => m.text).join('\n'));
+
+		const responses = pings.map(async (message) => {
+			const { author: { username }, id, content } = message;
+			logger.log(`Querying AI for ${username} (message: ${id})...`);
+			const text = ollama.query(promptRespond(username, content));
+			return { id, username, text };
+		});
+
+		while (responses.length > 0) {
+			const response = await responses.shift(), message = await response.text;
+
+			logger.log(`Sending response for ${response.username} (message: ${response.id}): ${message}`);
+			discord.general = { message, reply: response.id };
+		}
 	}
 
-	logger.log('Pings (jobs) in #general:\n' + pings.map(m => m.text).join('\n'));
-	const answers = pings.map(async (message) => {
-		logger.log('Querying AI...');
-		return {
-			id: message.id,
-			username: message.author.username,
-			text: ollama.query(promptRespond(message.author.username, message.content)),
-		};
-	});
-
-	while (answers.length > 0) {
-		const answer = await answers.shift(), response = await answer.text;
-		discord.general = {
-			message: `To ${answer.username}: ${response}`,
-			reply: answer.id,
-		};
-	}
+	logger.log(`Scan cycle ${cycle++} completed`);
 }
 
 async function test() {
@@ -75,5 +78,5 @@ async function test() {
 }
 
 // Run the bot
-startup();
+setup();
 setInterval(pingScan, discordPollingInterval);

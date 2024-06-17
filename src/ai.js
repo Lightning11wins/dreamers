@@ -54,15 +54,27 @@ async function query(prompt) {
 	child.unref();
 
 	await checkFile(tmpFile, filePollingInterval);
-	const data = await watchFile(tmpFile, filePollingInterval);
+	return data = await watchFile(tmpFile, filePollingInterval);
+}
 
-	fs.unlink(tmpFile, (error) => {
-		if (error) console.error('Failed to delete temp file:', error)
+function setup() {
+	fs.readdir('tmp', (err, files) => {
+		if (err) {
+			console.error(`Unable to read the directory: ${err}`);
+			return;
+		}
+
+		files.forEach((file) => {
+			if (!file.endsWith('output.txt')) {
+				throw new Error('Unexpected file in tmp directory: ' + file);
+			}
+			fs.unlink(`tmp/${file}`, (err) => {
+				if (err) console.error(`Unable to delete file ${file}: ${err}`);
+			});
+		});
 	});
-
-	return data;
 }
 
 module.exports = {
-	ollama: { query },
+	ollama: { setup, query },
 }
