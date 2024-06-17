@@ -10,10 +10,10 @@ function checkFile(file, interval) {
 		const findFileInterval = setInterval(() => {
 			fs.stat(file, (err, stats) => {
 				if (!err && stats.size > 0) {
-					console.log('Output detected.');
+					console.log(`[AI: ${file}] Output detected.`);
 					clearInterval(findFileInterval);
 					resolve();
-				} else console.log(`Waiting for AI...`);
+				} else console.log(`[AI: ${file}] Waiting...`);
 			});
 		}, interval);
 	});
@@ -30,7 +30,7 @@ function watchFile(file, interval) {
 
 				const index = data.indexOf(promptEnd);
 				if (index === -1) {
-					console.log('AI is typing...');
+					console.log(`[AI: ${file}] Typing...`);
 					return;
 				}
 

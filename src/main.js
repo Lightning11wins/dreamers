@@ -27,7 +27,7 @@ async function totalScan() {
 let mostRecentMessageID = '0', cycle = 1;
 async function setup() {
 	mostRecentMessageID = (await discord.get(channel.general, 1))[0].id;
-	// ollama.setup(); // Set up the AI (clears tmp directory).
+	ollama.setup(); // Set up the AI (clears tmp directory).
 }
 
 async function pingScan() {
