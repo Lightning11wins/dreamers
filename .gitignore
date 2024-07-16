@@ -1,3 +1,4 @@
 *-output.txt
 src/config.js
 logs/*
+node_modules/*

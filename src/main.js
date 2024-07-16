@@ -2,21 +2,20 @@
 const { me, promptNice, promptRespond, discordPollingInterval} = require('./config')
 const { Logger } = require('./utils');
 const { Discord, channel } = require('./discord');
-const { ollama } = require('./ai');
+const { AI } = require('./ai');
 
 const logger = new Logger();
 logger.log('Program started');
 
 const discord = new Discord();
-// discord.system = 'Execution Initiated';
 
-async function totalScan() {
+async function scanMessages() {
 	logger.log('Scanning #general chat...');
 	const history = (await discord.get(channel.general)).map(m => m.text);
 	logger.log('Recent messages in #general:\n' + history.join('\n'));
 
 	logger.log('Querying AI...');
-	const response = await ollama.query(promptNice(history));
+	const response = await AI.query(promptNice(history));
 
 	logger.log('Sending response: ' + response);
 	discord.send({ channel: channel.general, message: response });
@@ -31,9 +30,8 @@ function markMessageAsRead(message) {
 }
 async function setup() {
 	markMessageAsRead(await discord.get(channel.general, 1));
-	ollama.setup(); // Set up the AI (clears tmp directory).
 }
-async function pingScan(textChannel) {
+async function scanPings(textChannel) {
 	logger.log('Scanning #general chat for pings...');
 	let done = false;
 	const messages = await discord.get(textChannel, 25);
@@ -61,7 +59,7 @@ async function pingScan(textChannel) {
 		const responses = pings.map(async (message) => {
 			const { author: { username }, id, content } = message;
 			logger.log(`Querying AI for ${username} (message: ${id})...`);
-			const text = ollama.query(promptRespond(username, content));
+			const text = AI.query(promptRespond(username, content));
 			return { id, username, text };
 		});
 
@@ -81,5 +79,4 @@ async function test() {
 }
 
 // Run the bot
-setup();
-setInterval(() => pingScan(channel.general), discordPollingInterval);
+setup().then(() => setInterval(() => scanPings(channel.general), discordPollingInterval));

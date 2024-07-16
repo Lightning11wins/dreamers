@@ -1,80 +1,16 @@
 
-const { spawn } = require('child_process');
-const fs = require('fs');
-const { promptEnd, filePollingInterval } = require('./config');
-
-let id = 0;
-
-function checkFile(file, interval) {
-	return new Promise((resolve) => {
-		const findFileInterval = setInterval(() => {
-			fs.stat(file, (err, stats) => {
-				if (!err && stats.size > 0) {
-					console.log(`[AI: ${file}] Output detected.`);
-					clearInterval(findFileInterval);
-					resolve();
-				} else console.log(`[AI: ${file}] Waiting...`);
-			});
-		}, interval);
-	});
-}
-
-function watchFile(file, interval) {
-	return new Promise((resolve) => {
-		const watchInterval = setInterval(() => {
-			fs.readFile(file, 'utf8', (readErr, data) => {
-				if (readErr) {
-					console.error(`Error reading file ${file}: ${readErr}`);
-					return;
-				}
-
-				const index = data.indexOf(promptEnd);
-				if (index === -1) {
-					console.log(`[AI: ${file}] Typing...`);
-					return;
-				}
-
-				clearInterval(watchInterval);
-				resolve(data.substring(0, index).trim());
-			});
-		}, interval);
-	});
-}
+const axios = require('axios');
 
 async function query(prompt) {
-	prompt += ` To indicate the end of your response, include EXACTLY "${promptEnd}". Do NOT include this text anywhere else in your response.`;
-
-	const tmpFile = `tmp/${id++}-output.txt`;
-	fs.unlink(tmpFile, () => undefined);
-
-	const child = spawn('wsl', ['ollama', 'run', 'llama3', `"${prompt}"`, '>', tmpFile], {
-		detached: true,
-		stdio: 'ignore'
-	});
-	child.unref();
-
-	await checkFile(tmpFile, filePollingInterval);
-	return data = await watchFile(tmpFile, filePollingInterval);
-}
-
-function setup() {
-	fs.readdir('tmp', (err, files) => {
-		if (err) {
-			console.error(`Unable to read the directory: ${err}`);
-			return;
-		}
-
-		files.forEach((file) => {
-			if (!file.endsWith('output.txt')) {
-				throw new Error('Unexpected file in tmp directory: ' + file);
-			}
-			fs.unlink(`tmp/${file}`, (err) => {
-				if (err) console.error(`Unable to delete file ${file}: ${err}`);
-			});
-		});
-	});
+	try {
+		const response = await axios.post('http://localhost:11434/api/generate', { model: 'llama3', prompt });
+		const lines = response.data.trim().split('\n');
+		return lines.map((line) => JSON.parse(line).response).join('');
+	} catch (error) {
+		console.error('Error:', error);
+	}
 }
 
 module.exports = {
-	ollama: { setup, query },
+	AI: { query }
 }
