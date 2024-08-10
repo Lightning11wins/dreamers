@@ -3,12 +3,29 @@ const { headers, rateLimitInterval, warnLength } = require('./config');
 
 const channelList = {
 	// system: '1196575384804802661',  // DMs
-	// general: '1237645376782078007', // Epic Alliance # general
-	general: '1085641893217583157',    // E-Cord #general
+	general: '1237645376782078007',    // Epic Alliance # general
+	// general: '1085641893217583157', // E-Cord #general
+	// general: '994001810102681607',  // Mujin #general
 }
+const participants = {
+	'Dreamers':   'AI',
+	'Alice':      '1261727174591905876',
+	'Demi':       '1262865165259509922',
+	'DonDon':     '1261728075326951474',
+	'EVs17':      '1262864622277492889',
+	'HenIsHuman': '1212226335909351435',
+	'IcedCoffee': '1262864511334088886',
+	'Katy':       '1262865085789896775',
+	'Lightning':  '1196575384804802661',
+	'Timmsy':     '1261727825673851043',
+	'Tomio':      '1262865264597532764',
+	'Yapper':     '1264443743881265162',
+}
+
 // Epic Alliance Guild ID: '1237645376782078004'
 // Gee Server Guild ID: '1085641892772978799'
-const guildID = '1085641892772978799';
+// Mujin Guild ID: '994001809364492299'
+const guildID = '1237645376782078004';
 
 // Discord format examples:
 /* Dreamers says 'Hello World!': {
@@ -160,10 +177,20 @@ function channelURL(channel) {
 // Helper function to send Discord messages.
 // WARNING: Bypasses rate limiting.
 function sendUnrestricted({ channel, message, reply }) {
-	message = message.replaceAll('"', '');
+	message = message.replaceAll('"', '\\"').replaceAll('\n', '\\n');
 	const ref = reply ? `,"message_reference":{"guild_id":"${guildID}","channel_id":"${channel}","message_id":"${reply}"}` : '';
 	const body = `{"content":"${message}"${ref}}`;
-	fetch(channelURL(channel), { headers, body, method: "POST" }).then();
+	const url = channelURL(channel), request = { headers, body, method: "POST" };
+	fetch(url, request)
+		.then(async response => {
+			if (!response.ok) {
+				console.error('Uh oh! url:', url, 'request:', request);
+				const json = await response.json();
+				console.error('response:', json);
+				throw new Error(`HTTP error! status: ${response.status}`);
+			}
+		})
+		.catch(error => console.error('There was a problem with the fetch operation:', error));
 }
 
 class Discord {
@@ -174,6 +201,7 @@ class Discord {
 	get isSending() {
 		return this.messageQueue.length > 0;
 	}
+	// msg is 3 strings: { channel, message, reply }
 	send(msg) {
 		this.messageQueue.push(msg);
 		if (this.messageQueue.length > warnLength) {
@@ -205,4 +233,5 @@ class Discord {
 module.exports = {
 	Discord,
 	channel: channelList,
+	participants,
 }

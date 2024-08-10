@@ -20,14 +20,14 @@ function now(format) {
 		const hours = String(now.getHours()).padStart(2, '0');
 		const minutes = String(now.getMinutes()).padStart(2, '0');
 		const seconds = String(now.getSeconds()).padStart(2, '0');
-		str += `${showDate ? '_' : ''}${hours}-${minutes}-${seconds}`;
+		str += `${showDate ? '_' : ''}${hours}:${minutes}:${seconds}`;
 	}
 	return str;
 }
 
 class Logger {
 	constructor() {
-		this.filename = `log-${now(date | time)}.txt`;
+		this.filename = `log-${now(date | time).replaceAll(':', '-')}.txt`;
 		this.filepath = path.join(logDir, this.filename);
 
 		fs.writeFileSync(this.filepath, `Start of ${this.filename}:\n\n`);
@@ -35,11 +35,12 @@ class Logger {
 
 	log(msg) {
 		msg = msg.replaceAll('\n', '\n ⤷ ');
-		const data = `[${now(time)}]: ${msg}\n`;
-		fs.appendFile(this.filepath, data, (err) => {
+		const message = `[${now(time)}]: ${msg}`;
+		console.log(message);
+		fs.appendFile(this.filepath, `${message}\n`, (err) => {
 			if (err) {
 				console.error(`Failed to write to log file at ${this.filepath}:`, err);
-				console.log('Data:', data);
+				console.log('Data:', message);
 			}
 		});
 	}

@@ -1,6 +1,8 @@
 
 const axios = require('axios');
 
+// Start AI: wsl ollama run llama3
+
 async function query(prompt) {
 	try {
 		const response = await axios.post('http://localhost:11434/api/generate', { model: 'llama3', prompt });
