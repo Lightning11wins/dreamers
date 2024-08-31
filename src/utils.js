@@ -25,6 +25,10 @@ function now(format) {
 	return str;
 }
 
+function wait(ms) {
+	return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 class Logger {
 	constructor() {
 		this.filename = `log-${now(date | time).replaceAll(':', '-')}.txt`;
@@ -48,6 +52,7 @@ class Logger {
 
 module.exports = {
 	now,
+	wait,
 	format: { date, time },
 	logDir,
 	Logger,
