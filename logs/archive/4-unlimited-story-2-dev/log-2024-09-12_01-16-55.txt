@@ -1,0 +1,7 @@
+Start of log-2024-09-12_01-16-55.txt:
+
+[01:16:55]: Program started!
+[01:16:55]: Program name: Unlimited Story 2
+[01:16:55]: Program phase: Production
+[01:16:55]: Reading persist file.
+[01:16:55]: Invoking command help for Lightning.

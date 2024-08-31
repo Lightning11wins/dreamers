@@ -1,0 +1,5 @@
+Start of log-2024-07-22_11-12-46.txt:
+
+[11:12:46]: Program started
+[11:12:46]: Program name: Garchic Story
+[11:12:46]: Reading persist file.

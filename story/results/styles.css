@@ -1,0 +1,100 @@
+
+body {
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #2f3136;
+    color: #dcddde;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 25px;
+}
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 2em;
+    color: #ffffff;
+    margin: 30px 0 0;
+    text-align: center;
+}
+.subtitle {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 15px 0;
+    text-align: center;
+}
+.message {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
+.message .content {
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 600px;
+    word-wrap: break-word;
+    background-color: #36393F;
+}
+.message h2 {
+    font-size: 1.1em;
+    color: #ffffff;
+    margin: 0 0 3px 0;
+}
+.message p {
+    margin: 0;
+    line-height: 1.5;
+}
+nav {
+    width: 100%;
+    background-color: #36393F;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #dcddde;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+    background-color: #2f3136;
+    color: #ffffff;
+}
+nav ul li.selected a {
+    background-color: #4f64ae;
+    color: white;
+    box-shadow: 0 4px 10px rgba(114, 137, 218, 0.6);
+    font-weight: bold;
+}
+
+/* Prevents messages from being split across pages. */
+@media print {
+    div.message {
+        page-break-inside: avoid;
+    }
+}

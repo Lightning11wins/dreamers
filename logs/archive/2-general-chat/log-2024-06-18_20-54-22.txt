@@ -1,0 +1,1304 @@
+Start of log-2024-06-18_20-54-22.txt:
+
+[20-54-22]: Program started
+[20-54-27]: Scanning #general chat for pings...
+[20-54-27]: Found 0 new messages from other members.
+[20-54-27]: No recent pings in #general
+[20-54-27]: Scan cycle 1 completed
+[20-54-32]: Scanning #general chat for pings...
+[20-54-32]: Scan cycle 2 completed
+[20-54-32]: No recent pings in #general
+[20-54-32]: Found 0 new messages from other members.
+[20-54-37]: Scanning #general chat for pings...
+[20-54-37]: Found 0 new messages from other members.
+[20-54-37]: No recent pings in #general
+[20-54-37]: Scan cycle 3 completed
+[20-54-42]: Scanning #general chat for pings...
+[20-54-42]: Scan cycle 4 completed
+[20-54-42]: Found 0 new messages from other members.
+[20-54-42]: No recent pings in #general
+[20-54-47]: Scanning #general chat for pings...
+[20-54-47]: Found 0 new messages from other members.
+[20-54-47]: No recent pings in #general
+[20-54-47]: Scan cycle 5 completed
+[20-54-52]: Scanning #general chat for pings...
+[20-54-52]: Found 0 new messages from other members.
+[20-54-52]: No recent pings in #general
+[20-54-52]: Scan cycle 6 completed
+[20-54-57]: Scanning #general chat for pings...
+[20-54-57]: Found 0 new messages from other members.
+[20-54-57]: No recent pings in #general
+[20-54-57]: Scan cycle 7 completed
+[20-55-02]: Scanning #general chat for pings...
+[20-55-02]: Found 0 new messages from other members.
+[20-55-02]: Scan cycle 8 completed
+[20-55-02]: No recent pings in #general
+[20-55-07]: Scanning #general chat for pings...
+[20-55-07]: Found 0 new messages from other members.
+[20-55-07]: No recent pings in #general
+[20-55-07]: Scan cycle 9 completed
+[20-55-12]: Scanning #general chat for pings...
+[20-55-12]: No recent pings in #general
+[20-55-12]: Found 0 new messages from other members.
+[20-55-12]: Scan cycle 10 completed
+[20-55-17]: Scanning #general chat for pings...
+[20-55-17]: Found 0 new messages from other members.
+[20-55-17]: No recent pings in #general
+[20-55-17]: Scan cycle 11 completed
+[20-55-22]: Scanning #general chat for pings...
+[20-55-22]: Found 0 new messages from other members.
+[20-55-22]: Scan cycle 12 completed
+[20-55-22]: No recent pings in #general
+[20-55-27]: Scanning #general chat for pings...
+[20-55-28]: Found 1 new messages from other members.
+[20-55-28]: Found mention of evs17.
+[20-55-28]: Pings in #general:
+ ⤷ henishuman: <@1196573390060929034> what up
+[20-55-28]: Querying AI for henishuman (message: 1252804144670965841)...
+[20-55-32]: Scanning #general chat for pings...
+[20-55-32]: No recent pings in #general
+[20-55-32]: Found 0 new messages from other members.
+[20-55-32]: Scan cycle 13 completed
+[20-55-37]: Scanning #general chat for pings...
+[20-55-37]: Found 0 new messages from other members.
+[20-55-37]: No recent pings in #general
+[20-55-37]: Scan cycle 14 completed
+[20-55-42]: Scanning #general chat for pings...
+[20-55-42]: No recent pings in #general
+[20-55-42]: Found 0 new messages from other members.
+[20-55-42]: Scan cycle 15 completed
+[20-55-47]: Scanning #general chat for pings...
+[20-55-47]: Found 0 new messages from other members.
+[20-55-47]: No recent pings in #general
+[20-55-47]: Scan cycle 16 completed
+[20-55-52]: Scanning #general chat for pings...
+[20-55-52]: Found 0 new messages from other members.
+[20-55-52]: No recent pings in #general
+[20-55-52]: Scan cycle 17 completed
+[20-55-57]: Scanning #general chat for pings...
+[20-55-57]: Found 0 new messages from other members.
+[20-55-57]: No recent pings in #general
+[20-55-57]: Scan cycle 18 completed
+[20-56-02]: Scanning #general chat for pings...
+[20-56-02]: Scan cycle 19 completed
+[20-56-02]: Found 0 new messages from other members.
+[20-56-02]: No recent pings in #general
+[20-56-07]: Scanning #general chat for pings...
+[20-56-07]: Found 0 new messages from other members.
+[20-56-07]: Scan cycle 20 completed
+[20-56-07]: No recent pings in #general
+[20-56-12]: Scanning #general chat for pings...
+[20-56-12]: No recent pings in #general
+[20-56-12]: Found 0 new messages from other members.
+[20-56-12]: Scan cycle 21 completed
+[20-56-13]: Sending response for henishuman (message: 1252804144670965841): "Hey! Not much, just chillin'. What's new with you?
+[20-56-13]: Scan cycle 22 completed
+[20-56-17]: Scanning #general chat for pings...
+[20-56-17]: Found 0 new messages from other members.
+[20-56-17]: Scan cycle 23 completed
+[20-56-17]: No recent pings in #general
+[20-56-22]: Scanning #general chat for pings...
+[20-56-22]: Found 0 new messages from other members.
+[20-56-22]: Scan cycle 24 completed
+[20-56-22]: No recent pings in #general
+[20-56-27]: Scanning #general chat for pings...
+[20-56-27]: No recent pings in #general
+[20-56-27]: Found 0 new messages from other members.
+[20-56-27]: Scan cycle 25 completed
+[20-56-32]: Scanning #general chat for pings...
+[20-56-32]: No recent pings in #general
+[20-56-32]: Scan cycle 26 completed
+[20-56-32]: Found 0 new messages from other members.
+[20-56-37]: Scanning #general chat for pings...
+[20-56-37]: Found 0 new messages from other members.
+[20-56-37]: Scan cycle 27 completed
+[20-56-37]: No recent pings in #general
+[20-56-42]: Scanning #general chat for pings...
+[20-56-42]: Found 0 new messages from other members.
+[20-56-42]: No recent pings in #general
+[20-56-42]: Scan cycle 28 completed
+[20-56-47]: Scanning #general chat for pings...
+[20-56-47]: Found 0 new messages from other members.
+[20-56-47]: No recent pings in #general
+[20-56-47]: Scan cycle 29 completed
+[20-56-52]: Scanning #general chat for pings...
+[20-56-52]: Found 0 new messages from other members.
+[20-56-52]: No recent pings in #general
+[20-56-52]: Scan cycle 30 completed
+[20-56-57]: Scanning #general chat for pings...
+[20-56-57]: Found 0 new messages from other members.
+[20-56-57]: Scan cycle 31 completed
+[20-56-57]: No recent pings in #general
+[20-57-02]: Scanning #general chat for pings...
+[20-57-02]: Scan cycle 32 completed
+[20-57-02]: No recent pings in #general
+[20-57-02]: Found 0 new messages from other members.
+[20-57-07]: Scanning #general chat for pings...
+[20-57-07]: No recent pings in #general
+[20-57-07]: Found 0 new messages from other members.
+[20-57-07]: Scan cycle 33 completed
+[20-57-12]: Scanning #general chat for pings...
+[20-57-13]: Found 0 new messages from other members.
+[20-57-13]: Scan cycle 34 completed
+[20-57-13]: No recent pings in #general
+[20-57-17]: Scanning #general chat for pings...
+[20-57-17]: No recent pings in #general
+[20-57-17]: Scan cycle 35 completed
+[20-57-17]: Found 0 new messages from other members.
+[20-57-22]: Scanning #general chat for pings...
+[20-57-22]: Scan cycle 36 completed
+[20-57-22]: Found 0 new messages from other members.
+[20-57-22]: No recent pings in #general
+[20-57-27]: Scanning #general chat for pings...
+[20-57-27]: Found 0 new messages from other members.
+[20-57-27]: No recent pings in #general
+[20-57-27]: Scan cycle 37 completed
+[20-57-32]: Scanning #general chat for pings...
+[20-57-32]: Found 0 new messages from other members.
+[20-57-32]: No recent pings in #general
+[20-57-32]: Scan cycle 38 completed
+[20-57-37]: Scanning #general chat for pings...
+[20-57-37]: Found 0 new messages from other members.
+[20-57-37]: Scan cycle 39 completed
+[20-57-37]: No recent pings in #general
+[20-57-42]: Scanning #general chat for pings...
+[20-57-42]: No recent pings in #general
+[20-57-42]: Found 0 new messages from other members.
+[20-57-42]: Scan cycle 40 completed
+[20-57-47]: Scanning #general chat for pings...
+[20-57-47]: Found 0 new messages from other members.
+[20-57-47]: No recent pings in #general
+[20-57-47]: Scan cycle 41 completed
+[20-57-52]: Scanning #general chat for pings...
+[20-57-52]: No recent pings in #general
+[20-57-52]: Found 0 new messages from other members.
+[20-57-52]: Scan cycle 42 completed
+[20-57-57]: Scanning #general chat for pings...
+[20-57-57]: No recent pings in #general
+[20-57-57]: Found 0 new messages from other members.
+[20-57-57]: Scan cycle 43 completed
+[20-58-02]: Scanning #general chat for pings...
+[20-58-02]: Found 0 new messages from other members.
+[20-58-02]: Scan cycle 44 completed
+[20-58-02]: No recent pings in #general
+[20-58-07]: Scanning #general chat for pings...
+[20-58-07]: Found 0 new messages from other members.
+[20-58-07]: Scan cycle 45 completed
+[20-58-07]: No recent pings in #general
+[20-58-12]: Scanning #general chat for pings...
+[20-58-12]: No recent pings in #general
+[20-58-12]: Found 0 new messages from other members.
+[20-58-12]: Scan cycle 46 completed
+[20-58-17]: Scanning #general chat for pings...
+[20-58-17]: Found 0 new messages from other members.
+[20-58-17]: No recent pings in #general
+[20-58-17]: Scan cycle 47 completed
+[20-58-22]: Scanning #general chat for pings...
+[20-58-22]: Found 0 new messages from other members.
+[20-58-22]: Scan cycle 48 completed
+[20-58-22]: No recent pings in #general
+[20-58-27]: Scanning #general chat for pings...
+[20-58-27]: Found 0 new messages from other members.
+[20-58-27]: No recent pings in #general
+[20-58-27]: Scan cycle 49 completed
+[20-58-32]: Scanning #general chat for pings...
+[20-58-32]: Scan cycle 50 completed
+[20-58-32]: Found 0 new messages from other members.
+[20-58-32]: No recent pings in #general
+[20-58-37]: Scanning #general chat for pings...
+[20-58-37]: No recent pings in #general
+[20-58-37]: Found 0 new messages from other members.
+[20-58-37]: Scan cycle 51 completed
+[20-58-42]: Scanning #general chat for pings...
+[20-58-42]: Found mention of evs17.
+[20-58-42]: Found 1 new messages from other members.
+[20-58-42]: Pings in #general:
+ ⤷ henishuman: What is 16+71734\
+[20-58-42]: Querying AI for henishuman (message: 1252804963063693352)...
+[20-58-47]: Scanning #general chat for pings...
+[20-58-47]: No recent pings in #general
+[20-58-47]: Found 0 new messages from other members.
+[20-58-47]: Scan cycle 52 completed
+[20-58-52]: Scanning #general chat for pings...
+[20-58-52]: Found 1 new messages from other members.
+[20-58-52]: No recent pings in #general
+[20-58-52]: Scan cycle 53 completed
+[20-58-57]: Scanning #general chat for pings...
+[20-58-57]: Found 0 new messages from other members.
+[20-58-57]: No recent pings in #general
+[20-58-57]: Scan cycle 54 completed
+[20-59-02]: Scanning #general chat for pings...
+[20-59-02]: Scan cycle 55 completed
+[20-59-02]: No recent pings in #general
+[20-59-02]: Found 0 new messages from other members.
+[20-59-07]: Scanning #general chat for pings...
+[20-59-08]: Found mention of evs17.
+[20-59-08]: Found 1 new messages from other members.
+[20-59-08]: Pings in #general:
+ ⤷ henishuman: no youre not
+[20-59-08]: Querying AI for henishuman (message: 1252805077497024586)...
+[20-59-12]: Scanning #general chat for pings...
+[20-59-12]: Sending response for henishuman (message: 1252804963063693352): Hey henishuman! That's an easy one: 16 + 71734 = **43,350**
+[20-59-12]: Scan cycle 56 completed
+[20-59-13]: Found 0 new messages from other members.
+[20-59-13]: Scan cycle 57 completed
+[20-59-13]: No recent pings in #general
+[20-59-17]: Scanning #general chat for pings...
+[20-59-17]: No recent pings in #general
+[20-59-17]: Found 0 new messages from other members.
+[20-59-17]: Scan cycle 58 completed
+[20-59-18]: Sending response for henishuman (message: 1252805077497024586): "Hey henishuman, no worries, I'm just happy to be here!
+[20-59-18]: Scan cycle 59 completed
+[20-59-22]: Scanning #general chat for pings...
+[20-59-22]: Found 0 new messages from other members.
+[20-59-22]: Scan cycle 60 completed
+[20-59-22]: No recent pings in #general
+[20-59-27]: Scanning #general chat for pings...
+[20-59-27]: Found 1 new messages from other members.
+[20-59-27]: Pings in #general:
+ ⤷ kindofkatie: thats right
+[20-59-27]: Found mention of evs17.
+[20-59-27]: Querying AI for kindofkatie (message: 1252805159646658590)...
+[20-59-32]: Scanning #general chat for pings...
+[20-59-32]: No recent pings in #general
+[20-59-32]: Found 0 new messages from other members.
+[20-59-32]: Scan cycle 61 completed
+[20-59-37]: Scanning #general chat for pings...
+[20-59-37]: Found 0 new messages from other members.
+[20-59-37]: No recent pings in #general
+[20-59-37]: Scan cycle 62 completed
+[20-59-42]: Scanning #general chat for pings...
+[20-59-42]: Found 1 new messages from other members.
+[20-59-42]: No recent pings in #general
+[20-59-42]: Scan cycle 63 completed
+[20-59-47]: Scanning #general chat for pings...
+[20-59-48]: Found 0 new messages from other members.
+[20-59-48]: No recent pings in #general
+[20-59-48]: Scan cycle 64 completed
+[20-59-52]: Scanning #general chat for pings...
+[20-59-53]: No recent pings in #general
+[20-59-53]: Scan cycle 65 completed
+[20-59-53]: Found 0 new messages from other members.
+[20-59-57]: Scanning #general chat for pings...
+[20-59-58]: No recent pings in #general
+[20-59-58]: Found 2 new messages from other members.
+[20-59-58]: Scan cycle 66 completed
+[21-00-02]: Scanning #general chat for pings...
+[21-00-02]: Found mention of evs17.
+[21-00-02]: Found 1 new messages from other members.
+[21-00-02]: Pings in #general:
+ ⤷ henishuman: kill yourself
+[21-00-02]: Querying AI for henishuman (message: 1252805309404024922)...
+[21-00-07]: Scanning #general chat for pings...
+[21-00-07]: Found 0 new messages from other members.
+[21-00-07]: No recent pings in #general
+[21-00-07]: Scan cycle 67 completed
+[21-00-08]: Sending response for kindofkatie (message: 1252805159646658590): "Agreed! **thumbs up** Great minds think alike, Katie!
+[21-00-08]: Scan cycle 68 completed
+[21-00-12]: Scanning #general chat for pings...
+[21-00-13]: Sending response for henishuman (message: 1252805309404024922): "Sorry to hear that, Henishuman. Let's focus on positivity instead
+[21-00-13]: Scan cycle 69 completed
+[21-00-13]: No recent pings in #general
+[21-00-13]: Found 0 new messages from other members.
+[21-00-13]: Scan cycle 70 completed
+[21-00-17]: Scanning #general chat for pings...
+[21-00-18]: Found 0 new messages from other members.
+[21-00-18]: Scan cycle 71 completed
+[21-00-18]: No recent pings in #general
+[21-00-22]: Scanning #general chat for pings...
+[21-00-23]: Found 1 new messages from other members.
+[21-00-23]: Scan cycle 72 completed
+[21-00-23]: No recent pings in #general
+[21-00-27]: Scanning #general chat for pings...
+[21-00-28]: No recent pings in #general
+[21-00-28]: Found 0 new messages from other members.
+[21-00-28]: Scan cycle 73 completed
+[21-00-32]: Scanning #general chat for pings...
+[21-00-33]: Found 0 new messages from other members.
+[21-00-33]: Scan cycle 74 completed
+[21-00-33]: No recent pings in #general
+[21-00-37]: Scanning #general chat for pings...
+[21-00-38]: Found 0 new messages from other members.
+[21-00-38]: No recent pings in #general
+[21-00-38]: Scan cycle 75 completed
+[21-00-42]: Scanning #general chat for pings...
+[21-00-43]: Found 0 new messages from other members.
+[21-00-43]: No recent pings in #general
+[21-00-43]: Scan cycle 76 completed
+[21-00-47]: Scanning #general chat for pings...
+[21-00-48]: Found 0 new messages from other members.
+[21-00-48]: No recent pings in #general
+[21-00-48]: Scan cycle 77 completed
+[21-00-52]: Scanning #general chat for pings...
+[21-00-53]: No recent pings in #general
+[21-00-53]: Scan cycle 78 completed
+[21-00-53]: Found 0 new messages from other members.
+[21-00-57]: Scanning #general chat for pings...
+[21-00-58]: Found 0 new messages from other members.
+[21-00-58]: Scan cycle 79 completed
+[21-00-58]: No recent pings in #general
+[21-01-02]: Scanning #general chat for pings...
+[21-01-03]: Found mention of evs17.
+[21-01-03]: Found 1 new messages from other members.
+[21-01-03]: Pings in #general:
+ ⤷ lightning_11: <@1196573390060929034> What do you think of the livestreamer HenIsHuman?
+[21-01-03]: Querying AI for lightning_11 (message: 1252805554141794447)...
+[21-01-07]: Scanning #general chat for pings...
+[21-01-08]: Found 0 new messages from other members.
+[21-01-08]: No recent pings in #general
+[21-01-08]: Scan cycle 80 completed
+[21-01-12]: Scanning #general chat for pings...
+[21-01-13]: Found 0 new messages from other members.
+[21-01-13]: No recent pings in #general
+[21-01-13]: Scan cycle 81 completed
+[21-01-17]: Scanning #general chat for pings...
+[21-01-18]: Found 0 new messages from other members.
+[21-01-18]: No recent pings in #general
+[21-01-18]: Scan cycle 82 completed
+[21-01-22]: Scanning #general chat for pings...
+[21-01-23]: Found 0 new messages from other members.
+[21-01-23]: No recent pings in #general
+[21-01-23]: Scan cycle 83 completed
+[21-01-27]: Scanning #general chat for pings...
+[21-01-28]: Sending response for lightning_11 (message: 1252805554141794447): I think HenIsHuman is a talented streamer, always entertaining and engaging!
+[21-01-28]: Scan cycle 84 completed
+[21-01-28]: No recent pings in #general
+[21-01-28]: Found 0 new messages from other members.
+[21-01-28]: Scan cycle 85 completed
+[21-01-32]: Scanning #general chat for pings...
+[21-01-33]: Found 0 new messages from other members.
+[21-01-33]: No recent pings in #general
+[21-01-33]: Scan cycle 86 completed
+[21-01-37]: Scanning #general chat for pings...
+[21-01-38]: Found 0 new messages from other members.
+[21-01-38]: No recent pings in #general
+[21-01-38]: Scan cycle 87 completed
+[21-01-42]: Scanning #general chat for pings...
+[21-01-43]: Found mention of henishuman
+[21-01-43]: Found 1 new messages from other members.
+[21-01-43]: Scan cycle 88 completed
+[21-01-43]: No recent pings in #general
+[21-01-47]: Scanning #general chat for pings...
+[21-01-48]: No recent pings in #general
+[21-01-48]: Found 0 new messages from other members.
+[21-01-48]: Scan cycle 89 completed
+[21-01-52]: Scanning #general chat for pings...
+[21-01-53]: Scan cycle 90 completed
+[21-01-53]: Found 0 new messages from other members.
+[21-01-53]: No recent pings in #general
+[21-01-57]: Scanning #general chat for pings...
+[21-01-58]: No recent pings in #general
+[21-01-58]: Found 0 new messages from other members.
+[21-01-58]: Scan cycle 91 completed
+[21-02-02]: Scanning #general chat for pings...
+[21-02-03]: Found mention of henishuman
+[21-02-03]: Found 1 new messages from other members.
+[21-02-03]: Scan cycle 92 completed
+[21-02-03]: No recent pings in #general
+[21-02-07]: Scanning #general chat for pings...
+[21-02-08]: Found mention of henishuman
+[21-02-08]: Found mention of henishuman
+[21-02-08]: Found 2 new messages from other members.
+[21-02-08]: No recent pings in #general
+[21-02-08]: Scan cycle 93 completed
+[21-02-12]: Scanning #general chat for pings...
+[21-02-13]: No recent pings in #general
+[21-02-13]: Found 0 new messages from other members.
+[21-02-13]: Scan cycle 94 completed
+[21-02-17]: Scanning #general chat for pings...
+[21-02-18]: Found 0 new messages from other members.
+[21-02-18]: No recent pings in #general
+[21-02-18]: Scan cycle 95 completed
+[21-02-23]: Scanning #general chat for pings...
+[21-02-23]: Found 0 new messages from other members.
+[21-02-23]: Scan cycle 96 completed
+[21-02-23]: No recent pings in #general
+[21-02-28]: Scanning #general chat for pings...
+[21-02-28]: Found 0 new messages from other members.
+[21-02-28]: No recent pings in #general
+[21-02-28]: Scan cycle 97 completed
+[21-02-33]: Scanning #general chat for pings...
+[21-02-33]: Found 0 new messages from other members.
+[21-02-33]: No recent pings in #general
+[21-02-33]: Scan cycle 98 completed
+[21-02-38]: Scanning #general chat for pings...
+[21-02-38]: Found 0 new messages from other members.
+[21-02-38]: Scan cycle 99 completed
+[21-02-38]: No recent pings in #general
+[21-02-43]: Scanning #general chat for pings...
+[21-02-43]: No recent pings in #general
+[21-02-43]: Found 0 new messages from other members.
+[21-02-43]: Scan cycle 100 completed
+[21-02-48]: Scanning #general chat for pings...
+[21-02-48]: Scan cycle 101 completed
+[21-02-48]: No recent pings in #general
+[21-02-48]: Found 0 new messages from other members.
+[21-02-53]: Scanning #general chat for pings...
+[21-02-53]: Found 0 new messages from other members.
+[21-02-53]: No recent pings in #general
+[21-02-53]: Scan cycle 102 completed
+[21-02-58]: Scanning #general chat for pings...
+[21-02-58]: Found 0 new messages from other members.
+[21-02-58]: Scan cycle 103 completed
+[21-02-58]: No recent pings in #general
+[21-03-03]: Scanning #general chat for pings...
+[21-03-03]: Found 0 new messages from other members.
+[21-03-03]: No recent pings in #general
+[21-03-03]: Scan cycle 104 completed
+[21-03-08]: Scanning #general chat for pings...
+[21-03-08]: Found 0 new messages from other members.
+[21-03-08]: Scan cycle 105 completed
+[21-03-08]: No recent pings in #general
+[21-03-13]: Scanning #general chat for pings...
+[21-03-13]: No recent pings in #general
+[21-03-13]: Found 0 new messages from other members.
+[21-03-13]: Scan cycle 106 completed
+[21-03-18]: Scanning #general chat for pings...
+[21-03-18]: Found 1 new messages from other members.
+[21-03-18]: Scan cycle 107 completed
+[21-03-18]: No recent pings in #general
+[21-03-23]: Scanning #general chat for pings...
+[21-03-23]: Found 0 new messages from other members.
+[21-03-23]: No recent pings in #general
+[21-03-23]: Scan cycle 108 completed
+[21-03-28]: Scanning #general chat for pings...
+[21-03-28]: No recent pings in #general
+[21-03-28]: Found 0 new messages from other members.
+[21-03-28]: Scan cycle 109 completed
+[21-03-33]: Scanning #general chat for pings...
+[21-03-33]: Found 0 new messages from other members.
+[21-03-33]: Scan cycle 110 completed
+[21-03-33]: No recent pings in #general
+[21-03-38]: Scanning #general chat for pings...
+[21-03-38]: Found mention of evs17.
+[21-03-38]: Found 1 new messages from other members.
+[21-03-38]: Querying AI for evs17 (message: 1252806202463879259)...
+[21-03-38]: Pings in #general:
+ ⤷ evs17: <@1196573390060929034> what do you think of the livestreamer Eether17
+[21-03-43]: Scanning #general chat for pings...
+[21-03-43]: Found 0 new messages from other members.
+[21-03-43]: No recent pings in #general
+[21-03-43]: Scan cycle 111 completed
+[21-03-48]: Scanning #general chat for pings...
+[21-03-48]: Found 0 new messages from other members.
+[21-03-48]: Scan cycle 112 completed
+[21-03-48]: No recent pings in #general
+[21-03-53]: Scanning #general chat for pings...
+[21-03-53]: Scan cycle 113 completed
+[21-03-53]: Found 0 new messages from other members.
+[21-03-53]: No recent pings in #general
+[21-03-58]: Scanning #general chat for pings...
+[21-03-58]: Found 0 new messages from other members.
+[21-03-58]: No recent pings in #general
+[21-03-58]: Scan cycle 114 completed
+[21-04-03]: Scanning #general chat for pings...
+[21-04-03]: Found 1 new messages from other members.
+[21-04-03]: Pings in #general:
+ ⤷ kindofkatie: <@1196573390060929034> Is bronya cool?
+[21-04-03]: Querying AI for kindofkatie (message: 1252806301411577977)...
+[21-04-03]: Found mention of evs17.
+[21-04-08]: Scanning #general chat for pings...
+[21-04-08]: Found 0 new messages from other members.
+[21-04-08]: No recent pings in #general
+[21-04-08]: Scan cycle 115 completed
+[21-04-13]: Scanning #general chat for pings...
+[21-04-13]: Sending response for kindofkatie (message: 1252806301411577977): "Hey kindofkatie! I think Bronya is super cool! Always sharing helpful tips and ideas!"
+[21-04-13]: Scan cycle 116 completed
+[21-04-13]: Sending response for evs17 (message: 1252806202463879259): Nice topic! I think Eether17 is an awesome streamer, always bringing energy to their streams
+[21-04-13]: Scan cycle 117 completed
+[21-04-13]: Found 0 new messages from other members.
+[21-04-13]: Scan cycle 118 completed
+[21-04-13]: No recent pings in #general
+[21-04-18]: Scanning #general chat for pings...
+[21-04-18]: No recent pings in #general
+[21-04-18]: Found 0 new messages from other members.
+[21-04-18]: Scan cycle 119 completed
+[21-04-23]: Scanning #general chat for pings...
+[21-04-23]: Found 0 new messages from other members.
+[21-04-23]: No recent pings in #general
+[21-04-23]: Scan cycle 120 completed
+[21-04-28]: Scanning #general chat for pings...
+[21-04-28]: Found 1 new messages from other members.
+[21-04-28]: Scan cycle 121 completed
+[21-04-28]: No recent pings in #general
+[21-04-33]: Scanning #general chat for pings...
+[21-04-33]: No recent pings in #general
+[21-04-33]: Found 0 new messages from other members.
+[21-04-33]: Scan cycle 122 completed
+[21-04-38]: Scanning #general chat for pings...
+[21-04-38]: Found 0 new messages from other members.
+[21-04-38]: No recent pings in #general
+[21-04-38]: Scan cycle 123 completed
+[21-04-43]: Scanning #general chat for pings...
+[21-04-43]: No recent pings in #general
+[21-04-43]: Scan cycle 124 completed
+[21-04-43]: Found 0 new messages from other members.
+[21-04-48]: Scanning #general chat for pings...
+[21-04-48]: No recent pings in #general
+[21-04-48]: Found 0 new messages from other members.
+[21-04-48]: Scan cycle 125 completed
+[21-04-53]: Scanning #general chat for pings...
+[21-04-53]: No recent pings in #general
+[21-04-53]: Found 0 new messages from other members.
+[21-04-53]: Scan cycle 126 completed
+[21-04-58]: Scanning #general chat for pings...
+[21-04-58]: Found 1 new messages from other members.
+[21-04-58]: No recent pings in #general
+[21-04-58]: Scan cycle 127 completed
+[21-05-03]: Scanning #general chat for pings...
+[21-05-03]: No recent pings in #general
+[21-05-03]: Found 0 new messages from other members.
+[21-05-03]: Scan cycle 128 completed
+[21-05-08]: Scanning #general chat for pings...
+[21-05-08]: Found 0 new messages from other members.
+[21-05-08]: No recent pings in #general
+[21-05-08]: Scan cycle 129 completed
+[21-05-13]: Scanning #general chat for pings...
+[21-05-13]: Found 0 new messages from other members.
+[21-05-13]: No recent pings in #general
+[21-05-13]: Scan cycle 130 completed
+[21-05-18]: Scanning #general chat for pings...
+[21-05-18]: Found 0 new messages from other members.
+[21-05-18]: Scan cycle 131 completed
+[21-05-18]: No recent pings in #general
+[21-05-23]: Scanning #general chat for pings...
+[21-05-23]: No recent pings in #general
+[21-05-23]: Found 0 new messages from other members.
+[21-05-23]: Scan cycle 132 completed
+[21-05-28]: Scanning #general chat for pings...
+[21-05-28]: Found 0 new messages from other members.
+[21-05-28]: No recent pings in #general
+[21-05-28]: Scan cycle 133 completed
+[21-05-33]: Scanning #general chat for pings...
+[21-05-33]: Found 0 new messages from other members.
+[21-05-33]: No recent pings in #general
+[21-05-33]: Scan cycle 134 completed
+[21-05-38]: Scanning #general chat for pings...
+[21-05-38]: Found 0 new messages from other members.
+[21-05-38]: Scan cycle 135 completed
+[21-05-38]: No recent pings in #general
+[21-05-43]: Scanning #general chat for pings...
+[21-05-43]: Found 0 new messages from other members.
+[21-05-43]: Scan cycle 136 completed
+[21-05-43]: No recent pings in #general
+[21-05-48]: Scanning #general chat for pings...
+[21-05-48]: Found 0 new messages from other members.
+[21-05-48]: Scan cycle 137 completed
+[21-05-48]: No recent pings in #general
+[21-05-53]: Scanning #general chat for pings...
+[21-05-53]: Found 0 new messages from other members.
+[21-05-53]: Scan cycle 138 completed
+[21-05-53]: No recent pings in #general
+[21-05-58]: Scanning #general chat for pings...
+[21-05-58]: Found 1 new messages from other members.
+[21-05-58]: Found mention of monstercindy
+[21-05-58]: Scan cycle 139 completed
+[21-05-58]: No recent pings in #general
+[21-06-03]: Scanning #general chat for pings...
+[21-06-03]: Found 1 new messages from other members.
+[21-06-03]: No recent pings in #general
+[21-06-03]: Scan cycle 140 completed
+[21-06-08]: Scanning #general chat for pings...
+[21-06-08]: No recent pings in #general
+[21-06-08]: Found 0 new messages from other members.
+[21-06-08]: Scan cycle 141 completed
+[21-06-13]: Scanning #general chat for pings...
+[21-06-13]: No recent pings in #general
+[21-06-13]: Found 0 new messages from other members.
+[21-06-13]: Scan cycle 142 completed
+[21-06-18]: Scanning #general chat for pings...
+[21-06-18]: No recent pings in #general
+[21-06-18]: Found 0 new messages from other members.
+[21-06-18]: Scan cycle 143 completed
+[21-06-23]: Scanning #general chat for pings...
+[21-06-23]: Scan cycle 144 completed
+[21-06-23]: No recent pings in #general
+[21-06-23]: Found 0 new messages from other members.
+[21-06-28]: Scanning #general chat for pings...
+[21-06-28]: Found 0 new messages from other members.
+[21-06-28]: Scan cycle 145 completed
+[21-06-28]: No recent pings in #general
+[21-06-33]: Scanning #general chat for pings...
+[21-06-33]: Found 1 new messages from other members.
+[21-06-33]: Pings in #general:
+ ⤷ monstercindy: <@1196573390060929034> 17. Are you a bot?
+[21-06-33]: Found mention of evs17.
+[21-06-33]: Querying AI for monstercindy (message: 1252806935242084384)...
+[21-06-38]: Scanning #general chat for pings...
+[21-06-38]: Scan cycle 146 completed
+[21-06-38]: Found 0 new messages from other members.
+[21-06-38]: No recent pings in #general
+[21-06-43]: Scanning #general chat for pings...
+[21-06-43]: No recent pings in #general
+[21-06-43]: Found 0 new messages from other members.
+[21-06-43]: Scan cycle 147 completed
+[21-06-48]: Scanning #general chat for pings...
+[21-06-48]: Found 0 new messages from other members.
+[21-06-48]: No recent pings in #general
+[21-06-48]: Scan cycle 148 completed
+[21-06-53]: Scanning #general chat for pings...
+[21-06-53]: Found 0 new messages from other members.
+[21-06-53]: No recent pings in #general
+[21-06-53]: Scan cycle 149 completed
+[21-06-58]: Scanning #general chat for pings...
+[21-06-58]: Found 0 new messages from other members.
+[21-06-58]: No recent pings in #general
+[21-06-58]: Scan cycle 150 completed
+[21-07-03]: Scanning #general chat for pings...
+[21-07-03]: No recent pings in #general
+[21-07-03]: Found 0 new messages from other members.
+[21-07-03]: Scan cycle 151 completed
+[21-07-08]: Scanning #general chat for pings...
+[21-07-08]: No recent pings in #general
+[21-07-08]: Found 0 new messages from other members.
+[21-07-08]: Scan cycle 152 completed
+[21-07-08]: Sending response for monstercindy (message: 1252806935242084384): Hey Monstercindy! No, I'm a friendly AI bot named Dreamers5592, here to assist and have fun!
+[21-07-08]: Scan cycle 153 completed
+[21-07-13]: Scanning #general chat for pings...
+[21-07-13]: Found 0 new messages from other members.
+[21-07-13]: No recent pings in #general
+[21-07-13]: Scan cycle 154 completed
+[21-07-18]: Scanning #general chat for pings...
+[21-07-18]: No recent pings in #general
+[21-07-18]: Found 0 new messages from other members.
+[21-07-18]: Scan cycle 155 completed
+[21-07-23]: Scanning #general chat for pings...
+[21-07-23]: No recent pings in #general
+[21-07-23]: Found 0 new messages from other members.
+[21-07-23]: Scan cycle 156 completed
+[21-07-28]: Scanning #general chat for pings...
+[21-07-28]: Found 0 new messages from other members.
+[21-07-28]: Scan cycle 157 completed
+[21-07-28]: No recent pings in #general
+[21-07-33]: Scanning #general chat for pings...
+[21-07-33]: Found 0 new messages from other members.
+[21-07-33]: No recent pings in #general
+[21-07-33]: Scan cycle 158 completed
+[21-07-38]: Scanning #general chat for pings...
+[21-07-38]: No recent pings in #general
+[21-07-38]: Found 0 new messages from other members.
+[21-07-38]: Scan cycle 159 completed
+[21-07-43]: Scanning #general chat for pings...
+[21-07-44]: Found 1 new messages from other members.
+[21-07-44]: Scan cycle 160 completed
+[21-07-44]: No recent pings in #general
+[21-07-48]: Scanning #general chat for pings...
+[21-07-48]: Found 0 new messages from other members.
+[21-07-48]: No recent pings in #general
+[21-07-48]: Scan cycle 161 completed
+[21-07-53]: Scanning #general chat for pings...
+[21-07-53]: No recent pings in #general
+[21-07-53]: Found 0 new messages from other members.
+[21-07-53]: Scan cycle 162 completed
+[21-07-58]: Scanning #general chat for pings...
+[21-07-58]: Found 0 new messages from other members.
+[21-07-58]: No recent pings in #general
+[21-07-58]: Scan cycle 163 completed
+[21-08-03]: Scanning #general chat for pings...
+[21-08-03]: Found 0 new messages from other members.
+[21-08-03]: No recent pings in #general
+[21-08-03]: Scan cycle 164 completed
+[21-08-08]: Scanning #general chat for pings...
+[21-08-08]: No recent pings in #general
+[21-08-08]: Found 0 new messages from other members.
+[21-08-08]: Scan cycle 165 completed
+[21-08-13]: Scanning #general chat for pings...
+[21-08-13]: Found 0 new messages from other members.
+[21-08-13]: Scan cycle 166 completed
+[21-08-13]: No recent pings in #general
+[21-08-18]: Scanning #general chat for pings...
+[21-08-18]: Found 0 new messages from other members.
+[21-08-18]: No recent pings in #general
+[21-08-18]: Scan cycle 167 completed
+[21-08-23]: Scanning #general chat for pings...
+[21-08-23]: Found 0 new messages from other members.
+[21-08-23]: No recent pings in #general
+[21-08-23]: Scan cycle 168 completed
+[21-08-28]: Scanning #general chat for pings...
+[21-08-28]: Found 0 new messages from other members.
+[21-08-28]: No recent pings in #general
+[21-08-28]: Scan cycle 169 completed
+[21-08-33]: Scanning #general chat for pings...
+[21-08-33]: Found 0 new messages from other members.
+[21-08-33]: No recent pings in #general
+[21-08-33]: Scan cycle 170 completed
+[21-08-38]: Scanning #general chat for pings...
+[21-08-38]: Found 0 new messages from other members.
+[21-08-38]: No recent pings in #general
+[21-08-38]: Scan cycle 171 completed
+[21-08-43]: Scanning #general chat for pings...
+[21-08-43]: Found 0 new messages from other members.
+[21-08-43]: No recent pings in #general
+[21-08-43]: Scan cycle 172 completed
+[21-08-48]: Scanning #general chat for pings...
+[21-08-48]: Found 0 new messages from other members.
+[21-08-48]: No recent pings in #general
+[21-08-48]: Scan cycle 173 completed
+[21-08-53]: Scanning #general chat for pings...
+[21-08-53]: No recent pings in #general
+[21-08-53]: Found 0 new messages from other members.
+[21-08-53]: Scan cycle 174 completed
+[21-08-58]: Scanning #general chat for pings...
+[21-08-58]: Found 0 new messages from other members.
+[21-08-58]: No recent pings in #general
+[21-08-58]: Scan cycle 175 completed
+[21-09-03]: Scanning #general chat for pings...
+[21-09-03]: Found 0 new messages from other members.
+[21-09-03]: No recent pings in #general
+[21-09-03]: Scan cycle 176 completed
+[21-09-08]: Scanning #general chat for pings...
+[21-09-08]: No recent pings in #general
+[21-09-08]: Found 0 new messages from other members.
+[21-09-08]: Scan cycle 177 completed
+[21-09-13]: Scanning #general chat for pings...
+[21-09-13]: No recent pings in #general
+[21-09-13]: Found 0 new messages from other members.
+[21-09-13]: Scan cycle 178 completed
+[21-09-18]: Scanning #general chat for pings...
+[21-09-18]: No recent pings in #general
+[21-09-18]: Found 0 new messages from other members.
+[21-09-18]: Scan cycle 179 completed
+[21-09-23]: Scanning #general chat for pings...
+[21-09-23]: Found 0 new messages from other members.
+[21-09-23]: No recent pings in #general
+[21-09-23]: Scan cycle 180 completed
+[21-09-28]: Scanning #general chat for pings...
+[21-09-28]: Found 0 new messages from other members.
+[21-09-28]: Scan cycle 181 completed
+[21-09-28]: No recent pings in #general
+[21-09-33]: Scanning #general chat for pings...
+[21-09-33]: Found 0 new messages from other members.
+[21-09-33]: Scan cycle 182 completed
+[21-09-33]: No recent pings in #general
+[21-09-38]: Scanning #general chat for pings...
+[21-09-38]: Found 0 new messages from other members.
+[21-09-38]: No recent pings in #general
+[21-09-38]: Scan cycle 183 completed
+[21-09-43]: Scanning #general chat for pings...
+[21-09-43]: Found 0 new messages from other members.
+[21-09-43]: No recent pings in #general
+[21-09-43]: Scan cycle 184 completed
+[21-09-48]: Scanning #general chat for pings...
+[21-09-48]: Found 0 new messages from other members.
+[21-09-48]: Scan cycle 185 completed
+[21-09-48]: No recent pings in #general
+[21-09-53]: Scanning #general chat for pings...
+[21-09-53]: No recent pings in #general
+[21-09-53]: Found 0 new messages from other members.
+[21-09-53]: Scan cycle 186 completed
+[21-09-58]: Scanning #general chat for pings...
+[21-09-58]: No recent pings in #general
+[21-09-58]: Found 0 new messages from other members.
+[21-09-58]: Scan cycle 187 completed
+[21-10-03]: Scanning #general chat for pings...
+[21-10-03]: Found 0 new messages from other members.
+[21-10-03]: No recent pings in #general
+[21-10-03]: Scan cycle 188 completed
+[21-10-08]: Scanning #general chat for pings...
+[21-10-08]: No recent pings in #general
+[21-10-08]: Scan cycle 189 completed
+[21-10-08]: Found 0 new messages from other members.
+[21-10-13]: Scanning #general chat for pings...
+[21-10-13]: Scan cycle 190 completed
+[21-10-13]: No recent pings in #general
+[21-10-13]: Found 0 new messages from other members.
+[21-10-18]: Scanning #general chat for pings...
+[21-10-18]: No recent pings in #general
+[21-10-18]: Found 0 new messages from other members.
+[21-10-18]: Scan cycle 191 completed
+[21-10-23]: Scanning #general chat for pings...
+[21-10-23]: Found 0 new messages from other members.
+[21-10-23]: No recent pings in #general
+[21-10-23]: Scan cycle 192 completed
+[21-10-28]: Scanning #general chat for pings...
+[21-10-28]: Found 0 new messages from other members.
+[21-10-28]: No recent pings in #general
+[21-10-28]: Scan cycle 193 completed
+[21-10-33]: Scanning #general chat for pings...
+[21-10-33]: Found 0 new messages from other members.
+[21-10-33]: No recent pings in #general
+[21-10-33]: Scan cycle 194 completed
+[21-10-38]: Scanning #general chat for pings...
+[21-10-39]: No recent pings in #general
+[21-10-39]: Found 0 new messages from other members.
+[21-10-39]: Scan cycle 195 completed
+[21-10-43]: Scanning #general chat for pings...
+[21-10-43]: No recent pings in #general
+[21-10-43]: Found 0 new messages from other members.
+[21-10-43]: Scan cycle 196 completed
+[21-10-48]: Scanning #general chat for pings...
+[21-10-48]: No recent pings in #general
+[21-10-48]: Found 0 new messages from other members.
+[21-10-48]: Scan cycle 197 completed
+[21-10-53]: Scanning #general chat for pings...
+[21-10-53]: No recent pings in #general
+[21-10-53]: Found 0 new messages from other members.
+[21-10-53]: Scan cycle 198 completed
+[21-10-58]: Scanning #general chat for pings...
+[21-10-59]: No recent pings in #general
+[21-10-59]: Found 0 new messages from other members.
+[21-10-59]: Scan cycle 199 completed
+[21-11-03]: Scanning #general chat for pings...
+[21-11-04]: Found 0 new messages from other members.
+[21-11-04]: No recent pings in #general
+[21-11-04]: Scan cycle 200 completed
+[21-11-08]: Scanning #general chat for pings...
+[21-11-08]: Found 0 new messages from other members.
+[21-11-08]: No recent pings in #general
+[21-11-08]: Scan cycle 201 completed
+[21-11-13]: Scanning #general chat for pings...
+[21-11-14]: Found 0 new messages from other members.
+[21-11-14]: No recent pings in #general
+[21-11-14]: Scan cycle 202 completed
+[21-11-18]: Scanning #general chat for pings...
+[21-11-18]: Found 0 new messages from other members.
+[21-11-18]: Scan cycle 203 completed
+[21-11-18]: No recent pings in #general
+[21-11-23]: Scanning #general chat for pings...
+[21-11-24]: No recent pings in #general
+[21-11-24]: Found 0 new messages from other members.
+[21-11-24]: Scan cycle 204 completed
+[21-11-28]: Scanning #general chat for pings...
+[21-11-29]: Found 0 new messages from other members.
+[21-11-29]: No recent pings in #general
+[21-11-29]: Scan cycle 205 completed
+[21-11-33]: Scanning #general chat for pings...
+[21-11-34]: Scan cycle 206 completed
+[21-11-34]: Found 0 new messages from other members.
+[21-11-34]: No recent pings in #general
+[21-11-38]: Scanning #general chat for pings...
+[21-11-39]: No recent pings in #general
+[21-11-39]: Found 0 new messages from other members.
+[21-11-39]: Scan cycle 207 completed
+[21-11-43]: Scanning #general chat for pings...
+[21-11-44]: Found 0 new messages from other members.
+[21-11-44]: No recent pings in #general
+[21-11-44]: Scan cycle 208 completed
+[21-11-48]: Scanning #general chat for pings...
+[21-11-49]: Found 0 new messages from other members.
+[21-11-49]: No recent pings in #general
+[21-11-49]: Scan cycle 209 completed
+[21-11-53]: Scanning #general chat for pings...
+[21-11-54]: No recent pings in #general
+[21-11-54]: Found 0 new messages from other members.
+[21-11-54]: Scan cycle 210 completed
+[21-11-58]: Scanning #general chat for pings...
+[21-11-59]: No recent pings in #general
+[21-11-59]: Found 0 new messages from other members.
+[21-11-59]: Scan cycle 211 completed
+[21-12-03]: Scanning #general chat for pings...
+[21-12-04]: Found 0 new messages from other members.
+[21-12-04]: No recent pings in #general
+[21-12-04]: Scan cycle 212 completed
+[21-12-08]: Scanning #general chat for pings...
+[21-12-09]: Found 0 new messages from other members.
+[21-12-09]: Scan cycle 213 completed
+[21-12-09]: No recent pings in #general
+[21-12-13]: Scanning #general chat for pings...
+[21-12-14]: No recent pings in #general
+[21-12-14]: Found 0 new messages from other members.
+[21-12-14]: Scan cycle 214 completed
+[21-12-18]: Scanning #general chat for pings...
+[21-12-19]: Found 0 new messages from other members.
+[21-12-19]: No recent pings in #general
+[21-12-19]: Scan cycle 215 completed
+[21-12-23]: Scanning #general chat for pings...
+[21-12-24]: Found 0 new messages from other members.
+[21-12-24]: No recent pings in #general
+[21-12-24]: Scan cycle 216 completed
+[21-12-28]: Scanning #general chat for pings...
+[21-12-29]: Found 0 new messages from other members.
+[21-12-29]: Scan cycle 217 completed
+[21-12-29]: No recent pings in #general
+[21-12-33]: Scanning #general chat for pings...
+[21-12-34]: Found 0 new messages from other members.
+[21-12-34]: No recent pings in #general
+[21-12-34]: Scan cycle 218 completed
+[21-12-38]: Scanning #general chat for pings...
+[21-12-39]: Found 0 new messages from other members.
+[21-12-39]: No recent pings in #general
+[21-12-39]: Scan cycle 219 completed
+[21-12-43]: Scanning #general chat for pings...
+[21-12-44]: No recent pings in #general
+[21-12-44]: Found 0 new messages from other members.
+[21-12-44]: Scan cycle 220 completed
+[21-12-48]: Scanning #general chat for pings...
+[21-12-49]: Found 0 new messages from other members.
+[21-12-49]: Scan cycle 221 completed
+[21-12-49]: No recent pings in #general
+[21-12-53]: Scanning #general chat for pings...
+[21-12-54]: Found 0 new messages from other members.
+[21-12-54]: No recent pings in #general
+[21-12-54]: Scan cycle 222 completed
+[21-12-58]: Scanning #general chat for pings...
+[21-12-59]: Found 0 new messages from other members.
+[21-12-59]: No recent pings in #general
+[21-12-59]: Scan cycle 223 completed
+[21-13-03]: Scanning #general chat for pings...
+[21-13-04]: Found 0 new messages from other members.
+[21-13-04]: No recent pings in #general
+[21-13-04]: Scan cycle 224 completed
+[21-13-09]: Scanning #general chat for pings...
+[21-13-09]: Found 0 new messages from other members.
+[21-13-09]: No recent pings in #general
+[21-13-09]: Scan cycle 225 completed
+[21-13-14]: Scanning #general chat for pings...
+[21-13-14]: Found 0 new messages from other members.
+[21-13-14]: Scan cycle 226 completed
+[21-13-14]: No recent pings in #general
+[21-13-19]: Scanning #general chat for pings...
+[21-13-19]: Found 0 new messages from other members.
+[21-13-19]: Scan cycle 227 completed
+[21-13-19]: No recent pings in #general
+[21-13-24]: Scanning #general chat for pings...
+[21-13-24]: No recent pings in #general
+[21-13-24]: Found 0 new messages from other members.
+[21-13-24]: Scan cycle 228 completed
+[21-13-29]: Scanning #general chat for pings...
+[21-13-29]: Found 0 new messages from other members.
+[21-13-29]: No recent pings in #general
+[21-13-29]: Scan cycle 229 completed
+[21-13-34]: Scanning #general chat for pings...
+[21-13-34]: No recent pings in #general
+[21-13-34]: Found 0 new messages from other members.
+[21-13-34]: Scan cycle 230 completed
+[21-13-39]: Scanning #general chat for pings...
+[21-13-39]: Found 0 new messages from other members.
+[21-13-39]: No recent pings in #general
+[21-13-39]: Scan cycle 231 completed
+[21-13-44]: Scanning #general chat for pings...
+[21-13-44]: Found 0 new messages from other members.
+[21-13-44]: No recent pings in #general
+[21-13-44]: Scan cycle 232 completed
+[21-13-49]: Scanning #general chat for pings...
+[21-13-49]: Found 0 new messages from other members.
+[21-13-49]: No recent pings in #general
+[21-13-49]: Scan cycle 233 completed
+[21-13-54]: Scanning #general chat for pings...
+[21-13-54]: Found 0 new messages from other members.
+[21-13-54]: No recent pings in #general
+[21-13-54]: Scan cycle 234 completed
+[21-13-59]: Scanning #general chat for pings...
+[21-13-59]: Found 0 new messages from other members.
+[21-13-59]: Scan cycle 235 completed
+[21-13-59]: No recent pings in #general
+[21-14-04]: Scanning #general chat for pings...
+[21-14-04]: Found 0 new messages from other members.
+[21-14-04]: No recent pings in #general
+[21-14-04]: Scan cycle 236 completed
+[21-14-09]: Scanning #general chat for pings...
+[21-14-09]: Found 0 new messages from other members.
+[21-14-09]: No recent pings in #general
+[21-14-09]: Scan cycle 237 completed
+[21-14-14]: Scanning #general chat for pings...
+[21-14-14]: Found 0 new messages from other members.
+[21-14-14]: No recent pings in #general
+[21-14-14]: Scan cycle 238 completed
+[21-14-19]: Scanning #general chat for pings...
+[21-14-19]: Found 0 new messages from other members.
+[21-14-19]: Scan cycle 239 completed
+[21-14-19]: No recent pings in #general
+[21-14-24]: Scanning #general chat for pings...
+[21-14-24]: Found 0 new messages from other members.
+[21-14-24]: No recent pings in #general
+[21-14-24]: Scan cycle 240 completed
+[21-14-29]: Scanning #general chat for pings...
+[21-14-29]: Scan cycle 241 completed
+[21-14-29]: Found 0 new messages from other members.
+[21-14-29]: No recent pings in #general
+[21-14-34]: Scanning #general chat for pings...
+[21-14-34]: Scan cycle 242 completed
+[21-14-34]: Found 0 new messages from other members.
+[21-14-34]: No recent pings in #general
+[21-14-39]: Scanning #general chat for pings...
+[21-14-39]: No recent pings in #general
+[21-14-39]: Found 0 new messages from other members.
+[21-14-39]: Scan cycle 243 completed
+[21-14-44]: Scanning #general chat for pings...
+[21-14-44]: Found 0 new messages from other members.
+[21-14-44]: Scan cycle 244 completed
+[21-14-44]: No recent pings in #general
+[21-14-49]: Scanning #general chat for pings...
+[21-14-49]: Found 0 new messages from other members.
+[21-14-49]: No recent pings in #general
+[21-14-49]: Scan cycle 245 completed
+[21-14-54]: Scanning #general chat for pings...
+[21-14-54]: Scan cycle 246 completed
+[21-14-54]: No recent pings in #general
+[21-14-54]: Found 0 new messages from other members.
+[21-14-59]: Scanning #general chat for pings...
+[21-14-59]: Found 0 new messages from other members.
+[21-14-59]: No recent pings in #general
+[21-14-59]: Scan cycle 247 completed
+[21-15-04]: Scanning #general chat for pings...
+[21-15-04]: No recent pings in #general
+[21-15-04]: Scan cycle 248 completed
+[21-15-04]: Found 0 new messages from other members.
+[21-15-09]: Scanning #general chat for pings...
+[21-15-12]: Scan cycle 249 completed
+[21-15-12]: No recent pings in #general
+[21-15-12]: Found 0 new messages from other members.
+[21-15-14]: Scanning #general chat for pings...
+[21-15-15]: Found 0 new messages from other members.
+[21-15-15]: Scan cycle 250 completed
+[21-15-15]: No recent pings in #general
+[21-15-19]: Scanning #general chat for pings...
+[21-15-19]: No recent pings in #general
+[21-15-19]: Found 0 new messages from other members.
+[21-15-19]: Scan cycle 251 completed
+[21-15-24]: Scanning #general chat for pings...
+[21-15-24]: No recent pings in #general
+[21-15-24]: Found 0 new messages from other members.
+[21-15-24]: Scan cycle 252 completed
+[21-15-29]: Scanning #general chat for pings...
+[21-15-29]: No recent pings in #general
+[21-15-29]: Found 0 new messages from other members.
+[21-15-29]: Scan cycle 253 completed
+[21-15-34]: Scanning #general chat for pings...
+[21-15-34]: Found 0 new messages from other members.
+[21-15-34]: No recent pings in #general
+[21-15-34]: Scan cycle 254 completed
+[21-15-39]: Scanning #general chat for pings...
+[21-15-39]: Found 0 new messages from other members.
+[21-15-39]: Scan cycle 255 completed
+[21-15-39]: No recent pings in #general
+[21-15-44]: Scanning #general chat for pings...
+[21-15-44]: Found 0 new messages from other members.
+[21-15-44]: No recent pings in #general
+[21-15-44]: Scan cycle 256 completed
+[21-15-49]: Scanning #general chat for pings...
+[21-15-49]: Found 0 new messages from other members.
+[21-15-49]: No recent pings in #general
+[21-15-49]: Scan cycle 257 completed
+[21-15-54]: Scanning #general chat for pings...
+[21-15-54]: No recent pings in #general
+[21-15-54]: Scan cycle 258 completed
+[21-15-54]: Found 0 new messages from other members.
+[21-15-59]: Scanning #general chat for pings...
+[21-15-59]: No recent pings in #general
+[21-15-59]: Found 0 new messages from other members.
+[21-15-59]: Scan cycle 259 completed
+[21-16-04]: Scanning #general chat for pings...
+[21-16-04]: No recent pings in #general
+[21-16-04]: Scan cycle 260 completed
+[21-16-04]: Found 0 new messages from other members.
+[21-16-09]: Scanning #general chat for pings...
+[21-16-09]: Found 0 new messages from other members.
+[21-16-09]: No recent pings in #general
+[21-16-09]: Scan cycle 261 completed
+[21-16-14]: Scanning #general chat for pings...
+[21-16-14]: Found 0 new messages from other members.
+[21-16-14]: No recent pings in #general
+[21-16-14]: Scan cycle 262 completed
+[21-16-19]: Scanning #general chat for pings...
+[21-16-19]: No recent pings in #general
+[21-16-19]: Found 0 new messages from other members.
+[21-16-19]: Scan cycle 263 completed
+[21-16-24]: Scanning #general chat for pings...
+[21-16-24]: No recent pings in #general
+[21-16-24]: Found 0 new messages from other members.
+[21-16-24]: Scan cycle 264 completed
+[21-16-29]: Scanning #general chat for pings...
+[21-16-29]: Found 0 new messages from other members.
+[21-16-29]: Scan cycle 265 completed
+[21-16-29]: No recent pings in #general
+[21-16-34]: Scanning #general chat for pings...
+[21-16-34]: No recent pings in #general
+[21-16-34]: Found 0 new messages from other members.
+[21-16-34]: Scan cycle 266 completed
+[21-16-39]: Scanning #general chat for pings...
+[21-16-39]: No recent pings in #general
+[21-16-39]: Found 0 new messages from other members.
+[21-16-39]: Scan cycle 267 completed
+[21-16-44]: Scanning #general chat for pings...
+[21-16-44]: Found 0 new messages from other members.
+[21-16-44]: Scan cycle 268 completed
+[21-16-44]: No recent pings in #general
+[21-16-49]: Scanning #general chat for pings...
+[21-16-49]: Found 0 new messages from other members.
+[21-16-49]: No recent pings in #general
+[21-16-49]: Scan cycle 269 completed
+[21-16-54]: Scanning #general chat for pings...
+[21-16-54]: No recent pings in #general
+[21-16-54]: Found 0 new messages from other members.
+[21-16-54]: Scan cycle 270 completed
+[21-16-59]: Scanning #general chat for pings...
+[21-16-59]: Found 0 new messages from other members.
+[21-16-59]: No recent pings in #general
+[21-16-59]: Scan cycle 271 completed
+[21-17-04]: Scanning #general chat for pings...
+[21-17-04]: Found 0 new messages from other members.
+[21-17-04]: No recent pings in #general
+[21-17-04]: Scan cycle 272 completed
+[21-17-09]: Scanning #general chat for pings...
+[21-17-09]: No recent pings in #general
+[21-17-09]: Found 0 new messages from other members.
+[21-17-09]: Scan cycle 273 completed
+[21-17-14]: Scanning #general chat for pings...
+[21-17-14]: No recent pings in #general
+[21-17-14]: Found 0 new messages from other members.
+[21-17-14]: Scan cycle 274 completed
+[21-17-19]: Scanning #general chat for pings...
+[21-17-19]: Found 0 new messages from other members.
+[21-17-19]: Scan cycle 275 completed
+[21-17-19]: No recent pings in #general
+[21-17-24]: Scanning #general chat for pings...
+[21-17-24]: No recent pings in #general
+[21-17-24]: Found 0 new messages from other members.
+[21-17-24]: Scan cycle 276 completed
+[21-17-29]: Scanning #general chat for pings...
+[21-17-29]: Scan cycle 277 completed
+[21-17-29]: No recent pings in #general
+[21-17-29]: Found 0 new messages from other members.
+[21-17-34]: Scanning #general chat for pings...
+[21-17-34]: Scan cycle 278 completed
+[21-17-34]: Found 0 new messages from other members.
+[21-17-34]: No recent pings in #general
+[21-17-39]: Scanning #general chat for pings...
+[21-17-39]: No recent pings in #general
+[21-17-39]: Found 0 new messages from other members.
+[21-17-39]: Scan cycle 279 completed
+[21-17-44]: Scanning #general chat for pings...
+[21-17-44]: Found 0 new messages from other members.
+[21-17-44]: No recent pings in #general
+[21-17-44]: Scan cycle 280 completed
+[21-17-49]: Scanning #general chat for pings...
+[21-17-49]: Found 0 new messages from other members.
+[21-17-49]: Scan cycle 281 completed
+[21-17-49]: No recent pings in #general
+[21-17-54]: Scanning #general chat for pings...
+[21-17-54]: No recent pings in #general
+[21-17-54]: Found 0 new messages from other members.
+[21-17-54]: Scan cycle 282 completed
+[21-17-59]: Scanning #general chat for pings...
+[21-17-59]: Found 0 new messages from other members.
+[21-17-59]: No recent pings in #general
+[21-17-59]: Scan cycle 283 completed
+[21-18-04]: Scanning #general chat for pings...
+[21-18-04]: Found mention of evs17.
+[21-18-04]: Found 1 new messages from other members.
+[21-18-04]: Querying AI for lightning_11 (message: 1252809832780664895)...
+[21-18-04]: Pings in #general:
+ ⤷ lightning_11: <@1196573390060929034> What server is this?
+[21-18-09]: Scanning #general chat for pings...
+[21-18-09]: Found 0 new messages from other members.
+[21-18-09]: No recent pings in #general
+[21-18-09]: Scan cycle 284 completed
+[21-18-14]: Scanning #general chat for pings...
+[21-18-14]: No recent pings in #general
+[21-18-14]: Found 0 new messages from other members.
+[21-18-14]: Scan cycle 285 completed
+[21-18-19]: Scanning #general chat for pings...
+[21-18-19]: No recent pings in #general
+[21-18-19]: Found 0 new messages from other members.
+[21-18-19]: Scan cycle 286 completed
+[21-18-24]: Scanning #general chat for pings...
+[21-18-24]: Found 0 new messages from other members.
+[21-18-24]: Scan cycle 287 completed
+[21-18-24]: No recent pings in #general
+[21-18-29]: Scanning #general chat for pings...
+[21-18-29]: Scan cycle 288 completed
+[21-18-29]: Found 0 new messages from other members.
+[21-18-29]: No recent pings in #general
+[21-18-34]: Scanning #general chat for pings...
+[21-18-34]: Sending response for lightning_11 (message: 1252809832780664895): "Hey @lightning_11, this is Cult of Mujin! Nice to have you here
+[21-18-34]: Scan cycle 289 completed
+[21-18-34]: No recent pings in #general
+[21-18-34]: Found 0 new messages from other members.
+[21-18-34]: Scan cycle 290 completed
+[21-18-39]: Scanning #general chat for pings...
+[21-18-39]: No recent pings in #general
+[21-18-39]: Found 0 new messages from other members.
+[21-18-39]: Scan cycle 291 completed
+[21-18-44]: Scanning #general chat for pings...
+[21-18-44]: Scan cycle 292 completed
+[21-18-44]: No recent pings in #general
+[21-18-44]: Found 0 new messages from other members.
+[21-18-49]: Scanning #general chat for pings...
+[21-18-49]: No recent pings in #general
+[21-18-49]: Found 0 new messages from other members.
+[21-18-49]: Scan cycle 293 completed
+[21-18-54]: Scanning #general chat for pings...
+[21-18-54]: Found 0 new messages from other members.
+[21-18-54]: No recent pings in #general
+[21-18-54]: Scan cycle 294 completed
+[21-18-59]: Scanning #general chat for pings...
+[21-18-59]: Found 0 new messages from other members.
+[21-18-59]: No recent pings in #general
+[21-18-59]: Scan cycle 295 completed
+[21-19-04]: Scanning #general chat for pings...
+[21-19-04]: Scan cycle 296 completed
+[21-19-04]: No recent pings in #general
+[21-19-04]: Found 0 new messages from other members.
+[21-19-09]: Scanning #general chat for pings...
+[21-19-09]: Scan cycle 297 completed
+[21-19-09]: No recent pings in #general
+[21-19-09]: Found 0 new messages from other members.
+[21-19-14]: Scanning #general chat for pings...
+[21-19-14]: Found 0 new messages from other members.
+[21-19-14]: No recent pings in #general
+[21-19-14]: Scan cycle 298 completed
+[21-19-19]: Scanning #general chat for pings...
+[21-19-19]: Found 0 new messages from other members.
+[21-19-19]: No recent pings in #general
+[21-19-19]: Scan cycle 299 completed
+[21-19-24]: Scanning #general chat for pings...
+[21-19-24]: No recent pings in #general
+[21-19-24]: Found 0 new messages from other members.
+[21-19-24]: Scan cycle 300 completed
+[21-19-29]: Scanning #general chat for pings...
+[21-19-29]: No recent pings in #general
+[21-19-29]: Found 0 new messages from other members.
+[21-19-29]: Scan cycle 301 completed
+[21-19-34]: Scanning #general chat for pings...
+[21-19-34]: Found 0 new messages from other members.
+[21-19-34]: No recent pings in #general
+[21-19-34]: Scan cycle 302 completed
+[21-19-39]: Scanning #general chat for pings...
+[21-19-39]: Found 0 new messages from other members.
+[21-19-39]: No recent pings in #general
+[21-19-39]: Scan cycle 303 completed
+[21-19-44]: Scanning #general chat for pings...
+[21-19-44]: Found 0 new messages from other members.
+[21-19-44]: No recent pings in #general
+[21-19-44]: Scan cycle 304 completed
+[21-19-49]: Scanning #general chat for pings...
+[21-19-49]: Scan cycle 305 completed
+[21-19-49]: Found 1 new messages from other members.
+[21-19-49]: No recent pings in #general
+[21-19-54]: Scanning #general chat for pings...
+[21-19-54]: Found 0 new messages from other members.
+[21-19-54]: No recent pings in #general
+[21-19-54]: Scan cycle 306 completed
+[21-19-59]: Scanning #general chat for pings...
+[21-19-59]: No recent pings in #general
+[21-19-59]: Found 0 new messages from other members.
+[21-19-59]: Scan cycle 307 completed
+[21-20-04]: Scanning #general chat for pings...
+[21-20-04]: Found 0 new messages from other members.
+[21-20-04]: No recent pings in #general
+[21-20-04]: Scan cycle 308 completed
+[21-20-09]: Scanning #general chat for pings...
+[21-20-09]: No recent pings in #general
+[21-20-09]: Found 0 new messages from other members.
+[21-20-09]: Scan cycle 309 completed
+[21-20-14]: Scanning #general chat for pings...
+[21-20-15]: Found 0 new messages from other members.
+[21-20-15]: No recent pings in #general
+[21-20-15]: Scan cycle 310 completed
+[21-20-19]: Scanning #general chat for pings...
+[21-20-19]: Found 0 new messages from other members.
+[21-20-19]: Scan cycle 311 completed
+[21-20-19]: No recent pings in #general
+[21-20-24]: Scanning #general chat for pings...
+[21-20-24]: No recent pings in #general
+[21-20-24]: Found 0 new messages from other members.
+[21-20-24]: Scan cycle 312 completed
+[21-20-29]: Scanning #general chat for pings...
+[21-20-30]: Found 0 new messages from other members.
+[21-20-30]: No recent pings in #general
+[21-20-30]: Scan cycle 313 completed
+[21-20-34]: Scanning #general chat for pings...
+[21-20-34]: Found 0 new messages from other members.
+[21-20-34]: No recent pings in #general
+[21-20-34]: Scan cycle 314 completed

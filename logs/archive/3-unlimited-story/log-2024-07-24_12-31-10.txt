@@ -1,0 +1,36 @@
+Start of log-2024-07-24_12-31-10.txt:
+
+[12:31:10]: Program started
+[12:31:10]: Program name: Unlimited Story Project
+[12:31:10]: Reading persist file.
+[12:34:41]: Response found!
+[12:34:41]: Katy said "EV bursts into the room screaming "DONT DRINK IT ALICE" "W-what?!" "It's not lemonade.... ITS PISS" Alice jumps from her seat and screams then everyone darts their eyes towards Timmsy."
+[12:34:41]: Selecting new author.
+[12:34:41]: Writing persist file.
+[12:34:41]: Selected Timmsy (1261727825673851043)
+[12:42:11]: Response found!
+[12:42:11]: Timmsy said "I quickly stand to defend myself from these accusations, pointing out that it is in fact not piss, but holy lemonade"
+[12:42:11]: Writing persist file.
+[12:42:11]: Selected DonDon (1261728075326951474)
+[12:42:11]: Selecting new author.
+[12:43:41]: Response found!
+[12:43:41]: DonDon said "Dondon looks a timmsy in a suspicious way, not believing his defense. Dondon states, "no wonder it tastes like shit, must have some in it too😡.""
+[12:43:41]: Selecting new author.
+[12:43:41]: Selected Katy (1262865085789896775)
+[12:43:41]: Writing persist file.
+[13:18:41]: Response found!
+[13:18:41]: Katy said "Everyone then feels bad for timmsy has you can see tears well up in his eyes then everyone immediately takes everything theyve said back out of pity"
+[13:18:41]: Selecting new author.
+[13:18:41]: Selected Yapper (1264443743881265162)
+[13:18:41]: Writing persist file.
+[13:27:41]: Response found!
+[13:27:41]: Yapper said "He then happily makes everybody lemonade! This lemonade is awesome now! And free! "But what about the waffles?" Lightning asked. "We can't have lemonade without waffles!""
+[13:27:41]: Selecting new author.
+[13:27:41]: Selected HenIsHuman (1212226335909351435)
+[13:27:41]: Writing persist file.
+[13:35:42]: Response found!
+[13:35:42]: HenIsHuman said "Hen looked over and Lightning and quickly replied,  "We dont need waffles, that's gee. Pipe down and drink your piss drink." Hen then proceeded to drink his entire glass of lemonade in a single massive gulp."
+[13:35:42]: Selected Dreamers (AI)
+[13:35:42]: Selecting new author.
+[13:35:42]: Writing persist file.
+[13:36:11]: Querying AI: Dreamers

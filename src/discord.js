@@ -2,30 +2,15 @@
 const { headers, rateLimitInterval, warnLength } = require('./config');
 
 const channelList = {
-	// system: '1196575384804802661',  // DMs
-	general: '1237645376782078007',    // Epic Alliance # general
-	// general: '1085641893217583157', // E-Cord #general
-	// general: '994001810102681607',  // Mujin #general
-}
-const participants = {
-	'Dreamers':   'AI',
-	'Alice':      '1261727174591905876',
-	'Demi':       '1262865165259509922',
-	'DonDon':     '1261728075326951474',
-	'EVs17':      '1262864622277492889',
-	'HenIsHuman': '1212226335909351435',
-	'IcedCoffee': '1262864511334088886',
-	'Katy':       '1262865085789896775',
-	'Lightning':  '1196575384804802661',
-	'Timmsy':     '1261727825673851043',
-	'Tomio':      '1262865264597532764',
-	'Yapper':     '1264443743881265162',
-}
-
-// Epic Alliance Guild ID: '1237645376782078004'
-// Gee Server Guild ID: '1085641892772978799'
-// Mujin Guild ID: '994001809364492299'
-const guildID = '1237645376782078004';
+	system: '1196575384804802661',  // DMs
+	general: '1237645376782078007', // Epic Alliance # general
+};
+const guildID = '1237645376782078004'; // Epic Alliance
+const me = {
+	id: '1196573390060929034',
+	username: 'evs17.',
+	global_name: 'Dreamers5592',
+};
 
 // Discord format examples:
 /* Dreamers says 'Hello World!': {
@@ -184,9 +169,8 @@ function sendUnrestricted({ channel, message, reply }) {
 	fetch(url, request)
 		.then(async response => {
 			if (!response.ok) {
-				console.error('Uh oh! url:', url, 'request:', request);
-				const json = await response.json();
-				console.error('response:', json);
+				console.error('Uh oh! url: ' + url + ', request: ' + request);
+				console.error('response:', JSON.stringify(await response.json()));
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
 		})
@@ -211,12 +195,14 @@ class Discord {
 		if (this.msgInterval !== -1) return;
 		sendUnrestricted(this.messageQueue.shift());
 		this.msgInterval = setInterval(() => {
+			if (this.messageQueue.length) {
+				sendUnrestricted(this.messageQueue.shift())
+			}
 			if (this.messageQueue.length === 0) {
 				clearInterval(this.msgInterval);
 				this.msgInterval = -1;
 				console.log(`[Discord] Queue drained.`);
 			}
-			else sendUnrestricted(this.messageQueue.shift());
 		}, rateLimitInterval);
 	}
 
@@ -230,8 +216,13 @@ class Discord {
 	}
 }
 
+// async function main() {
+// 	console.log(JSON.stringify(await new Discord().get(channelList.general, 1), null, 2));
+// }
+// main().then()
+
 module.exports = {
 	Discord,
-	channel: channelList,
-	participants,
-}
+	channels: channelList,
+	me
+};

@@ -1,0 +1,18 @@
+Start of log-2024-06-16_16-36-48.txt:
+
+[16-36-48]: Program started
+[16-36-48]: Scanning #general chat for pings...
+[16-36-49]: Found mention of huohuo.mod
+[16-36-49]: Found mention of caylow.
+[16-36-49]: Found mention of huohuo.mod
+[16-36-49]: Found mention of evs17.
+[16-36-49]: Found mention of caylow.
+[16-36-49]: Pings (jobs) in #general:
+huohuo.mod: <@1196573390060929034> What’s your favourite spaghetti?
+huohuo.mod: <@1196573390060929034> What’s your favourite spaghetti
+huohuo.mod: <@1196573390060929034> . Are you alive
+[16-36-49]: Querying AI...
+[16-36-49]: Found mention of evs17.
+[16-36-49]: Found mention of evs17.
+[16-36-49]: Querying AI...
+[16-36-49]: Querying AI...

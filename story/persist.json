@@ -1,26 +1,237 @@
 {
-  "currentAuthor": "Demi",
-  "currentChannel": "1262865165259509922",
-  "secondToLastMessage": {
-    "author": "Tomio",
-    "content": "and everybody was happy with the waffles, the waffles brought peace to the gang, and cups of hot chocolate appeared in their hands."
+  "stories": [
+    {
+      "currentAuthor": "",
+      "currentChannel": "",
+      "currentTime": "",
+      "lastMessage": {
+        "author": "Katy",
+        "content": "but unfortunately it was all in vain, all the clones were gone due to a coding error. the world was saved because of lightnings janky code (im sorry lightning ur code is amazing) THE END"
+      },
+      "secondToLastMessage": {
+        "author": "Demi",
+        "content": "and only the real dreamers remained. \"No!\" he yelled, trying anything to get the clones back to hide him from his doom."
+      }
+    },
+    {
+      "currentAuthor": "",
+      "currentChannel": "",
+      "currentTime": "",
+      "lastMessage": {
+        "author": "Lightning",
+        "content": "And Katy lived happily ever after with her best friends. **The End**"
+      },
+      "secondToLastMessage": {
+        "author": "Yapper",
+        "content": "He took her to another happy ending party! There was an even bigger cake. All of gang was there and surprised her."
+      }
+    },
+    {
+      "currentAuthor": "Lightning",
+      "currentChannel": "1196575384804802661",
+      "currentTime": "1726877629133",
+      "lastMessage": {
+        "author": "Tomio",
+        "content": "they started to do rock paper scissors, but then they just made a run for it and they both fell down"
+      },
+      "secondToLastMessage": {
+        "author": "EVs17",
+        "content": "As they stared into eachother's soul, both really needing to use the bathroom, only one person could use it at a time. They were not gonna go to the public bathroom cause they are above that. It looked like a constipated fight was about in ensue"
+      }
+    }
+  ],
+  "times": {
+    "Timmsy": [
+      "60675",
+      "180093",
+      "80858",
+      "2560466",
+      "500143",
+      "120043",
+      "120040",
+      "32645708",
+      "200023",
+      "420196",
+      "11783148",
+      "11967143"
+    ],
+    "EVs17": [
+      "860202",
+      "286173",
+      "119937",
+      "7321401",
+      "519898",
+      "240117",
+      "340337",
+      "11297058",
+      "679714",
+      "1480502",
+      "139951",
+      "7821192",
+      "260350",
+      "194809"
+    ],
+    "Mikasa": [
+      "9363433",
+      "160106",
+      "8184727",
+      "380021",
+      "3540697",
+      "28211757",
+      "100021",
+      "120049",
+      "4261418",
+      "28913687",
+      "35565528"
+    ],
+    "Katy": [
+      "39975",
+      "37829",
+      "160174",
+      "219854",
+      "119921",
+      "140092",
+      "4390243",
+      "200538",
+      "30666109",
+      "140012"
+    ],
+    "Dreamers": [
+      "136595",
+      "52918"
+    ],
+    "Lightning": [
+      "280906",
+      "247717",
+      "580144",
+      "400330",
+      "200116",
+      "10482026",
+      "4510810",
+      "259832",
+      "43864075",
+      "800128",
+      "80005"
+    ],
+    "DonDon": [
+      "11908780",
+      "1118545",
+      "160169",
+      "920150",
+      "5310774",
+      "160031",
+      "4481496",
+      "139764",
+      "156596172",
+      "67835799"
+    ],
+    "Alice": [
+      "180265",
+      "48835167",
+      "120087",
+      "2660275",
+      "8646535",
+      "6582493",
+      "160049",
+      "440156",
+      "940231",
+      "18904419",
+      "40929585"
+    ],
+    "Victoria": [
+      "480017",
+      "570558",
+      "24222506",
+      "9816441",
+      "16675109",
+      "1341128",
+      "480301",
+      "5736147",
+      "4341454",
+      "17392118",
+      "1700278"
+    ],
+    "HenIsHuman": [
+      "2080779",
+      "1030684",
+      "279980",
+      "9101551",
+      "820192",
+      "9800801",
+      "479512",
+      "84501044",
+      "5920867",
+      "220136"
+    ],
+    "IcedCoffee": [
+      "780327",
+      "60958434",
+      "3620577",
+      "59961",
+      "34210728",
+      "1000197",
+      "160170",
+      "220067",
+      "60187102",
+      "41007068",
+      "200024"
+    ],
+    "Demi": [
+      "260097",
+      "840446",
+      "1280475",
+      "6280904",
+      "99939",
+      "99830",
+      "240084",
+      "180037",
+      "22582325",
+      "799823",
+      "22284607",
+      "139857",
+      "1040332",
+      "220089"
+    ],
+    "Tomio": [
+      "13355144",
+      "167573",
+      "3321203",
+      "160099",
+      "5961017",
+      "440175",
+      "13278517",
+      "1860780",
+      "40268211",
+      "31486128",
+      "2060838"
+    ],
+    "Yapper": [
+      "279961",
+      "22267950",
+      "380181",
+      "340070",
+      "200201",
+      "15822007",
+      "120013",
+      "100021",
+      "560102",
+      "100035",
+      "60007"
+    ]
   },
-  "lastMessage": {
-    "author": "Katy",
-    "content": "yay everyone was happy!"
-  },
-  "pity": {
-    "Alice": 9,
-    "Dreamers": 11,
-    "Demi": 2,
-    "DonDon": 15,
-    "EVs17": 18,
-    "HenIsHuman": 12,
-    "IcedCoffee": 8,
-    "Katy": 3,
-    "Lightning": 6,
-    "Timmsy": 5,
-    "Tomio": 4,
-    "Yapper": 7
+  "weights": {
+    "HenIsHuman": 19,
+    "Katy": 18,
+    "Timmsy": 15,
+    "Yapper": 15,
+    "Alice": 13,
+    "Demi": 9,
+    "Victoria": 7,
+    "Mikasa": 5,
+    "DonDon": 5,
+    "IcedCoffee": 5,
+    "EVs17": 4,
+    "Tomio": 3,
+    "Lightning": 2
   }
 }

@@ -1,0 +1,5 @@
+Start of log-2024-07-23_14-36-21.txt:
+
+[14:36:21]: Program started
+[14:36:21]: Program name: Unlimited Story Project
+[14:36:21]: Writing persist file.

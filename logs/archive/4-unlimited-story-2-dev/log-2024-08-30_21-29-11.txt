@@ -1,0 +1,6 @@
+Start of log-2024-08-30_21-29-11.txt:
+
+[21:29:11]: Program started
+[21:29:11]: Program name: Unlimited Story 2
+[21:29:11]: Program phase: Development
+[21:29:11]: Reading persist file.

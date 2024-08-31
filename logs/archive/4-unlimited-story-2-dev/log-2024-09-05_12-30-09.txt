@@ -1,0 +1,10 @@
+Start of log-2024-09-05_12-30-09.txt:
+
+[12:30:09]: Program started
+[12:30:09]: Program name: Unlimited Story 2
+[12:30:09]: Reading persist file.
+[12:30:09]: Program phase: Production
+[12:30:09]: Picked Mikasa
+[12:30:09]: Selecting new author.
+[12:30:09]: SIKE! Forcing Lightning for testing purposes.
+[12:30:09]: Selected Lightning (1196575384804802661)

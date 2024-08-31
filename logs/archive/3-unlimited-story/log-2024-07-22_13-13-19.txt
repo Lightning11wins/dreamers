@@ -1,0 +1,23 @@
+Start of log-2024-07-22_13-13-19.txt:
+
+[13:13:19]: Program started
+[13:13:19]: Program name: Garchic Story
+[13:13:19]: Reading persist file.
+[13:42:50]: Response found!
+[13:42:50]: EVs17 said "Eric starts his first move, DIMENSIONAL WARP. Suddenly Lightning and Eric are transported to a new dimension. As lightning looks around, he's surprised to see the blocky world around them. They're in Minecraft!"
+[13:42:50]: Sending confirmation.
+[13:42:50]: Selecting new author.
+[13:42:50]: Selected Demi (1262865165259509922)
+[13:42:50]: Writing persist file.
+[13:47:21]: Response found!
+[13:47:21]: Sending confirmation.
+[13:47:21]: Selecting new author.
+[13:47:21]: Demi said "“what the…”. Lightning says hesitantly, looking around. He quickly realizes that eric has completely disappeared, leaving him in a birch forest. he takes a moment to take in the the soft sound of leaves rustling, before deciding he should explore."
+[13:47:21]: Selected HenIsHuman (1212226335909351435)
+[13:47:21]: Writing persist file.
+[14:02:50]: Response found!
+[14:02:50]: HenIsHuman said "Lightning calmly explores the surrounding area. After settling on a nice place, he creates a crafting table, and a few tools. Lightning builds a small house, and decides to wait out the oncoming night."
+[14:02:50]: Sending confirmation.
+[14:02:50]: Selecting new author.
+[14:02:50]: Writing persist file.
+[14:02:50]: Selected Alice (1261727174591905876)

@@ -1,0 +1,8 @@
+Start of log-2024-07-16_21-40-14.txt:
+
+[21-40-14]: Program started
+[21-40-14]: Program name: Garchic Story
+[21-40-14]: Reading persist file.
+[21-40-14]: Polling messages...
+[21-40-14]: No response found, sleeping...
+[21-40-14]: Writing persist file.

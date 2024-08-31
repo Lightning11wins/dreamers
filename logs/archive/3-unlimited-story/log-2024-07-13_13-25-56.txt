@@ -1,0 +1,9 @@
+Start of log-2024-07-13_13-25-56.txt:
+
+[13-25-56]: Program started
+[13-25-56]: Program name: Garchic Story
+[13-25-56]: Selected Lightning (1196575384804802661)
+[13-25-56]: Reading persist file.
+[13-25-56]: Selecting new author...
+[13-25-56]: Polling messages...
+[13-25-56]: No response found, sleeping...

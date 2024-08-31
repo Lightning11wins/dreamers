@@ -1,0 +1,9 @@
+Start of log-2024-06-16_16-27-46.txt:
+
+[16-27-46]: Program started
+[16-27-46]: Scanning #general chat for pings...
+[16-27-47]: Recent messages in #general:
+lightning_11: <@1196573390060929034> do you work?
+timmsy.: can you say hello skibidi?
+[16-27-47]: Querying AI...
+[16-27-47]: Querying AI...

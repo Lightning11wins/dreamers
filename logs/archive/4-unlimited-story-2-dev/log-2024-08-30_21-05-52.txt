@@ -1,0 +1,10 @@
+Start of log-2024-08-30_21-05-52.txt:
+
+[21:05:52]: Program started
+[21:05:52]: Program name: Unlimited Story 2
+[21:05:52]: Reading persist file.
+[21:05:52]: Program phase: Development
+[21:05:52]: SIKE! Forcing Lightning_11 for testing purposes.
+[21:05:52]: Picked Yapper
+[21:05:52]: Selecting new author.
+[21:05:52]: Selected Lightning_11 (undefined)

@@ -1,0 +1,11 @@
+Start of log-2024-09-12_01-01-49.txt:
+
+[01:01:49]: Program started!
+[01:01:49]: Program name: Unlimited Story 2
+[01:01:49]: Reading persist file.
+[01:01:49]: Program phase: Production
+[01:01:50]: Selecting new author.
+[01:01:50]: Selected EVs17 (1232097201354965054).
+[01:01:50]: SIKE! Forcing EVs17 for testing purposes.
+[01:01:50]: Picked DonDon.
+[01:01:50]: Writing persist file.
