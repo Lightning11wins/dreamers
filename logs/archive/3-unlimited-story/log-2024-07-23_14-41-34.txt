@@ -1,0 +1,59 @@
+Start of log-2024-07-23_14-41-34.txt:
+
+[14:41:34]: Program started
+[14:41:34]: Program name: Unlimited Story Project
+[14:41:34]: Reading persist file.
+[15:04:05]: Response found!
+[15:04:05]: Timmsy said "do a crime, because evs could not afford to pay him, and lightning needed money"
+[15:04:05]: Selected Alice (1261727174591905876)
+[15:04:05]: Selecting new author.
+[15:04:05]: Writing persist file.
+[15:10:05]: Response found!
+[15:10:05]: Response is too long! Size 326 characters (max 250).
+[15:11:05]: Response found!
+[15:11:05]: Response is too long! Size 253 characters (max 250).
+[15:12:05]: Response found!
+[15:12:05]: Selecting new author.
+[15:12:05]: Writing persist file.
+[15:12:05]: Alice said "As such, EVs and Lightning decided to rob a bank together, so EVs could pay Lightning, they got the plan set up EVs would go inside and rob the bank while Lightning would stay outside in a car ready to pick up EVs and make a run for it with the money"
+[15:12:05]: Selected EVs17 (1262864622277492889)
+[15:16:35]: Response found!
+[15:16:35]: EVs17 said "EVs runs into the bank and opens someone's personal vault, inside their is a paycheck. As the alarms go off, EV quickly swipes the paycheck, runs out of the bank and gets in the car with lightning as he drives off."
+[15:16:35]: Selecting new author.
+[15:16:35]: Selected Yapper (1264443743881265162)
+[15:16:35]: Writing persist file.
+[15:21:35]: Response found!
+[15:21:35]: Yapper said "To EVs surprise, it was lightnings paycheck! He just took 0$, and now the cops are on the two, at least they broke even!"
+[15:21:35]: Selecting new author.
+[15:21:35]: Writing persist file.
+[15:21:35]: Selected IcedCoffee (1262864511334088886)
+[16:49:07]: Response found!
+[16:49:07]: IcedCoffee said "With an amazing display of skills, they were able to evade the sights of the officers. With no choice left, they drove to a familiar house and knocks on the door..."
+[16:49:07]: Selecting new author.
+[16:49:07]: Selected Lightning (1196575384804802661)
+[16:49:07]: Writing persist file.
+[16:53:37]: Response found!
+[16:53:37]: Selected Demi (1262865165259509922)
+[16:53:37]: Lightning said "After a bit, Hen opened the door and greeted them warmly. Thankful to get away from the cops, EV and Lightning gladly stepped inside. The three of them sat down together, and after a bit, Furian joined them with several glasses of tea and lemonade."
+[16:53:37]: Writing persist file.
+[16:53:37]: Selecting new author.
+[16:57:37]: Response found!
+[16:57:37]: Demi said "“yo what’s good eric and lightning!” hen greeted them as they drank their tea and lemonade. furina sets down a cute, simple white cake with blue frosting on the edges. “well,” lighting began, “we are kind of being chased by the.. well, the police..”"
+[16:57:37]: Writing persist file.
+[16:57:37]: Selecting new author.
+[16:57:37]: Selected Alice (1261727174591905876)
+[22:30:43]: Response found!
+[22:30:43]: Alice said ""Oh cool, i was chased by the police once" said Hen. Lightning and EVs then explained to Hen and Furina all about their heist, and Hen comes up with a plan to get rid of the cops..."
+[22:30:43]: Selecting new author.
+[22:30:43]: Selected Timmsy (1261727825673851043)
+[22:30:43]: Writing persist file.
+[22:31:42]: Response found!
+[22:31:42]: Timmsy said "after explaining his plan to get rid of the cops, the gang went out to find massive amounts of weapons for unrelated reasons"
+[22:31:42]: Writing persist file.
+[22:31:42]: Selected HenIsHuman (1212226335909351435)
+[22:31:42]: Selecting new author.
+[22:38:13]: Response found!
+[22:38:13]: HenIsHuman said ""Alright fellas, we have the loot we need. Furina, the gang is ready, right?" Hen asked with concern. Suddenly, the members of the Salon Solitaire appeared. "Yep! They're right here!" Furina replied with a smile, feeling very prideful. Eric replied.."
+[22:38:13]: Selecting new author.
+[22:38:13]: Selected Tomio (1262865264597532764)
+[22:38:13]: Writing persist file.

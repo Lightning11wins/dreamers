@@ -1,0 +1,21 @@
+Start of log-2024-09-05_14-41-03.txt:
+
+[14:41:03]: Program started!
+[14:41:03]: Program name: Unlimited Story 2
+[14:41:03]: Program phase: Production
+[14:41:03]: Reading persist file.
+[14:41:03]: Picked Timmsy.
+[14:41:03]: SIKE! Forcing Lightning for testing purposes.
+[14:41:03]: Selecting new author.
+[14:41:03]: Selected Lightning (1196575384804802661).
+[14:41:04]: Writing persist file.
+[14:41:04]: SIKE! Forcing Lightning for testing purposes.
+[14:41:04]: Selected Lightning (1196575384804802661).
+[14:41:04]: Selecting new author.
+[14:41:04]: Picked Tomio.
+[14:41:05]: Writing persist file.
+[14:41:05]: Selecting new author.
+[14:41:05]: Selected Lightning (1196575384804802661).
+[14:41:05]: Picked DonDon.
+[14:41:05]: SIKE! Forcing Lightning for testing purposes.
+[14:41:05]: Writing persist file.

@@ -1,0 +1,20 @@
+Start of log-2024-09-12_00-58-05.txt:
+
+[00:58:05]: Program started!
+[00:58:05]: Program name: Unlimited Story 2
+[00:58:05]: SIKE! Forcing Lightning for testing purposes.
+[00:58:05]: Reading persist file.
+[00:58:05]: Program phase: Production
+[00:58:05]: Picked Timmsy.
+[00:58:05]: Selecting new author.
+[00:58:05]: Selected Lightning (1196575384804802661).
+[00:58:06]: Writing persist file.
+[00:58:06]: SIKE! Forcing Katy for testing purposes.
+[00:58:06]: Selected Katy (1262865085789896775).
+[00:58:06]: Picked Katy.
+[00:58:06]: Selecting new author.
+[00:58:06]: Writing persist file.
+[00:58:06]: Picked DonDon.
+[00:58:06]: Selecting new author.
+[00:58:06]: Selected EVs17 (1206322759660216361).
+[00:58:06]: SIKE! Forcing EVs17 for testing purposes.

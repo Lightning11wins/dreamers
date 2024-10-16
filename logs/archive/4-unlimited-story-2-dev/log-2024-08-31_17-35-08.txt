@@ -1,0 +1,14 @@
+Start of log-2024-08-31_17-35-08.txt:
+
+[17:35:08]: Program started
+[17:35:08]: Program name: Unlimited Story 2
+[17:35:08]: Program phase: Development
+[17:35:08]: Reading persist file.
+[17:35:08]: Response failed: Participant attempted to submit message from Dreamers.
+[17:35:48]: Response confirmed!
+[17:35:48]: Lightning took 0 hours, 1 minutes, and 33 (& 990 millis) to say "Ok, fine. Here's my real response"
+[17:35:48]: SIKE! Forcing Lightning for testing purposes.
+[17:35:48]: Selected Lightning (1196575384804802661)
+[17:35:48]: Selecting new author.
+[17:35:48]: Picked Tomio
+[17:35:48]: Writing persist file.

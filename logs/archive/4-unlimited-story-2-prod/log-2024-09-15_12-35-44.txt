@@ -1,0 +1,119 @@
+Start of log-2024-09-15_12-35-44.txt:
+
+[12:35:44]: Program started!
+[12:35:44]: Program name: Unlimited Story 2
+[12:35:44]: Reading persist file.
+[12:35:44]: Program phase: Deployed
+[13:27:06]: Victoria previewed a response that was 276/250 characters long.
+[13:27:46]: Victoria previewed a response that was 263/250 characters long.
+[13:28:26]: Victoria previewed a response that was 238/250 characters long.
+[13:28:46]: Response confirmed!
+[13:28:46]: Selecting new author.
+[13:28:46]: Selected Katy (1262865085789896775).
+[13:28:46]: Writing persist file.
+[13:28:46]: Victoria took 4 hours, 49 minutes, and 52 seconds (& 118 millis) to say "Curious, he can’t help but go through the phone. It makes him more confused though. There’s barely any apps and the messages and photos are all cryptic. He gets the feeling that they’re geared toward him and trying to guide him somewhere.".
+[14:09:46]: HenIsHuman previewed a response that was 75/250 characters long.
+[14:11:06]: HenIsHuman took 23 hours, 28 minutes, and 21 seconds (& 44 millis) to say "Lightning continued to think, not knowing how to get out of this situation.".
+[14:11:06]: Response confirmed!
+[14:11:06]: Selecting new author.
+[14:11:06]: Writing persist file.
+[14:11:06]: Selected Alice (1261727174591905876).
+[14:26:26]: Alice previewed a response that was 206/250 characters long.
+[14:26:46]: Alice took 0 hours, 15 minutes, and 40 seconds (& 231 millis) to say "evil Lightning suddenly utilizes a special tool: the inverted spear of heaven, and breaks Dreamers domain expansion, now they were exposed to the outside world, and help comes to aid Dreamers in his battle!".
+[14:26:46]: Response confirmed!
+[14:26:46]: Selecting new author.
+[14:26:46]: Writing persist file.
+[14:26:46]: Selected DonDon (1261728075326951474).
+[18:11:29]: Mikasa previewed a response that was 134/250 characters long.
+[18:11:49]: Response confirmed!
+[18:11:49]: Mikasa took 8 hours, 1 minutes, and 53 seconds (& 687 millis) to say "with a TPS of 1, the server was on life support, nobody able to do anything, so they start a go-fund me to raise money for the server.".
+[18:11:49]: Writing persist file.
+[18:11:49]: Selected Victoria (1279563746511032368).
+[18:11:49]: Selecting new author.
+[18:39:49]: Victoria previewed a response that was 162/250 characters long.
+[18:40:09]: Victoria took 0 hours, 28 minutes, and 20 seconds (& 278 millis) to say "Weeks go by and they barely get any money from the go fund me. Everything changes when a large donation suddenly comes in from someone unknown, saving the server.".
+[18:40:09]: Response confirmed!
+[18:40:09]: Selecting new author.
+[18:40:09]: Selected Yapper (1264443743881265162).
+[18:40:09]: Writing persist file.
+[18:41:29]: Yapper previewed a response that was 118/250 characters long.
+[18:41:49]: Response confirmed!
+[18:41:49]: Yapper took 0 hours, 1 minutes, and 40 seconds (& 21 millis) to say "Its joe biden! He saw the plight of the server and wanted to give back. In exchange he wants to be able to play on it.".
+[18:41:49]: Selected Timmsy (1261727825673851043).
+[18:41:49]: Writing persist file.
+[18:41:49]: Selecting new author.
+[21:57:52]: Timmsy previewed a response that was 113/250 characters long.
+[21:58:13]: Response confirmed!
+[21:58:13]: Timmsy took 3 hours, 16 minutes, and 23 seconds (& 148 millis) to say "joe biden manages to join the server, and has a great time placing blocks and shit cause hes in fucking minecraft".
+[21:58:13]: Selecting new author.
+[21:58:13]: Selected Demi (1262865165259509922).
+[21:58:13]: Writing persist file.
+[21:59:32]: Katy previewed a response that was 121/250 characters long.
+[21:59:52]: Response confirmed!
+[21:59:52]: Selecting new author.
+[21:59:52]: Writing persist file.
+[21:59:52]: Katy took 8 hours, 31 minutes, and 6 seconds (& 109 millis) to say "He wondered who's weird ass started this shit and just opened up google maps to find a pin marked in a random location...".
+[21:59:52]: Selected EVs17 (1262864622277492889).
+[21:59:52]: Demi previewed a response that was 149/250 characters long.
+[22:00:32]: Response confirmed!
+[22:00:32]: Demi took 0 hours, 2 minutes, and 19 seconds (& 857 millis) to say "but little did joe know, minecraft wasnt just about having fun and building dirt boxes, soon enough the sun began to set and the mobs began spawning.".
+[22:00:32]: Selecting new author.
+[22:00:32]: Selected Mikasa (1279562387896406130).
+[22:00:32]: Writing persist file.
+[22:01:52]: EVs17 previewed a response that was 158/250 characters long.
+[22:02:12]: Response confirmed!
+[22:02:12]: Selecting new author.
+[22:02:12]: EVs17 took 0 hours, 2 minutes, and 19 seconds (& 951 millis) to say "He (idfk who "he" is) went to the coordinates on google maps and found a small shack. Inside the shack, he found something that distrubed him to his very core".
+[22:02:12]: Writing persist file.
+[22:02:12]: Selected IcedCoffee (1262864511334088886).
+[07:52:58]: Mikasa previewed a response that was 166/250 characters long.
+[07:53:18]: Response confirmed!
+[07:53:18]: Mikasa took 9 hours, 52 minutes, and 45 seconds (& 528 millis) to say "That’s when joe saw a skeleton from a distance. Thinking it was another player, he approached it with no hesitation, only to be greated with an arrow to the shoulder.".
+[07:53:18]: Writing persist file.
+[07:53:18]: Selecting new author.
+[07:53:18]: Selected Yapper (1264443743881265162).
+[08:02:18]: Yapper previewed a response that was 112/250 characters long.
+[08:02:38]: Response confirmed!
+[08:02:38]: Yapper took 0 hours, 9 minutes, and 20 seconds (& 102 millis) to say "Joe Biden magically healed himself, to the surprise of Trump who was wearing a spirit Halloween skeleton costume".
+[08:02:38]: Selected Tomio (1262865264597532764).
+[08:02:38]: Writing persist file.
+[08:02:38]: Selecting new author.
+[09:25:19]: IcedCoffee previewed a response that was 161/250 characters long.
+[09:25:39]: Response confirmed!
+[09:25:39]: IcedCoffee took 11 hours, 23 minutes, and 27 seconds (& 68 millis) to say "It was drake! The coordinate on the map was his location and the pin symbolises a registered s*x offender pin, maybe it was god's plan because he's not like us..".
+[09:25:39]: Selecting new author.
+[09:25:39]: Selected Lightning (1196575384804802661).
+[09:25:39]: Writing persist file.
+[09:38:39]: Lightning previewed a response that was 239/250 characters long.
+[09:38:59]: Response confirmed!
+[09:38:59]: Lightning took 0 hours, 13 minutes, and 20 seconds (& 128 millis) to say "Summoning Katy and gave her a lever: "You're more qualified to judge this man than me. If you do nothing, Drake will be run over by a trolley and die. If you pull the leaver, he will be saved. The choice is yours, good luck!" Then he left.".
+[09:38:59]: Selected HenIsHuman (1212226335909351435).
+[09:38:59]: Selecting new author.
+[09:38:59]: Writing persist file.
+[11:16:40]: HenIsHuman previewed a response that was 288/250 characters long.
+[11:17:20]: HenIsHuman previewed a response that was 243/250 characters long.
+[11:17:40]: Selecting new author.
+[11:17:40]: Response confirmed!
+[11:17:40]: HenIsHuman took 1 hours, 38 minutes, and 40 seconds (& 867 millis) to say "Katy, remembering the trauma she has from Icy, makes a decision. Unsurprisingly, she walks away from the lever, leaving Drake to die. The trolley problem only works if the person has a solid moral compass, especially in relation to the victim.".
+[11:17:40]: Writing persist file.
+[11:17:40]: Selected Demi (1262865165259509922).
+[11:27:20]: Demi previewed a response that was 402/250 characters long.
+[11:29:40]: Demi previewed a response that was 520/250 characters long.
+[11:34:40]: Demi previewed a response that was 23/250 characters long.
+[11:35:01]: Response confirmed!
+[11:35:01]: Demi took 0 hours, 17 minutes, and 20 seconds (& 332 millis) to say "See attachment A(above)".
+[11:35:01]: Writing persist file.
+[11:35:01]: Selected IcedCoffee (1262864511334088886).
+[11:35:01]: Selecting new author.
+[11:38:00]: IcedCoffee previewed a response that was 152/250 characters long.
+[11:38:21]: Response confirmed!
+[11:38:21]: IcedCoffee took 0 hours, 3 minutes, and 20 seconds (& 24 millis) to say "Then.. it went quiet as the roaring of the engine fades in the distance, What have I done? She asked herself as Icy stared from the distance, satisfied.".
+[11:38:21]: Selecting new author.
+[11:38:21]: Writing persist file.
+[11:38:21]: Selected EVs17 (1262864622277492889).
+[13:48:22]: EVs17 previewed a response that was 231/250 characters long.
+[13:48:42]: Response confirmed!
+[13:48:42]: EVs17 took 2 hours, 10 minutes, and 21 seconds (& 192 millis) to say "Good Katy, good. Icy stood there like emperor Palpatine, Katy so frightful of what he's gonna say next, but then he dissappeared, vanished into thin air. Katy did it, she cured her schizophrenia demon and was free from icy at last.".
+[13:48:42]: Selected Alice (1261727174591905876).
+[13:48:42]: Selecting new author.
+[13:48:42]: Writing persist file.

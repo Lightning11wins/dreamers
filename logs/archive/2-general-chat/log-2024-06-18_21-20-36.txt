@@ -1,0 +1,308 @@
+Start of log-2024-06-18_21-20-36.txt:
+
+[21-20-36]: Program started
+[21-20-41]: Scanning #general chat for pings...
+[21-20-41]: Found 0 new messages from other members.
+[21-20-41]: Scan cycle 1 completed
+[21-20-41]: No recent pings in #general
+[21-20-46]: Scanning #general chat for pings...
+[21-20-46]: Found 0 new messages from other members.
+[21-20-46]: Scan cycle 2 completed
+[21-20-46]: No recent pings in #general
+[21-20-51]: Scanning #general chat for pings...
+[21-20-51]: Found 0 new messages from other members.
+[21-20-51]: No recent pings in #general
+[21-20-51]: Scan cycle 3 completed
+[21-20-56]: Scanning #general chat for pings...
+[21-20-56]: Found 0 new messages from other members.
+[21-20-56]: No recent pings in #general
+[21-20-56]: Scan cycle 4 completed
+[21-21-01]: Scanning #general chat for pings...
+[21-21-01]: Found mention of evs17.
+[21-21-01]: Found 1 new messages from other members.
+[21-21-01]: Pings in #general:
+ ⤷ lightning_11: <@1196573390060929034> Who is HenIsHuman?
+[21-21-01]: Querying AI for lightning_11 (message: 1252810575218737275)...
+[21-21-06]: Scanning #general chat for pings...
+[21-21-06]: No recent pings in #general
+[21-21-06]: Found 0 new messages from other members.
+[21-21-06]: Scan cycle 5 completed
+[21-21-11]: Scanning #general chat for pings...
+[21-21-11]: Found 0 new messages from other members.
+[21-21-11]: No recent pings in #general
+[21-21-11]: Scan cycle 6 completed
+[21-21-16]: Scanning #general chat for pings...
+[21-21-16]: Found 0 new messages from other members.
+[21-21-16]: Scan cycle 7 completed
+[21-21-16]: No recent pings in #general
+[21-21-21]: Scanning #general chat for pings...
+[21-21-21]: Scan cycle 8 completed
+[21-21-21]: Found 0 new messages from other members.
+[21-21-21]: No recent pings in #general
+[21-21-26]: Scanning #general chat for pings...
+[21-21-26]: Found 0 new messages from other members.
+[21-21-26]: No recent pings in #general
+[21-21-26]: Scan cycle 9 completed
+[21-21-31]: Scanning #general chat for pings...
+[21-21-31]: Found 0 new messages from other members.
+[21-21-31]: No recent pings in #general
+[21-21-31]: Scan cycle 10 completed
+[21-21-31]: Sending response for lightning_11 (message: 1252810575218737275): Hi! HenIsHuman is one of our moderators here at The Epic Alliance, and he's quite the passionate fan of Genshin Impact, Star Rail, and Wuthering Waves
+[21-21-31]: Scan cycle 11 completed
+[21-21-36]: Scanning #general chat for pings...
+[21-21-36]: Found 0 new messages from other members.
+[21-21-36]: Scan cycle 12 completed
+[21-21-36]: No recent pings in #general
+[21-21-41]: Scanning #general chat for pings...
+[21-21-41]: No recent pings in #general
+[21-21-41]: Found 0 new messages from other members.
+[21-21-41]: Scan cycle 13 completed
+[21-21-46]: Scanning #general chat for pings...
+[21-21-46]: Found mention of evs17.
+[21-21-46]: Found 1 new messages from other members.
+[21-21-46]: Querying AI for lightning_11 (message: 1252810775005888512)...
+[21-21-46]: Pings in #general:
+ ⤷ lightning_11: Does Hen have any issues?
+[21-21-51]: Scanning #general chat for pings...
+[21-21-51]: No recent pings in #general
+[21-21-51]: Scan cycle 14 completed
+[21-21-51]: Found 0 new messages from other members.
+[21-21-56]: Scanning #general chat for pings...
+[21-21-56]: Found 0 new messages from other members.
+[21-21-56]: Scan cycle 15 completed
+[21-21-56]: No recent pings in #general
+[21-22-01]: Scanning #general chat for pings...
+[21-22-01]: Found 0 new messages from other members.
+[21-22-01]: No recent pings in #general
+[21-22-01]: Scan cycle 16 completed
+[21-22-06]: Scanning #general chat for pings...
+[21-22-06]: Found 0 new messages from other members.
+[21-22-06]: Scan cycle 17 completed
+[21-22-06]: No recent pings in #general
+[21-22-11]: Scanning #general chat for pings...
+[21-22-11]: Found 0 new messages from other members.
+[21-22-11]: No recent pings in #general
+[21-22-11]: Scan cycle 18 completed
+[21-22-16]: Scanning #general chat for pings...
+[21-22-16]: Found mention of evs17.
+[21-22-16]: Found 1 new messages from other members.
+[21-22-16]: Querying AI for henishuman (message: 1252810898670747708)...
+[21-22-16]: Pings in #general:
+ ⤷ henishuman: <@1196573390060929034> who is ace?
+[21-22-21]: Scanning #general chat for pings...
+[21-22-21]: Sending response for lightning_11 (message: 1252810775005888512): Hey everyone! I've been pinging Hen for a bit now, and it seems like he's been dealing with some brain rot issues lately.
+[21-22-21]: Scan cycle 19 completed
+[21-22-21]: No recent pings in #general
+[21-22-21]: Found 0 new messages from other members.
+[21-22-21]: Scan cycle 20 completed
+[21-22-26]: Scanning #general chat for pings...
+[21-22-26]: Found mention of evs17.
+[21-22-26]: Found 2 new messages from other members.
+[21-22-26]: Querying AI for monstercindy (message: 1252810930362781737)...
+[21-22-26]: Pings in #general:
+ ⤷ monstercindy: <@1196573390060929034> Is lighting awesome?
+[21-22-26]: Sending response for henishuman (message: 1252810898670747708): Hey there! Ace is a super nice Genshin Impact streamer who has deep convos with Raiden Shogun. He's wholesome and fun to hang out with
+[21-22-26]: Scan cycle 21 completed
+[21-22-31]: Scanning #general chat for pings...
+[21-22-31]: Found 0 new messages from other members.
+[21-22-31]: Scan cycle 22 completed
+[21-22-31]: No recent pings in #general
+[21-22-36]: Scanning #general chat for pings...
+[21-22-36]: Sending response for monstercindy (message: 1252810930362781737): Hey @monstercindy, Dreamers5592 here! Lighting can be pretty awesome, don't you think?
+[21-22-36]: Scan cycle 23 completed
+[21-22-36]: Found 0 new messages from other members.
+[21-22-36]: No recent pings in #general
+[21-22-36]: Scan cycle 24 completed
+[21-22-41]: Scanning #general chat for pings...
+[21-22-41]: Found 1 new messages from other members.
+[21-22-41]: No recent pings in #general
+[21-22-41]: Scan cycle 25 completed
+[21-22-46]: Scanning #general chat for pings...
+[21-22-46]: Found 1 new messages from other members.
+[21-22-46]: Found mention of timmiesnonexistantfather
+[21-22-46]: Scan cycle 26 completed
+[21-22-46]: No recent pings in #general
+[21-22-51]: Scanning #general chat for pings...
+[21-22-51]: Found 0 new messages from other members.
+[21-22-51]: No recent pings in #general
+[21-22-51]: Scan cycle 27 completed
+[21-22-56]: Scanning #general chat for pings...
+[21-22-56]: No recent pings in #general
+[21-22-56]: Found 0 new messages from other members.
+[21-22-56]: Scan cycle 28 completed
+[21-23-01]: Scanning #general chat for pings...
+[21-23-01]: Found 0 new messages from other members.
+[21-23-01]: No recent pings in #general
+[21-23-01]: Scan cycle 29 completed
+[21-23-06]: Scanning #general chat for pings...
+[21-23-06]: Found 0 new messages from other members.
+[21-23-06]: No recent pings in #general
+[21-23-06]: Scan cycle 30 completed
+[21-23-11]: Scanning #general chat for pings...
+[21-23-11]: No recent pings in #general
+[21-23-11]: Found 1 new messages from other members.
+[21-23-11]: Scan cycle 31 completed
+[21-23-16]: Scanning #general chat for pings...
+[21-23-16]: Found 0 new messages from other members.
+[21-23-16]: No recent pings in #general
+[21-23-16]: Scan cycle 32 completed
+[21-23-21]: Scanning #general chat for pings...
+[21-23-22]: Found 0 new messages from other members.
+[21-23-22]: Scan cycle 33 completed
+[21-23-22]: No recent pings in #general
+[21-23-26]: Scanning #general chat for pings...
+[21-23-26]: No recent pings in #general
+[21-23-26]: Found 0 new messages from other members.
+[21-23-26]: Scan cycle 34 completed
+[21-23-31]: Scanning #general chat for pings...
+[21-23-31]: Found 0 new messages from other members.
+[21-23-31]: No recent pings in #general
+[21-23-31]: Scan cycle 35 completed
+[21-23-36]: Scanning #general chat for pings...
+[21-23-36]: Found mention of evs17.
+[21-23-36]: Found 1 new messages from other members.
+[21-23-36]: Pings in #general:
+ ⤷ lightning_11: <@1196573390060929034> What is star rail?
+[21-23-36]: Querying AI for lightning_11 (message: 1252811234328444980)...
+[21-23-41]: Scanning #general chat for pings...
+[21-23-41]: Scan cycle 36 completed
+[21-23-41]: Found 0 new messages from other members.
+[21-23-41]: No recent pings in #general
+[21-23-46]: Scanning #general chat for pings...
+[21-23-46]: Found 0 new messages from other members.
+[21-23-46]: No recent pings in #general
+[21-23-46]: Scan cycle 37 completed
+[21-23-51]: Scanning #general chat for pings...
+[21-23-51]: Found 1 new messages from other members.
+[21-23-51]: No recent pings in #general
+[21-23-51]: Scan cycle 38 completed
+[21-23-56]: Scanning #general chat for pings...
+[21-23-56]: Found 0 new messages from other members.
+[21-23-56]: Scan cycle 39 completed
+[21-23-56]: No recent pings in #general
+[21-24-01]: Scanning #general chat for pings...
+[21-24-01]: Found mention of evs17.
+[21-24-01]: Found 2 new messages from other members.
+[21-24-01]: Querying AI for monstercindy (message: 1252811331384639548)...
+[21-24-01]: Pings in #general:
+ ⤷ monstercindy: <@1196573390060929034> What about Eether? What is your opinion on him?
+[21-24-06]: Scanning #general chat for pings...
+[21-24-06]: Sending response for lightning_11 (message: 1252811234328444980): Hey `<@1196573390060929034>`, Star Rail is a popular mobile game where you can explore, battle, and make friends with characters!
+[21-24-06]: Scan cycle 40 completed
+[21-24-08]: Found 0 new messages from other members.
+[21-24-08]: No recent pings in #general
+[21-24-08]: Scan cycle 41 completed
+[21-24-11]: Scanning #general chat for pings...
+[21-24-11]: Found 0 new messages from other members.
+[21-24-11]: No recent pings in #general
+[21-24-11]: Scan cycle 42 completed
+[21-24-11]: Sending response for monstercindy (message: 1252811331384639548): Hey everyone! I think Evs17 is a great guy and an awesome streamer
+[21-24-11]: Scan cycle 43 completed
+[21-24-16]: Scanning #general chat for pings...
+[21-24-16]: Found 0 new messages from other members.
+[21-24-16]: No recent pings in #general
+[21-24-16]: Scan cycle 44 completed
+[21-24-21]: Scanning #general chat for pings...
+[21-24-22]: Scan cycle 45 completed
+[21-24-22]: Found 0 new messages from other members.
+[21-24-22]: No recent pings in #general
+[21-24-26]: Scanning #general chat for pings...
+[21-24-26]: Found 0 new messages from other members.
+[21-24-26]: No recent pings in #general
+[21-24-26]: Scan cycle 46 completed
+[21-24-31]: Scanning #general chat for pings...
+[21-24-32]: No recent pings in #general
+[21-24-32]: Found 0 new messages from other members.
+[21-24-32]: Scan cycle 47 completed
+[21-24-36]: Scanning #general chat for pings...
+[21-24-37]: Found 1 new messages from other members.
+[21-24-37]: Pings in #general:
+ ⤷ lightning_11: What do you know about fire fly, a character from Star Rail?
+[21-24-37]: Querying AI for lightning_11 (message: 1252811491292217444)...
+[21-24-37]: Found mention of evs17.
+[21-24-41]: Scanning #general chat for pings...
+[21-24-42]: Scan cycle 48 completed
+[21-24-42]: No recent pings in #general
+[21-24-42]: Found 0 new messages from other members.
+[21-24-46]: Scanning #general chat for pings...
+[21-24-46]: Found 0 new messages from other members.
+[21-24-46]: No recent pings in #general
+[21-24-46]: Scan cycle 49 completed
+[21-24-51]: Scanning #general chat for pings...
+[21-24-52]: Found 0 new messages from other members.
+[21-24-52]: No recent pings in #general
+[21-24-52]: Scan cycle 50 completed
+[21-24-56]: Scanning #general chat for pings...
+[21-24-56]: No recent pings in #general
+[21-24-56]: Found 0 new messages from other members.
+[21-24-56]: Scan cycle 51 completed
+[21-25-01]: Scanning #general chat for pings...
+[21-25-02]: No recent pings in #general
+[21-25-02]: Found 0 new messages from other members.
+[21-25-02]: Scan cycle 52 completed
+[21-25-06]: Scanning #general chat for pings...
+[21-25-07]: Scan cycle 53 completed
+[21-25-07]: No recent pings in #general
+[21-25-07]: Found 0 new messages from other members.
+[21-25-07]: Sending response for lightning_11 (message: 1252811491292217444): I'm Dreamers5592! I don't know much about Fire Fly from Star Rail, but I'd love to learn more! Can you tell me something cool about them?
+[21-25-07]: Scan cycle 54 completed
+[21-25-11]: Scanning #general chat for pings...
+[21-25-12]: Found 0 new messages from other members.
+[21-25-12]: Scan cycle 55 completed
+[21-25-12]: No recent pings in #general
+[21-25-16]: Scanning #general chat for pings...
+[21-25-17]: Found 0 new messages from other members.
+[21-25-17]: No recent pings in #general
+[21-25-17]: Scan cycle 56 completed
+[21-25-21]: Scanning #general chat for pings...
+[21-25-22]: Found 0 new messages from other members.
+[21-25-22]: No recent pings in #general
+[21-25-22]: Scan cycle 57 completed
+[21-25-26]: Scanning #general chat for pings...
+[21-25-27]: Found 0 new messages from other members.
+[21-25-27]: No recent pings in #general
+[21-25-27]: Scan cycle 58 completed
+[21-25-31]: Scanning #general chat for pings...
+[21-25-32]: Found 0 new messages from other members.
+[21-25-32]: No recent pings in #general
+[21-25-32]: Scan cycle 59 completed
+[21-25-36]: Scanning #general chat for pings...
+[21-25-37]: Found 0 new messages from other members.
+[21-25-37]: No recent pings in #general
+[21-25-37]: Scan cycle 60 completed
+[21-25-41]: Scanning #general chat for pings...
+[21-25-42]: Found 0 new messages from other members.
+[21-25-42]: No recent pings in #general
+[21-25-42]: Scan cycle 61 completed
+[21-25-46]: Scanning #general chat for pings...
+[21-25-47]: Scan cycle 62 completed
+[21-25-47]: No recent pings in #general
+[21-25-47]: Found 0 new messages from other members.
+[21-25-51]: Scanning #general chat for pings...
+[21-25-52]: Found 0 new messages from other members.
+[21-25-52]: Scan cycle 63 completed
+[21-25-52]: No recent pings in #general
+[21-25-56]: Scanning #general chat for pings...
+[21-25-57]: Found 0 new messages from other members.
+[21-25-57]: No recent pings in #general
+[21-25-57]: Scan cycle 64 completed
+[21-26-01]: Scanning #general chat for pings...
+[21-26-02]: No recent pings in #general
+[21-26-02]: Found 0 new messages from other members.
+[21-26-02]: Scan cycle 65 completed
+[21-26-06]: Scanning #general chat for pings...
+[21-26-07]: No recent pings in #general
+[21-26-07]: Found 0 new messages from other members.
+[21-26-07]: Scan cycle 66 completed
+[21-26-11]: Scanning #general chat for pings...
+[21-26-12]: Found 0 new messages from other members.
+[21-26-12]: No recent pings in #general
+[21-26-12]: Scan cycle 67 completed
+[21-26-16]: Scanning #general chat for pings...
+[21-26-17]: Found 0 new messages from other members.
+[21-26-17]: Scan cycle 68 completed
+[21-26-17]: No recent pings in #general
+[21-26-22]: Scanning #general chat for pings...
+[21-26-22]: Found 0 new messages from other members.
+[21-26-22]: Scan cycle 69 completed
+[21-26-22]: No recent pings in #general

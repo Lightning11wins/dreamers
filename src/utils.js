@@ -30,8 +30,8 @@ function wait(ms) {
 }
 
 class Logger {
-	constructor() {
-		this.filename = `log-${now(date | time).replaceAll(':', '-')}.txt`;
+	constructor(filename) {
+		this.filename = filename ?? `log-${now(date | time).replaceAll(':', '-')}.txt`;
 		this.filepath = path.join(logDir, this.filename);
 
 		fs.writeFileSync(this.filepath, `Start of ${this.filename}:\n\n`);
@@ -56,4 +56,4 @@ module.exports = {
 	format: { date, time },
 	logDir,
 	Logger,
-}
+};

@@ -1,0 +1,141 @@
+Start of log-2024-09-13_07-56-31.txt:
+
+[07:56:32]: Program started!
+[07:56:32]: Program name: Unlimited Story 2
+[07:56:32]: Reading persist file.
+[07:56:32]: Program phase: Deployed
+[08:28:33]: Response confirmed!
+[08:28:33]: Alice took 13 hours, 33 minutes, and 55 seconds (& 167 millis) to say "Lightning gave Kate and EV a huge cake to celebrate the occasion, but what they didn't know...".
+[08:28:33]: Selecting new author.
+[08:28:33]: Selected Timmsy (1261727825673851043).
+[08:28:33]: Writing persist file.
+[09:10:33]: Timmsy previewed a response that was 42/250 characters long.
+[09:11:14]: Selecting new author.
+[09:11:14]: Response confirmed!
+[09:11:14]: Timmsy took 0 hours, 42 minutes, and 40 seconds (& 466 millis) to say "Is that the cake was secretly an evil cake".
+[09:11:14]: Selected Demi (1262865165259509922).
+[09:11:14]: Writing persist file.
+[10:55:34]: Demi previewed a response that was 119/250 characters long.
+[10:55:54]: Response confirmed!
+[10:55:54]: Demi took 1 hours, 44 minutes, and 40 seconds (& 904 millis) to say "“muahahahah!” the evil cake laughed, the cake started destroying the table he sat in, and eating the utensils and such,".
+[10:55:54]: Writing persist file.
+[10:55:54]: Selecting new author.
+[10:55:54]: Selected Alice (1261727174591905876).
+[10:57:34]: Alice previewed a response that was 154/250 characters long.
+[10:57:55]: Response confirmed!
+[10:57:55]: Alice took 0 hours, 2 minutes, and 0 seconds (& 87 millis) to say ""We need to put a stop to this evil cake!" Said EV "But hoowww?" Said the distressed Lightning "We will use.... THE POWER OF FRIENDSHIP!!!" responded Kate".
+[10:57:55]: Selected EVs17 (1262864622277492889).
+[10:57:55]: Writing persist file.
+[10:57:55]: Selecting new author.
+[11:38:55]: IcedCoffee previewed a response that was 116/250 characters long.
+[11:39:15]: Response confirmed!
+[11:39:15]: IcedCoffee took 16 hours, 55 minutes, and 58 seconds (& 434 millis) to say ""What do you mean?" Lightning asked taking a step back, his body tenses as he wonders about what Eric had planned...".
+[11:39:15]: Writing persist file.
+[11:39:15]: Selected Mikasa (1279562387896406130).
+[11:39:15]: Selecting new author.
+[11:44:55]: Mikasa previewed a response that was 100/250 characters long.
+[11:45:35]: Response confirmed!
+[11:45:35]: Mikasa took 0 hours, 6 minutes, and 20 seconds (& 21 millis) to say "Suddenly, Eric bursts into flames, the area around him heating up as he turned to look at Lightning.".
+[11:45:35]: Selected DonDon (1261728075326951474).
+[11:45:35]: Selecting new author.
+[11:45:35]: Writing persist file.
+[11:45:35]: Victoria previewed a response that was 94/250 characters long.
+[11:45:55]: Response confirmed!
+[11:45:55]: Victoria took 6 hours, 43 minutes, and 42 seconds (& 506 millis) to say "Lightning ended up spending the entire day playing Minecraft and forgot about everything else.".
+[11:45:55]: Writing persist file.
+[11:45:55]: Selected IcedCoffee (1262864511334088886).
+[11:45:55]: Selecting new author.
+[12:00:35]: DonDon previewed a response that was 105/250 characters long.
+[12:00:55]: Response confirmed!
+[12:00:55]: DonDon took 0 hours, 15 minutes, and 20 seconds (& 150 millis) to say "I.. I had planned this from the beginning *Eric tried to say it but the pain and flames bad distorted it*".
+[12:00:55]: Selected Lightning (1196575384804802661).
+[12:00:55]: Selecting new author.
+[12:00:55]: Writing persist file.
+[12:02:55]: Lightning previewed a response that was 176/250 characters long.
+[12:03:55]: Lightning previewed a response that was 224/250 characters long.
+[12:04:15]: Response confirmed!
+[12:04:15]: Lightning took 0 hours, 3 minutes, and 20 seconds (& 116 millis) to say ""I don't know what to do, help!" cried Lightning. Suddenly, Hen and Furina rushed onto the scene. Hen pushed the shocked Lightning to the side as Furina used her hydro vision to dowse the flames surrounding Eric, but then...".
+[12:04:15]: Selected HenIsHuman (1212226335909351435).
+[12:04:15]: Selecting new author.
+[12:04:15]: Writing persist file.
+[12:45:56]: IcedCoffee previewed a response that was 203/250 characters long.
+[12:46:16]: Response confirmed!
+[12:46:16]: IcedCoffee took 1 hours, 0 minutes, and 20 seconds (& 577 millis) to say ""What happened..." Lightning wondered as he got up the chair and walks out the door, feeling confused as to how someone can be so immersed, his train of thought was then interrupted by a familiar voice..".
+[12:46:16]: Selected Demi (1262865165259509922).
+[12:46:16]: Selecting new author.
+[12:46:16]: Writing persist file.
+[12:47:36]: Demi previewed a response that was 124/250 characters long.
+[12:47:56]: Response confirmed!
+[12:47:56]: Demi took 0 hours, 1 minutes, and 39 seconds (& 939 millis) to say "“Hello, Lightning11wins…” said the voice. Lightning froze with fear, too scared to turn around to see the person behind him.".
+[12:47:56]: Writing persist file.
+[12:47:56]: Selecting new author.
+[12:47:56]: Selected Lightning (1196575384804802661).
+[12:59:36]: EVs17 previewed a response that was 167/250 characters long.
+[12:59:56]: Response confirmed!
+[12:59:56]: EVs17 took 2 hours, 2 minutes, and 1 seconds (& 401 millis) to say "EV and Lighting looked and Kate and then looked at each other. Using the power of friendship they summoned Mualani, a yippee, and Golden to help destroy the evil cake.".
+[12:59:56]: Selected Timmsy (1261727825673851043).
+[12:59:56]: Selecting new author.
+[12:59:56]: Writing persist file.
+[13:07:56]: Timmsy previewed a response that was 152/250 characters long.
+[13:08:16]: Timmsy took 0 hours, 8 minutes, and 20 seconds (& 143 millis) to say "The 3 summons were quickly destroyed by the gargantuan scale of the cake, no match for the carbs at hand. just then a rumbling was heard in the distance".
+[13:08:16]: Response confirmed!
+[13:08:16]: Writing persist file.
+[13:08:16]: Selecting new author.
+[13:08:16]: Selected Alice (1261727174591905876).
+[13:51:56]: Alice previewed a response that was 150/250 characters long.
+[13:52:36]: Response confirmed!
+[13:52:36]: Alice took 0 hours, 44 minutes, and 20 seconds (& 275 millis) to say "It was the all mighty god of the oven: Guoba! He was extremely hungry and craving sweets, and he had smelled the delicious cake all the way from Liyue".
+[13:52:36]: Selected Yapper (1264443743881265162).
+[13:52:36]: Writing persist file.
+[13:52:36]: Selecting new author.
+[13:58:36]: Yapper previewed a response that was 160/250 characters long.
+[13:58:57]: Response confirmed!
+[13:58:57]: Yapper took 0 hours, 6 minutes, and 20 seconds (& 181 millis) to say "Xiangling laughed at the now full guoba, "jeez I knew you liked cake, but ruining dinner with the cake I was going to give you after as a surprise? Why????!" :c".
+[13:58:57]: Selected Mikasa (1279562387896406130).
+[13:58:57]: Writing persist file.
+[13:58:57]: Selecting new author.
+[14:35:37]: HenIsHuman previewed a response that was 221/250 characters long.
+[14:35:57]: HenIsHuman took 2 hours, 31 minutes, and 41 seconds (& 551 millis) to say "A mysterious hooded figure appears, grabs furina, and begins to run away. "Ah hell nah," Hen exclaimed, as he began to run after the masked figure. Behind him, Lightning was able to put out the rest of the flames on eric.".
+[14:35:57]: Response confirmed!
+[14:35:57]: Selected Victoria (1279563746511032368).
+[14:35:57]: Selecting new author.
+[14:35:57]: Writing persist file.
+[14:57:37]: Mikasa previewed a response that was 86/250 characters long.
+[14:57:57]: Response confirmed!
+[14:57:57]: Mikasa took 0 hours, 59 minutes, and 0 seconds (& 697 millis) to say "The small god simply chuckled, frosting from the cake still on the sides of his mouth.".
+[14:57:57]: Selecting new author.
+[14:57:57]: Selected Demi (1262865165259509922).
+[14:57:57]: Writing persist file.
+[14:59:17]: Demi previewed a response that was 94/250 characters long.
+[14:59:37]: Response confirmed!
+[14:59:37]: Demi took 0 hours, 1 minutes, and 39 seconds (& 830 millis) to say "“sorry, i couldn’t help myself! you know i like your cooking xiangling!” guoba said innocently".
+[14:59:37]: Selected Timmsy (1261727825673851043).
+[14:59:37]: Selecting new author.
+[14:59:37]: Writing persist file.
+[15:01:17]: Timmsy previewed a response that was 48/250 characters long.
+[15:01:37]: Response confirmed!
+[15:01:37]: Timmsy took 0 hours, 2 minutes, and 0 seconds (& 43 millis) to say "With the evil cake gone, everyone celebrated yay".
+[15:01:37]: Selecting new author.
+[15:01:37]: Selected IcedCoffee (1262864511334088886).
+[15:01:37]: Writing persist file.
+[15:02:17]: IcedCoffee previewed a response that was 75/250 characters long.
+[15:02:37]: Response confirmed!
+[15:02:37]: IcedCoffee took 0 hours, 0 minutes, and 59 seconds (& 961 millis) to say "everyone began jumping up and down, "yippee!" yelled everyone while jumping".
+[15:02:37]: Selected Alice (1261727174591905876).
+[15:02:37]: Selecting new author.
+[15:02:37]: Writing persist file.
+[15:41:18]: Lightning previewed a response that was 197/250 characters long.
+[15:42:38]: Lightning took 2 hours, 54 minutes, and 42 seconds (& 26 millis) to say ""It's me, Hen!" the voice said. Lightning ran, blindly crashing ahead. He tripped, fell, got up, and kept running. But no matter how fast he ran, he still heard the voice of Hen echoing behind him.".
+[15:42:38]: Response confirmed!
+[15:42:38]: Selecting new author.
+[15:42:38]: Selected EVs17 (1262864622277492889).
+[15:42:38]: Writing persist file.
+[15:49:18]: EVs17 previewed a response that was 309/250 characters long.
+[15:49:58]: EVs17 previewed a response that was 284/250 characters long.
+[15:50:38]: EVs17 previewed a response that was 252/250 characters long.
+[15:50:58]: EVs17 previewed a response that was 241/250 characters long.
+[15:51:18]: Response confirmed!
+[15:51:18]: Selecting new author.
+[15:51:18]: Selected Mikasa (1279562387896406130).
+[15:51:18]: Writing persist file.
+[15:51:18]: EVs17 took 0 hours, 8 minutes, and 39 seconds (& 898 millis) to say "As Hen got closer, Lightning could do nothing to stop him. Lightning's worst fears have been realized. Hen touched him...  on his shoulder. "SURPRISE" As Hen said that, The members of the Alliance jumped out to surprise and ITS TIME TO PARTY".

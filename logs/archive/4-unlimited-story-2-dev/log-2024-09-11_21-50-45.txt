@@ -1,0 +1,15 @@
+Start of log-2024-09-11_21-50-45.txt:
+
+[21:50:45]: Program started!
+[21:50:45]: Program name: Unlimited Story 2
+[21:50:45]: Program phase: Production
+[21:50:45]: Reading persist file.
+[21:50:45]: Selecting new author.
+[21:50:45]: Picked Katy.
+[21:50:45]: SIKE! Forcing Lightning for testing purposes.
+[21:50:45]: Selected Lightning (1196575384804802661).
+[21:50:45]: Writing persist file.
+[21:50:45]: SIKE! Forcing Katy for testing purposes.
+[21:50:45]: Selecting new author.
+[21:50:45]: Selected Katy (1283609224038846607).
+[21:50:45]: Picked Timmsy.

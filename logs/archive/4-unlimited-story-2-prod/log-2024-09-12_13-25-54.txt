@@ -1,0 +1,12 @@
+Start of log-2024-09-12_13-25-54.txt:
+
+[13:25:54]: Program started!
+[13:25:54]: Program name: Unlimited Story 2
+[13:25:54]: Program phase: Deployed
+[13:25:54]: Reading persist file.
+[13:25:55]: Selecting new author.
+[13:25:55]: Selected EVs17 (1262864622277492889).
+[13:25:55]: Writing persist file.
+[13:25:55]: Selecting new author.
+[13:25:55]: Selected Tomio (1262865264597532764).
+[13:25:55]: Writing persist file.

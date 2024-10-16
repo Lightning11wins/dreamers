@@ -1,0 +1,294 @@
+Start of log-2024-06-16_18-17-36.txt:
+
+[18-17-36]: Program started
+[18-17-41]: Scanning #general chat for pings...
+[18-17-42]: Found mention of evs17.
+[18-17-42]: Pings in #general:
+ ⤷ evs17.: <@1196573390060929034> Test
+[18-17-42]: Found 1 new messages.
+[18-17-42]: Querying AI for evs17. (message: 1252039666107154400)...
+[18-17-46]: Scanning #general chat for pings...
+[18-17-47]: Found 0 new messages.
+[18-17-47]: No recent pings in #general
+[18-17-47]: Scan cycle 1 completed
+[18-17-51]: Scanning #general chat for pings...
+[18-17-52]: Found 0 new messages.
+[18-17-52]: Scan cycle 2 completed
+[18-17-52]: No recent pings in #general
+[18-17-56]: Scanning #general chat for pings...
+[18-17-57]: No recent pings in #general
+[18-17-57]: Found 1 new messages.
+[18-17-57]: Scan cycle 3 completed
+[18-18-01]: Scanning #general chat for pings...
+[18-18-02]: No recent pings in #general
+[18-18-02]: Found 1 new messages.
+[18-18-02]: Scan cycle 4 completed
+[18-18-06]: Scanning #general chat for pings...
+[18-18-07]: Sending response for evs17. (message: 1252039666107154400)...
+[18-18-07]: Scan cycle 5 completed
+[18-18-07]: Found mention of evs17.
+[18-18-07]: Found mention of justalice_87
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found mention of justalice_87
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found mention of lightning_11
+[18-18-07]: Found mention of lightning_11
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found mention of justalice_87
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Found 25 new messages.
+[18-18-07]: Found mention of huohuo.mod
+[18-18-07]: Pings in #general:
+ ⤷ evs17.: <@1196573390060929034> Test
+[18-18-07]: Querying AI for evs17. (message: 1252039666107154400)...
+[18-18-11]: Scanning #general chat for pings...
+[18-18-12]: Found 1 new messages.
+[18-18-12]: No recent pings in #general
+[18-18-12]: Scan cycle 6 completed
+[18-18-16]: Scanning #general chat for pings...
+[18-18-17]: Found 0 new messages.
+[18-18-17]: No recent pings in #general
+[18-18-17]: Scan cycle 7 completed
+[18-18-17]: Sending response for evs17. (message: 1252039666107154400)...
+[18-18-17]: Scan cycle 8 completed
+[18-18-21]: Scanning #general chat for pings...
+[18-18-22]: Found 0 new messages.
+[18-18-22]: No recent pings in #general
+[18-18-22]: Scan cycle 9 completed
+[18-18-26]: Scanning #general chat for pings...
+[18-18-27]: Found 0 new messages.
+[18-18-27]: No recent pings in #general
+[18-18-27]: Scan cycle 10 completed
+[18-18-31]: Scanning #general chat for pings...
+[18-18-32]: Scan cycle 11 completed
+[18-18-32]: No recent pings in #general
+[18-18-32]: Found 0 new messages.
+[18-18-37]: Scanning #general chat for pings...
+[18-18-37]: Found 0 new messages.
+[18-18-37]: No recent pings in #general
+[18-18-37]: Scan cycle 12 completed
+[18-18-42]: Scanning #general chat for pings...
+[18-18-42]: Found 0 new messages.
+[18-18-42]: No recent pings in #general
+[18-18-42]: Scan cycle 13 completed
+[18-18-47]: Scanning #general chat for pings...
+[18-18-47]: No recent pings in #general
+[18-18-47]: Found 0 new messages.
+[18-18-47]: Scan cycle 14 completed
+[18-18-52]: Scanning #general chat for pings...
+[18-18-52]: Found 0 new messages.
+[18-18-52]: No recent pings in #general
+[18-18-52]: Scan cycle 15 completed
+[18-18-57]: Scanning #general chat for pings...
+[18-18-57]: No recent pings in #general
+[18-18-57]: Scan cycle 16 completed
+[18-18-57]: Found 0 new messages.
+[18-19-02]: Scanning #general chat for pings...
+[18-19-02]: Found 0 new messages.
+[18-19-02]: No recent pings in #general
+[18-19-02]: Scan cycle 17 completed
+[18-19-07]: Scanning #general chat for pings...
+[18-19-07]: Found 0 new messages.
+[18-19-07]: No recent pings in #general
+[18-19-07]: Scan cycle 18 completed
+[18-19-12]: Scanning #general chat for pings...
+[18-19-12]: No recent pings in #general
+[18-19-12]: Found 0 new messages.
+[18-19-12]: Scan cycle 19 completed
+[18-19-17]: Scanning #general chat for pings...
+[18-19-17]: Found 0 new messages.
+[18-19-17]: No recent pings in #general
+[18-19-17]: Scan cycle 20 completed
+[18-19-22]: Scanning #general chat for pings...
+[18-19-22]: Found 0 new messages.
+[18-19-22]: No recent pings in #general
+[18-19-22]: Scan cycle 21 completed
+[18-19-27]: Scanning #general chat for pings...
+[18-19-27]: Found 0 new messages.
+[18-19-27]: No recent pings in #general
+[18-19-27]: Scan cycle 22 completed
+[18-19-32]: Scanning #general chat for pings...
+[18-19-32]: Found 0 new messages.
+[18-19-32]: No recent pings in #general
+[18-19-32]: Scan cycle 23 completed
+[18-19-37]: Scanning #general chat for pings...
+[18-19-37]: Found 0 new messages.
+[18-19-37]: Scan cycle 24 completed
+[18-19-37]: No recent pings in #general
+[18-19-42]: Scanning #general chat for pings...
+[18-19-42]: No recent pings in #general
+[18-19-42]: Found 0 new messages.
+[18-19-42]: Scan cycle 25 completed
+[18-19-47]: Scanning #general chat for pings...
+[18-19-47]: Found 0 new messages.
+[18-19-47]: No recent pings in #general
+[18-19-47]: Scan cycle 26 completed
+[18-19-52]: Scanning #general chat for pings...
+[18-19-52]: Found 0 new messages.
+[18-19-52]: No recent pings in #general
+[18-19-52]: Scan cycle 27 completed
+[18-19-57]: Scanning #general chat for pings...
+[18-19-57]: Found 0 new messages.
+[18-19-57]: Scan cycle 28 completed
+[18-19-57]: No recent pings in #general
+[18-20-02]: Scanning #general chat for pings...
+[18-20-02]: Found 1 new messages.
+[18-20-02]: No recent pings in #general
+[18-20-02]: Scan cycle 29 completed
+[18-20-07]: Scanning #general chat for pings...
+[18-20-07]: No recent pings in #general
+[18-20-07]: Scan cycle 30 completed
+[18-20-07]: Found 0 new messages.
+[18-20-12]: Scanning #general chat for pings...
+[18-20-12]: No recent pings in #general
+[18-20-12]: Found 0 new messages.
+[18-20-12]: Scan cycle 31 completed
+[18-20-17]: Scanning #general chat for pings...
+[18-20-17]: No recent pings in #general
+[18-20-17]: Found 0 new messages.
+[18-20-17]: Scan cycle 32 completed
+[18-20-22]: Scanning #general chat for pings...
+[18-20-22]: Scan cycle 33 completed
+[18-20-22]: Found 0 new messages.
+[18-20-22]: No recent pings in #general
+[18-20-27]: Scanning #general chat for pings...
+[18-20-27]: Found 0 new messages.
+[18-20-27]: Scan cycle 34 completed
+[18-20-27]: No recent pings in #general
+[18-20-32]: Scanning #general chat for pings...
+[18-20-32]: Found 0 new messages.
+[18-20-32]: Scan cycle 35 completed
+[18-20-32]: No recent pings in #general
+[18-20-37]: Scanning #general chat for pings...
+[18-20-37]: No recent pings in #general
+[18-20-37]: Found 0 new messages.
+[18-20-37]: Scan cycle 36 completed
+[18-20-42]: Scanning #general chat for pings...
+[18-20-42]: Scan cycle 37 completed
+[18-20-42]: No recent pings in #general
+[18-20-42]: Found 0 new messages.
+[18-20-47]: Scanning #general chat for pings...
+[18-20-47]: Found 0 new messages.
+[18-20-47]: No recent pings in #general
+[18-20-47]: Scan cycle 38 completed
+[18-20-52]: Scanning #general chat for pings...
+[18-20-52]: No recent pings in #general
+[18-20-52]: Scan cycle 39 completed
+[18-20-52]: Found 0 new messages.
+[18-20-57]: Scanning #general chat for pings...
+[18-20-57]: Found 0 new messages.
+[18-20-57]: No recent pings in #general
+[18-20-57]: Scan cycle 40 completed
+[18-21-02]: Scanning #general chat for pings...
+[18-21-02]: Found 0 new messages.
+[18-21-02]: No recent pings in #general
+[18-21-02]: Scan cycle 41 completed
+[18-21-07]: Scanning #general chat for pings...
+[18-21-07]: Found 0 new messages.
+[18-21-07]: Scan cycle 42 completed
+[18-21-07]: No recent pings in #general
+[18-21-12]: Scanning #general chat for pings...
+[18-21-12]: Found 0 new messages.
+[18-21-12]: Scan cycle 43 completed
+[18-21-12]: No recent pings in #general
+[18-21-17]: Scanning #general chat for pings...
+[18-21-17]: Found 1 new messages.
+[18-21-17]: Found mention of huohuo.mod
+[18-21-17]: No recent pings in #general
+[18-21-17]: Scan cycle 44 completed
+[18-21-22]: Scanning #general chat for pings...
+[18-21-22]: Found mention of huohuo.mod
+[18-21-22]: Found 1 new messages.
+[18-21-22]: No recent pings in #general
+[18-21-22]: Scan cycle 45 completed
+[18-21-27]: Scanning #general chat for pings...
+[18-21-27]: No recent pings in #general
+[18-21-27]: Scan cycle 46 completed
+[18-21-27]: Found 0 new messages.
+[18-21-32]: Scanning #general chat for pings...
+[18-21-32]: No recent pings in #general
+[18-21-32]: Found 0 new messages.
+[18-21-32]: Scan cycle 47 completed
+[18-21-37]: Scanning #general chat for pings...
+[18-21-37]: Scan cycle 48 completed
+[18-21-37]: No recent pings in #general
+[18-21-37]: Found 0 new messages.
+[18-21-42]: Scanning #general chat for pings...
+[18-21-43]: No recent pings in #general
+[18-21-43]: Scan cycle 49 completed
+[18-21-43]: Found 0 new messages.
+[18-21-47]: Scanning #general chat for pings...
+[18-21-47]: Found 0 new messages.
+[18-21-47]: No recent pings in #general
+[18-21-47]: Scan cycle 50 completed
+[18-21-52]: Scanning #general chat for pings...
+[18-21-52]: No recent pings in #general
+[18-21-52]: Found 0 new messages.
+[18-21-52]: Scan cycle 51 completed
+[18-21-57]: Scanning #general chat for pings...
+[18-21-57]: Found 0 new messages.
+[18-21-57]: No recent pings in #general
+[18-21-57]: Scan cycle 52 completed
+[18-22-02]: Scanning #general chat for pings...
+[18-22-02]: Found 1 new messages.
+[18-22-02]: Found mention of lightning_11
+[18-22-02]: No recent pings in #general
+[18-22-02]: Scan cycle 53 completed
+[18-22-07]: Scanning #general chat for pings...
+[18-22-07]: Found 0 new messages.
+[18-22-07]: No recent pings in #general
+[18-22-07]: Scan cycle 54 completed
+[18-22-12]: Scanning #general chat for pings...
+[18-22-12]: Found 0 new messages.
+[18-22-12]: No recent pings in #general
+[18-22-12]: Scan cycle 55 completed
+[18-22-17]: Scanning #general chat for pings...
+[18-22-17]: Found 0 new messages.
+[18-22-17]: No recent pings in #general
+[18-22-17]: Scan cycle 56 completed
+[18-22-22]: Scanning #general chat for pings...
+[18-22-22]: Found 1 new messages.
+[18-22-22]: No recent pings in #general
+[18-22-22]: Scan cycle 57 completed
+[18-22-27]: Scanning #general chat for pings...
+[18-22-27]: Found 0 new messages.
+[18-22-27]: No recent pings in #general
+[18-22-27]: Scan cycle 58 completed
+[18-22-32]: Scanning #general chat for pings...
+[18-22-32]: Found 0 new messages.
+[18-22-32]: Scan cycle 59 completed
+[18-22-32]: No recent pings in #general
+[18-22-37]: Scanning #general chat for pings...
+[18-22-37]: No recent pings in #general
+[18-22-37]: Found 1 new messages.
+[18-22-37]: Scan cycle 60 completed
+[18-22-42]: Scanning #general chat for pings...
+[18-22-42]: Found 0 new messages.
+[18-22-42]: No recent pings in #general
+[18-22-42]: Scan cycle 61 completed
+[18-22-47]: Scanning #general chat for pings...
+[18-22-47]: Found 0 new messages.
+[18-22-47]: No recent pings in #general
+[18-22-47]: Scan cycle 62 completed
+[18-22-52]: Scanning #general chat for pings...
+[18-22-52]: No recent pings in #general
+[18-22-52]: Found 0 new messages.
+[18-22-52]: Scan cycle 63 completed
+[18-22-57]: Scanning #general chat for pings...
+[18-22-57]: Found 0 new messages.
+[18-22-57]: Scan cycle 64 completed
+[18-22-57]: No recent pings in #general
+[18-23-02]: Scanning #general chat for pings...
+[18-23-02]: Found 0 new messages.
+[18-23-02]: No recent pings in #general
+[18-23-02]: Scan cycle 65 completed
+[18-23-07]: Scanning #general chat for pings...
+[18-23-08]: Found 0 new messages.
+[18-23-08]: No recent pings in #general
+[18-23-08]: Scan cycle 66 completed
+[18-23-12]: Scanning #general chat for pings...
+[18-23-12]: Found 0 new messages.
+[18-23-12]: No recent pings in #general
+[18-23-12]: Scan cycle 67 completed

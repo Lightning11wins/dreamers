@@ -1,0 +1,114 @@
+Start of log-2024-09-14_14-02-03.txt:
+
+[14:02:03]: Program started!
+[14:02:03]: Program name: Unlimited Story 2
+[14:02:03]: Program phase: Deployed
+[14:02:03]: Reading persist file.
+[14:02:03]: EVs17 previewed a response that was 198/250 characters long.
+[14:02:04]: Victoria previewed a response that was 95/250 characters long.
+[14:02:04]: Tomio previewed a response that was 90/250 characters long.
+[14:02:24]: Response confirmed!
+[14:02:24]: EVs17 took 3 hours, 8 minutes, and 17 seconds (& 58 millis) to say "As Lightning takes dreamers to the other room and attempts to find the bug in his code dreamer suddenly stops and pins lightning against the wall. “What are you doing dreamers-chan?” lightning says.".
+[14:02:25]: Selecting new author.
+[14:02:25]: Selected DonDon (1261728075326951474).
+[14:02:25]: Writing persist file.
+[14:02:25]: Response confirmed!
+[14:02:25]: Victoria took 1 hours, 35 minutes, and 36 seconds (& 147 millis) to say "*fuck it I’m crashing out. I don’t get paid enough to deal with this,* thinks the delivery guy.".
+[14:02:25]: Selecting new author.
+[14:02:25]: Selected EVs17 (1262864622277492889).
+[14:02:25]: Writing persist file.
+[14:02:25]: Response confirmed!
+[14:02:25]: Tomio took 3 hours, 41 minutes, and 18 seconds (& 517 millis) to say "And so after ace died, the gang would finally live in peace without the gooner, hopefully.".
+[14:02:25]: Selecting new author.
+[14:02:25]: Selected HenIsHuman (1212226335909351435).
+[14:02:25]: Writing persist file.
+[14:04:24]: DonDon previewed a response that was 122/250 characters long.
+[14:04:44]: Response confirmed!
+[14:04:44]: DonDon took 0 hours, 2 minutes, and 19 seconds (& 764 millis) to say "*dreamers' eyes widen, he blushes* wha-what do you mean lightning-chan.. *he looks away as lightning stares into his eyes*".
+[14:04:44]: Selected Katy (1262865085789896775).
+[14:04:44]: Writing persist file.
+[14:04:44]: Selecting new author.
+[14:07:45]: Katy previewed a response that was 63/250 characters long.
+[14:08:05]: Response confirmed!
+[14:08:05]: Katy took 0 hours, 3 minutes, and 20 seconds (& 538 millis) to say ""You're my property" Lightning says... "you do what **I** want"".
+[14:08:05]: Writing persist file.
+[14:08:05]: Selected Demi (1262865165259509922).
+[14:08:05]: Selecting new author.
+[14:08:25]: HenIsHuman previewed a response that was 220/250 characters long.
+[14:09:05]: HenIsHuman previewed a response that was 266/250 characters long.
+[14:09:45]: HenIsHuman previewed a response that was 230/250 characters long.
+[14:10:25]: Response confirmed!
+[14:10:25]: HenIsHuman took 0 hours, 7 minutes, and 59 seconds (& 512 millis) to say "So the gang returned to their place of living, attempting to move past the situation and eventual death of Ace. Unfortunately, soon after, the stock market crashed. Ace contributed to 90% of the fast food industry with his habits.".
+[14:10:25]: Selected Victoria (1279563746511032368).
+[14:10:25]: Selecting new author.
+[14:10:25]: Writing persist file.
+[14:11:45]: EVs17 previewed a response that was 291/250 characters long.
+[14:12:45]: EVs17 previewed a response that was 256/250 characters long.
+[14:13:25]: EVs17 previewed a response that was 250/250 characters long.
+[14:13:45]: Response confirmed!
+[14:13:45]: EVs17 took 0 hours, 11 minutes, and 19 seconds (& 714 millis) to say "the guy fell face first on to the floor crashing out right in front of the girl. The girl was shocked unsure what to do. She took the guy inside and laid him onto the couch for the night. As she looked at him, she thought to herself “he’s kinda cute”".
+[14:13:45]: Writing persist file.
+[14:13:45]: Selecting new author.
+[14:13:45]: Selected Mikasa (1279562387896406130).
+[14:18:45]: Demi previewed a response that was 149/250 characters long.
+[14:21:05]: Demi previewed a response that was 247/250 characters long.
+[14:21:25]: Response confirmed!
+[14:21:25]: Demi took 0 hours, 13 minutes, and 19 seconds (& 823 millis) to say "The evil version of lighting laughed hysterically, and dreamers feared for his life. "please!" he begged. "What did you do with the real lightning!?" The evil lightning laughed more. "Oh , him? You won't find him anymore. I... got *rid* of him..."".
+[14:21:25]: Selecting new author.
+[14:21:25]: Writing persist file.
+[14:21:25]: Selected Timmsy (1261727825673851043).
+[14:23:25]: Timmsy previewed a response that was 104/250 characters long.
+[14:23:45]: Timmsy previewed a response that was 15/250 characters long.
+[14:24:05]: Timmsy previewed a response that was 8/250 characters long.
+[14:24:25]: Timmsy previewed a response that was 104/250 characters long.
+[14:24:45]: Response confirmed!
+[14:24:45]: Timmsy took 0 hours, 3 minutes, and 20 seconds (& 23 millis) to say "Lightning then proceeded to attack dreamers, wanting to dispose of anyone who knew he wasnt the original".
+[14:24:45]: Selecting new author.
+[14:24:45]: Selected Alice (1261727174591905876).
+[14:24:45]: Writing persist file.
+[14:31:45]: Alice previewed a response that was 224/250 characters long.
+[14:32:05]: Response confirmed!
+[14:32:05]: Alice took 0 hours, 7 minutes, and 20 seconds (& 156 millis) to say "Dreamers opened his domain: "unlimited story: fiction came to life" and he started writing on his imaginary note book, anything he'd write would come to reality, at a certain cost, he used this power to attack evil Lightning".
+[14:32:05]: Selected IcedCoffee (1262864511334088886).
+[14:32:05]: Selecting new author.
+[14:32:05]: Writing persist file.
+[14:34:25]: Victoria previewed a response that was 146/250 characters long.
+[14:35:25]: IcedCoffee previewed a response that was 202/250 characters long.
+[14:35:45]: Response confirmed!
+[14:35:45]: IcedCoffee took 0 hours, 3 minutes, and 40 seconds (& 67 millis) to say "Evil lightning was shocked, how could this be?! He asked himself before throwing up gang sign to activate Domain Amplification: I dont know how to code. He turned his inability to code against Dreamers!".
+[14:35:45]: Writing persist file.
+[14:35:45]: Selecting new author.
+[14:35:45]: Selected Timmsy (1261727825673851043).
+[14:41:05]: Timmsy previewed a response that was 293/250 characters long.
+[14:42:25]: Timmsy previewed a response that was 221/250 characters long.
+[14:42:45]: Response confirmed!
+[14:42:45]: Timmsy took 0 hours, 7 minutes, and 0 seconds (& 196 millis) to say "Dreamers smiled, even though lightnings domain amplification meant he could with stand his domain expansion, Lightning cant use techniques simultaneously, its only a matter of time before dreamers drains his cursed energy".
+[14:42:45]: Writing persist file.
+[14:42:45]: Selected HenIsHuman (1212226335909351435).
+[14:42:45]: Selecting new author.
+[15:21:26]: Mikasa previewed a response that was 1/250 characters long.
+[15:21:46]: Mikasa previewed a response that was 2/250 characters long.
+[15:22:46]: Victoria took 1 hours, 12 minutes, and 21 seconds (& 454 millis) to say "Even in death, gang STILL can't be free from the gooner...  and with the collapse of the stock market, all their money has been completely drained".
+[15:22:46]: Selecting new author.
+[15:22:46]: Response confirmed!
+[15:22:46]: Writing persist file.
+[15:22:46]: Selected EVs17 (1262864622277492889).
+[15:24:26]: Mikasa previewed a response that was 79/250 characters long.
+[15:24:46]: Response confirmed!
+[15:24:46]: Mikasa took 1 hours, 11 minutes, and 1 seconds (& 418 millis) to say "Taking her chance, she took the delivery guys phone and added her number to it.".
+[15:24:46]: Writing persist file.
+[15:24:46]: Selecting new author.
+[15:24:46]: Selected Tomio (1262865264597532764).
+[15:47:07]: EVs17 previewed a response that was 171/250 characters long.
+[15:47:27]: Response confirmed!
+[15:47:27]: EVs17 took 0 hours, 24 minutes, and 40 seconds (& 502 millis) to say "fortunately, lightning doesn't have any money either way, so he knows exactly how to survive. With lightning's guidance, he leads the alliance to a new era. THE GOLDEN ERA".
+[15:47:27]: Writing persist file.
+[15:47:27]: Selected Lightning (1196575384804802661).
+[15:47:27]: Selecting new author.
+[15:54:27]: Tomio previewed a response that was 121/250 characters long.
+[15:55:47]: Response confirmed!
+[15:55:47]: Tomio took 0 hours, 31 minutes, and 0 seconds (& 780 millis) to say "The girl would jump in happiness and she saw the guy almost wake up and so she put his phone in his hand and the ran away".
+[15:55:47]: Writing persist file.
+[15:55:47]: Selecting new author.
+[15:55:47]: Selected IcedCoffee (1262864511334088886).
+[15:56:27]: Invoking command leaderboard for Lightning.

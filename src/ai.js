@@ -4,15 +4,20 @@ const { exec } = require('child_process');
 const { wait } = require("./utils");
 // Start AI: wsl ollama run llama3
 
+const commands = {
+	start: 'wsl ollama run llama3',
+	stop: 'wsl --shutdown',
+};
+
 const url = 'http://localhost:11434/api/generate';
 
 async function start() {
-	const promise = cmd('wsl ollama run llama3');
+	const promise = cmd(commands.start);
 	await wait(5000);
 	return promise;
 }
 async function stop() {
-	return cmd('wsl --shutdown');
+	return cmd(commands.stop);
 }
 async function cmd(command) {
 	exec(command, (error, stdout, stderr) => {
@@ -28,21 +33,18 @@ async function cmd(command) {
 	});
 }
 
-async function querySafe() {
-	await start();
-	const response = await query('Good morning');
-	await stop();
-	return response;
-}
-
-async function query(prompt) {
+async function query(prompt, autoWSL = true) {
+	if (autoWSL) await start();
+	let result = 'AI ERROR';
 	try {
 		const response = await axios.post(url, { model: 'llama3', prompt });
 		const lines = response.data.trim().split('\n');
-		return lines.map((line) => JSON.parse(line).response).join('');
+		result = lines.map((line) => JSON.parse(line).response).join('');
 	} catch (error) {
 		console.error('Error:', error);
 	}
+	if (autoWSL) await stop();
+	return result;
 }
 
 // async function test() {
@@ -56,5 +58,5 @@ async function query(prompt) {
 // test().then();
 
 module.exports = {
-	AI: { start, stop, query, querySafe, url }
-}
+	AI: { url, commands, cmd, start, stop, query }
+};
