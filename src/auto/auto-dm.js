@@ -1,7 +1,7 @@
 
-const { AI } = require("./ai");
-const { discord, me } = require('./discord');
-const { wait } = require('./utils');
+const { AI } = require("../ai");
+const { discord, me } = require('../discord');
+const { wait } = require('../utils');
 
 const POLLING_INTERVAL = 2_000;
 const HUMAN_DELAY = 20_000;
