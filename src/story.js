@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const { AI } = require("./ai");
-const { Discord, me, channels } = require('./discord');
+const { discord, me } = require('./discord');
 const { Logger } = require('./utils');
 
 const logger = new Logger();
@@ -9,7 +9,6 @@ logger.log('Program started!');
 logger.log('Program name: Unlimited Story 2');
 logger.log('Program phase: Deployed');
 
-const discord = new Discord();
 const participants = {
 	// 'Dreamers':   'AI',
 	'Alice':      '1261727174591905876',
@@ -230,7 +229,7 @@ async function DMScan(story, storyFile) {
 		process.exit();
 	}
 
-	const messages = await discord.get(story.currentChannel, 2);
+	const messages = await discord.getChannel(story.currentChannel, 2);
 	const recentMessage = messages[0], author = story.currentAuthor;
 	if (recentMessage.author.username !== me.username) {
 		const content = recentMessage.content.trim().toLowerCase();

@@ -2,10 +2,10 @@
 const axios = require('axios');
 const { exec } = require('child_process');
 const { wait } = require("./utils");
-// Start AI: wsl ollama run llama3
+// Start AI: wsl ollama run neutral-chat
 
 const commands = {
-	start: 'wsl ollama run llama3',
+	start: 'wsl ollama run neutral-chat',
 	stop: 'wsl --shutdown',
 };
 

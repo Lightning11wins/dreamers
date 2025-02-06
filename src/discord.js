@@ -1,5 +1,6 @@
 
 const { headers, rateLimitInterval, warnLength } = require('./config');
+const { wait } = require("./utils");
 
 const channelList = {
 	system: '1196575384804802661',  // DMs
@@ -8,8 +9,8 @@ const channelList = {
 const guildID = '1237645376782078004'; // Epic Alliance
 const me = {
 	id: '1196573390060929034',
-	username: 'evs17.',
-	global_name: 'Dreamers5592',
+	username: 'lightning_11', //'evs17.',
+	global_name: 'Lightning', // 'Dreamers5592',
 };
 
 // Discord format examples:
@@ -143,11 +144,73 @@ const me = {
  * 	tts: false
  * }
  */
+/* Calling discord.getProfile(1045368074993401996) profile:
+ * {
+ *  user: {
+ *    id: '1045368074993401996',
+ *    username: 'globalcastle95',
+ *    global_name: 'GlobalCastle95',
+ *    avatar: '2d11d0085d786236e741552528252417',
+ *    avatar_decoration_data: null,
+ *    discriminator: '0',
+ *    public_flags: 0,
+ *    primary_guild: null,
+ *    clan: null,
+ *    flags: 0,
+ *    banner: null,
+ *    banner_color: null,
+ *    accent_color: null,
+ *    bio: 'heeeeello\nGenerally clueless, completely oblivious'
+ *  },
+ *  connected_accounts: [
+ *    {
+ *      type: 'spotify',
+ *      id: '31szuwbizlksh5ljpyoex5vnusgi',
+ *      name: 'Lorekeeper',
+ *      verified: true
+ *    }
+ *  ],
+ *  premium_since: '2024-09-30T23:08:08.033655+00:00',
+ *  premium_type: 3,
+ *  premium_guild_since: null,
+ *  profile_themes_experiment_bucket: 4,
+ *  user_profile: {
+ *    bio: 'heeeeello\nGenerally clueless, completely oblivious',
+ *    accent_color: null,
+ *    pronouns: 'In need of sleep'
+ *  },
+ *  badges: [
+ *    {
+ *      id: 'premium',
+ *      description: 'Subscriber since Sep 30, 2024',
+ *      icon: '2ba85e8026a8614b640c2837bcdfe21b',
+ *      link: 'https://discord.com/settings/premium'
+ *    },
+ *    {
+ *      id: 'legacy_username',
+ *      description: 'Originally known as GlobalCastle95#1992',
+ *      icon: '6de6d34650760ba5551a79732e98ed60'
+ *    },
+ *    {
+ *      id: 'quest_completed',
+ *      description: 'Completed a Quest',
+ *      icon: '7d9ae358c8c5e118768335dbe68b4fb8',
+ *      link: 'https://discord.com/discovery/quests'
+ *    }
+ *  ],
+ *  guild_badges: [],
+ *  mutual_guilds: [
+ *    { id: '1215154229010890782', nick: null },
+ *    { id: '1237645376782078004', nick: null }
+ *  ],
+ *  legacy_username: 'GlobalCastle95#1992'
+ * }
+ */
 function formatMessage(message) {
 	return Object.assign(message, {
 		// Reformatting
-		timestamp: new Date(message.timestamp),
-		edited_timestamp: message.edited_timestamp !== null ? new Date(message.edited_timestamp) : null,
+		timestamp: new Date(message.timestamp).getTime(), // Millis since epoch
+		edited_timestamp: message.edited_timestamp === null ? null : new Date(message.edited_timestamp),
 		referenced_message: message.referenced_message ? formatMessage(message.referenced_message) : undefined,
 
 		// Convenience
@@ -178,6 +241,13 @@ function sendUnrestricted({ channel, message, reply }) {
 }
 
 class Discord {
+	// The maximum number of messages Discord allows us to request at once.
+	static maxMessages = 100;
+	static maxConcurrentGets = 1;
+	concurrentGets = 0;
+	blocked = undefined;
+	waitingToGet = [];
+
 	constructor() {
 		this.messageQueue = [];
 		this.msgInterval = -1;
@@ -185,6 +255,7 @@ class Discord {
 	get isSending() {
 		return this.messageQueue.length > 0;
 	}
+
 	// msg is 3 strings: { channel, message, reply }
 	send(msg) {
 		this.messageQueue.push(msg);
@@ -206,23 +277,95 @@ class Discord {
 		}, rateLimitInterval);
 	}
 
-	async get(channel, messages = 10) {
-		return (await new Promise((resolve, reject) => {
-			fetch(`${channelURL(channel)}?limit=${messages}`, { headers, body: null, method: "GET" }).then((response) => {
-				if (!response.ok) reject(response.error);
-				else resolve(response.json());
-			});
-		})).map(formatMessage).sort((a, b) => b.time - a.time);
+	async getChannel(channel, messages = 10, before) {
+		if (messages > Discord.maxMessages) {
+			throw new Error(`Requested ${messages} (max 100)`);
+		}
+
+		const json = await this.getJSON(`${channelURL(channel)}?limit=${messages}` + ((before) ? `&before=${before}` : ''));
+		return json.map(formatMessage).sort((a, b) => b.time - a.time);
+	}
+
+	async getProfile(id) {
+		return this.getJSON(`https://discord.com/api/v9/users/${id}/profile`);
+	}
+
+	async getJSON(url) {
+		await this.beginConcurrentGet();
+
+		concurrentGet:
+		while (true) {
+			try {
+				const response = await fetch(url, { headers, body: null, method: "GET" });
+				if (response.ok) {
+					this.endConcurrentGet();
+					return response.json();
+				}
+
+				switch (response.status) {
+					case 429: // Too many requests
+						const retryAfter = response.headers.get('Retry-After') ?? 0;
+						console.warn(`Rate limited. Retrying after ${retryAfter}s...`);
+
+						const timeout = wait(retryAfter * 1000);
+						while (this.blocked) await this.blocked;
+						await (this.blocked = timeout);
+						this.blocked = undefined;
+
+						console.log('Done waiting');
+						break;
+					default:
+						console.error(`HTTP Error ${response.status} for ${url}`);
+						const json = await response.json();
+						if (json) console.log(json);
+						break concurrentGet;
+				}
+			} catch (error) {
+				const code = error.code ?? error;
+				switch (code) {
+					case 'ECONNRESET':
+					case 'ETIMEDOUT':
+						console.warn(`${error.code} when getting URL '${url}'. Retrying...`);
+						break;
+					default:
+						console.error(`Failed to get '${url}' due to error '${code}': ${JSON.stringify(error, null, 2)}`);
+						break concurrentGet;
+				}
+			}
+		}
+		this.endConcurrentGet();
+		return undefined; // Give up.
+	}
+
+	async beginConcurrentGet() {
+		while (this.concurrentGets >= Discord.maxConcurrentGets) {
+			while (this.blocked) await this.blocked;
+			await new Promise((resolve) => this.waitingToGet.push(resolve));
+		}
+		this.concurrentGets++;
+	}
+
+	endConcurrentGet() {
+		this.concurrentGets--;
+		if (this.waitingToGet.length) {
+			this.waitingToGet.pop()();
+		}
 	}
 }
 
-// async function main() {
-// 	console.log(JSON.stringify(await new Discord().get(channelList.general, 1), null, 2));
-// }
-// main().then()
+async function main() {
+	const messages = await new Discord().getChannel(channelList.general, 10, '1298330411482484847');
+	console.log(JSON.stringify(messages, null, 2));
+	console.log(`Message count: ${messages.length}`);
+}
+
+if (require.main === module) {
+	main().then();
+}
 
 module.exports = {
 	Discord,
+	discord: new Discord(),
 	channels: channelList,
 	me
 };
