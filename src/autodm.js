@@ -31,7 +31,7 @@ function getRandom(array) {
 }
 
 async function scanDM([channel, delay]) {
-	let messages = await discord.getChannel(channel, 10);
+	let messages = await discord.getChannel({ channel, messages: 10 });
 	const author = messages[0].author;
 	if (author.username === me.username) return;
 
@@ -39,7 +39,7 @@ async function scanDM([channel, delay]) {
 		await wait(delay);
 
 		// Update messages in case they talked again.
-		messages = await discord.getChannel(channel, 10);
+		messages = await discord.getChannel({ channel, messages: 10 });
 	}
 
 	const history = messages.reduce((ac, message) => `${message.author.username}: ${message.content.trim()}\n${ac}`, '');

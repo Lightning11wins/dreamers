@@ -1,6 +1,6 @@
 
-const { headers, rateLimitInterval, warnLength } = require('./config');
-const { wait } = require("./utils");
+const { rateLimitInterval, warnLength, getHeaders, tokens, defaultToken } = require('./config');
+const { wait } = require('./utils');
 
 const channelList = {
 	system: '1196575384804802661',  // DMs
@@ -224,11 +224,11 @@ function channelURL(channel) {
 
 // Helper function to send Discord messages.
 // WARNING: Bypasses rate limiting.
-function sendUnrestricted({ channel, message, reply }) {
+function sendUnrestricted({ channel, message, reply, token }) {
 	message = message.replaceAll('"', '\\"').replaceAll('\n', '\\n');
 	const ref = reply ? `,"message_reference":{"guild_id":"${guildID}","channel_id":"${channel}","message_id":"${reply}"}` : '';
 	const body = `{"content":"${message}"${ref}}`;
-	const url = channelURL(channel), request = { headers, body, method: "POST" };
+	const url = channelURL(channel), request = { header: getHeaders(token), body, method: "POST" };
 	fetch(url, request)
 		.then(async response => {
 			if (!response.ok) {
@@ -256,9 +256,8 @@ class Discord {
 		return this.messageQueue.length > 0;
 	}
 
-	// msg is 3 strings: { channel, message, reply }
-	send(msg) {
-		this.messageQueue.push(msg);
+	send({ channel, message, reply, token }) {
+		this.messageQueue.push({ channel, message, reply, token });
 		if (this.messageQueue.length > warnLength) {
 			console.warn(`[Discord] Queue ${this.messageQueue.length}/${warnLength}!`);
 		}
@@ -277,26 +276,26 @@ class Discord {
 		}, rateLimitInterval);
 	}
 
-	async getChannel(channel, messages = 10, before) {
+	async getChannel({ channel, messages = 10, before, token}) {
 		if (messages > Discord.maxMessages) {
 			throw new Error(`Requested ${messages} (max 100)`);
 		}
 
-		const json = await this.getJSON(`${channelURL(channel)}?limit=${messages}` + ((before) ? `&before=${before}` : ''));
+		const json = await this.getJSON(`${channelURL(channel)}?limit=${messages}` + ((before) ? `&before=${before}` : ''), token);
 		return json.map(formatMessage).sort((a, b) => b.time - a.time);
 	}
 
-	async getProfile(id) {
-		return this.getJSON(`https://discord.com/api/v9/users/${id}/profile`);
+	async getProfile(id, token) {
+		return this.getJSON(`https://discord.com/api/v9/users/${id}/profile`, token);
 	}
 
-	async getJSON(url) {
+	async getJSON(url, token = defaultToken) {
 		await this.beginConcurrentGet();
 
 		concurrentGet:
 		while (true) {
 			try {
-				const response = await fetch(url, { headers, body: null, method: "GET" });
+				const response = await fetch(url, { headers: getHeaders(token), body: null, method: "GET" });
 				if (response.ok) {
 					this.endConcurrentGet();
 					return response.json();
@@ -354,7 +353,11 @@ class Discord {
 }
 
 async function main() {
-	const messages = await new Discord().getChannel(channelList.general, 10, '1298330411482484847');
+	const messages = await new Discord().getChannel({
+        channel: channelList.general,
+        messages: 10,
+        before: '1298330411482484847',
+    });
 	console.log(JSON.stringify(messages, null, 2));
 	console.log(`Message count: ${messages.length}`);
 }
@@ -365,7 +368,8 @@ if (require.main === module) {
 
 module.exports = {
 	Discord,
-	discord: new Discord(),
 	channels: channelList,
-	me
+	discord: new Discord(),
+	me,
+    tokens,
 };

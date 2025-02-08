@@ -5,7 +5,8 @@ const { logDir } = require('./config');
 
 const date = 2, time = 1;
 
-function now(format) {
+// noinspection FunctionNamingConventionJS
+const now = (format) => {
 	const showDate = format & date, showTime = format & time;
 	const now = new Date();
 	let str = '';
@@ -23,11 +24,17 @@ function now(format) {
 		str += `${showDate ? '_' : ''}${hours}:${minutes}:${seconds}`;
 	}
 	return str;
-}
+};
 
-function wait(ms) {
-	return new Promise(resolve => setTimeout(resolve, ms));
-}
+const shuffleArray = (arr) => {
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap elements
+    }
+    return arr;
+};
+
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 class Logger {
 	constructor(filename) {
@@ -37,7 +44,8 @@ class Logger {
 		fs.writeFileSync(this.filepath, `Start of ${this.filename}:\n\n`);
 	}
 
-	log(msg) {
+    // noinspection FunctionNamingConventionJS
+    log(msg) {
 		msg = msg.replaceAll('\n', '\n ⤷ ');
 		const message = `[${now(time)}]: ${msg}`;
 		console.log(message);
@@ -52,6 +60,7 @@ class Logger {
 
 module.exports = {
 	now,
+    shuffleArray,
 	wait,
 	format: { date, time },
 	logDir,

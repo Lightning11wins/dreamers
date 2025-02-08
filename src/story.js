@@ -1,8 +1,10 @@
 
 const fs = require('fs');
 const { AI } = require("./ai");
-const { discord, me } = require('./discord');
+const { discord, me, tokens } = require('./discord');
 const { Logger } = require('./utils');
+
+const token = tokens.dreamers;
 
 const logger = new Logger();
 logger.log('Program started!');
@@ -134,7 +136,7 @@ function selectNewAuthor(story) {
 	dirty = true;
 
 	logger.log(`Selected ${currentAuthor} (${currentChannel}).`);
-	discord.send({ channel: currentChannel, message: pollingMessage(story) });
+	discord.send({ channel: currentChannel, message: pollingMessage(story), token });
 }
 function recordResponse(messageContent, story, storyFile) {
 	const currentAuthor = story.currentAuthor;
@@ -209,7 +211,7 @@ function invokeCommand(command, story) {
 		default:
 			message = 'Unknown command';
 	}
-	discord.send({ channel: story.currentChannel, message: message ?? '### Done' });
+	discord.send({ channel: story.currentChannel, message: message ?? '### Done', token });
 }
 
 // Main loop.
@@ -229,7 +231,7 @@ async function DMScan(story, storyFile) {
 		process.exit();
 	}
 
-	const messages = await discord.getChannel(story.currentChannel, 2);
+	const messages = await discord.getChannel({ channel: story.currentChannel, messages: 2, token });
 	const recentMessage = messages[0], author = story.currentAuthor;
 	if (recentMessage.author.username !== me.username) {
 		const content = recentMessage.content.trim().toLowerCase();
@@ -240,7 +242,7 @@ async function DMScan(story, storyFile) {
 
 		const length = content.length;
 		logger.log(`${author} previewed a response that was ${length}/${maxResponseLength} characters long.`);
-		discord.send({ channel: story.currentChannel, message: responseMessage(length) });
+		discord.send({ channel: story.currentChannel, message: responseMessage(length), token });
 
 		saveData();
 		return; // End of cycle.
@@ -250,7 +252,7 @@ async function DMScan(story, storyFile) {
 		const response = messages[1];
 		if (response.author.username === me.username) {
 			logger.log('Response failed: Participant attempted to submit message from Dreamers.');
-			discord.send({ channel: story.currentChannel, message: submitBotMessage(story) });
+			discord.send({ channel: story.currentChannel, message: submitBotMessage(story), token });
 
 			saveData();
 			return; // End of cycle.
@@ -260,12 +262,12 @@ async function DMScan(story, storyFile) {
 		const responseContent = response.content.trim(), responseLength = responseContent.length;
 		if (responseLength > maxResponseLength) {
 			logger.log(`${author}'s response was too long! Size ${responseLength} characters (max ${maxResponseLength}).`);
-			discord.send({ channel: story.currentChannel, message: responseTooLongMessage(responseLength) });
+			discord.send({ channel: story.currentChannel, message: responseTooLongMessage(responseLength), token });
 			return; // End of cycle.
 		}
 
 		const duration = recordResponse(responseContent, story, storyFile);
-		discord.send({ channel: story.currentChannel, message: confirmationMessage(duration, story) });
+		discord.send({ channel: story.currentChannel, message: confirmationMessage(duration, story), token });
 
 		selectNewAuthor(story);
 	}
