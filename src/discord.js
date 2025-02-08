@@ -2,15 +2,26 @@
 const { rateLimitInterval, warnLength, getHeaders, tokens, defaultToken } = require('./config');
 const { wait } = require('./utils');
 
-const channelList = {
+const channels = {
 	system: '1196575384804802661',  // DMs
-	general: '1237645376782078007', // Epic Alliance # general
+	// general: '1237645376782078007', // Epic Alliance # general
 };
 const guildID = '1237645376782078004'; // Epic Alliance
 const me = {
 	id: '1196573390060929034',
 	username: 'lightning_11', //'evs17.',
 	global_name: 'Lightning', // 'Dreamers5592',
+};
+
+const MAX_SERVER_FAILS = 8;
+const SERVER_ERROR_RETRY_DELAY = 5_000;
+const HTTP = {
+    TOO_MANY_REQUESTS: 429,
+    SERVER_ERROR: 500,
+    BAD_GATEWAY: 502,
+    UNAVAILABLE: 503,
+    GATEWAY_TIMEOUT: 504,
+    INFINITE_LOOP: 508,
 };
 
 // Discord format examples:
@@ -228,12 +239,12 @@ function sendUnrestricted({ channel, message, reply, token }) {
 	message = message.replaceAll('"', '\\"').replaceAll('\n', '\\n');
 	const ref = reply ? `,"message_reference":{"guild_id":"${guildID}","channel_id":"${channel}","message_id":"${reply}"}` : '';
 	const body = `{"content":"${message}"${ref}}`;
-	const url = channelURL(channel), request = { header: getHeaders(token), body, method: "POST" };
+	const url = channelURL(channel), request = { headers: getHeaders(token), body, method: "POST" };
 	fetch(url, request)
 		.then(async response => {
 			if (!response.ok) {
-				console.error('Uh oh! url: ' + url + ', request: ' + request);
-				console.error('response:', JSON.stringify(await response.json()));
+				console.error('Uh oh! url: ' + url + ', request: ' + JSON.stringify(request, null, 2));
+				console.error('response:', JSON.stringify(JSON.stringify(await response.json())));
 				throw new Error(`HTTP error! status: ${response.status}`);
 			}
 		})
@@ -292,17 +303,20 @@ class Discord {
 	async getJSON(url, token = defaultToken) {
 		await this.beginConcurrentGet();
 
+        const request = { headers: getHeaders(token), body: null, method: "GET" };
+        let serverFails = 0;
+
 		concurrentGet:
 		while (true) {
 			try {
-				const response = await fetch(url, { headers: getHeaders(token), body: null, method: "GET" });
+				const response = await fetch(url, request);
 				if (response.ok) {
 					this.endConcurrentGet();
 					return response.json();
 				}
 
 				switch (response.status) {
-					case 429: // Too many requests
+                    case HTTP.TOO_MANY_REQUESTS:
 						const retryAfter = response.headers.get('Retry-After') ?? 0;
 						console.warn(`Rate limited. Retrying after ${retryAfter}s...`);
 
@@ -313,10 +327,24 @@ class Discord {
 
 						console.log('Done waiting');
 						break;
+                    case HTTP.SERVER_ERROR:
+                    case HTTP.BAD_GATEWAY:
+                    case HTTP.UNAVAILABLE:
+                    case HTTP.GATEWAY_TIMEOUT:
+                    case HTTP.INFINITE_LOOP:
+                        serverFails++;
+                        console.error(`HTTP Error ${response.status} (${serverFails}/${MAX_SERVER_FAILS}) for ${url}`);
+                        if (serverFails > MAX_SERVER_FAILS) {
+                            JSON.stringify(request, null, 2);
+                            return undefined;
+                        }
+
+                        await wait(SERVER_ERROR_RETRY_DELAY);
+                        break;
 					default:
 						console.error(`HTTP Error ${response.status} for ${url}`);
 						const json = await response.json();
-						if (json) console.log(json);
+						(json) && console.log(json);
 						break concurrentGet;
 				}
 			} catch (error) {
@@ -354,7 +382,7 @@ class Discord {
 
 async function main() {
 	const messages = await new Discord().getChannel({
-        channel: channelList.general,
+        channel: channels.general,
         messages: 10,
         before: '1298330411482484847',
     });
@@ -368,7 +396,7 @@ if (require.main === module) {
 
 module.exports = {
 	Discord,
-	channels: channelList,
+	channels,
 	discord: new Discord(),
 	me,
     tokens,
