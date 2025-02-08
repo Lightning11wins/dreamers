@@ -2,8 +2,11 @@
   "name": "dreamers",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "discord.js",
   "scripts": {
+    "auto-bot": "node src/auto/auto-bot.js",
+    "auto-dm": "node src/auto/auto-dm.js",
+    "build": "node src/HTMLBuilder.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,6 +15,6 @@
   },
   "private": true,
   "dependencies": {
-    "axios": "^1.7.7"
+    "axios": "^1.7.9"
   }
 }
