@@ -71,11 +71,9 @@ const filterFunctions = [
     [29, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Furina')],
     [28, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Hu Tao')],
     [27, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Raiden')],
-    [26, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Mualani')],
-    [25, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Kokomi')],
-    [24, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Klee')],
-    [23, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Ningguang')],
-    [22, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && name.includes('Mavuika')],
+    [26, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && (name.includes('Mualani') || name.includes('Kokomi'))],
+    [25, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && (name.includes('Klee') || name.includes('Alice'))],
+    [24, ({name, game, score}) => score === 0 && game.includes('Genshin Impact') && (name.includes('Ningguang') || name.includes('Mavuika'))],
     [50, ({game}) => game.includes('Genshin Impact')],
     [46, ({game}) => game.includes('Honkai Star Rail')],
     [45, ({game}) => game.includes('Honkai Impact 3rd')],
@@ -123,6 +121,7 @@ const pickCharacter = (characters) => {
     return 1; // If all cards are equally valuable, pick the middle.
 };
 
+let autonomousResults = '';
 const pickCharacterAutonomous = (characters, log = true, username) => {
     // Error checking.
     for (const character of characters) {
@@ -147,29 +146,11 @@ const pickCharacterAutonomous = (characters, log = true, username) => {
         fs.appendFileSync('logs/auto-choices.txt', choiceRecord, 'utf8');
 
         if (choice.score > NOTIFICATION_THRESHOLD) {
-            const message = `${username} found ${emojiMap[choice.emoji]} **${choice.name}** - *${choice.game}* (${choice.score})`;
-            discord.send({ channel: channels.system, token: tokens.dreamers, message });
+            autonomousResults += `${username} found ${emojiMap[choice.emoji]} **${choice.name}** - *${choice.game}* (${choice.score})\n`;
         }
     }
 
     return choice.index;
-};
-
-const selectCharacter = (message, autonomous = false, username) => {
-    const characters = message
-        .embeds[0]
-        .description
-        .trim()
-        .split('\n')
-        .slice(2)
-        .map((characterData, index) => ({
-            index,
-            emoji: characterData.split(' ')[0].trim(),
-            name: characterData.match(characterNameRegex)[0].trim().slice(2, -2),
-            game: characterData.match(characterGameRegex)[2].trim().slice(1, -1),
-        }));
-
-    return (autonomous) ? pickCharacterAutonomous(characters, true, username) : pickCharacter(characters);
 };
 
 const clickButton = async (token, message_id, button_id) => {
@@ -197,7 +178,26 @@ const summon = async (token, username, autonomous = false) => {
     } while (!components.length);
 
     const button_ids = components[0].components.map((component) => component.custom_id);
-    const recommendation = selectCharacter(firstMessage, autonomous, username);
+
+    let recommendation = (autonomous) ? 1 : -1;
+    try {
+        const characters = firstMessage
+            .embeds[0]
+            .description
+            .trim()
+            .split('\n')
+            .slice(2)
+            .map((characterData, index) => ({
+                index,
+                emoji: characterData.split(' ')[0].trim(),
+                name: characterData.match(characterNameRegex)[0].trim().slice(2, -2),
+                game: characterData.match(characterGameRegex)[2].trim().slice(1, -1),
+            }));
+        recommendation = (autonomous) ? pickCharacterAutonomous(characters, true, username) : pickCharacter(characters);
+    } catch (e) {
+        console.error('Error during character selection:', e);
+    }
+
     if (recommendation !== -1) {
         await clickButton(token, firstMessage.id, button_ids[recommendation]);
         return;
@@ -502,7 +502,12 @@ const main = async () => {
     // await executeAll(command.daily, 2_000);
     // await executeAll(command.openDaily, 2_000);
 
-    await summonAll(2_500, true); // Autonomous summon all.
+    // discord.getChannel({ channel: '1336126961524936704', messages: 1 }).then((result) => console.log(JSON.stringify(result, null, 2)));
+
+    await summonAll(4_000, true); // Autonomous summon all.
+
+    // discord.send({ channel: channels.system, token: tokens.dreamers, message: autonomousResults.trim() });
+    // autonomousResults = '';
 
     // await execute(tokens.seriunion, command.summon);
     // await summon(tokens.seriunion, 'seriunion');
@@ -526,5 +531,5 @@ if (require.main === module) {
     console.log('Tests passed');
 
     // noinspection MagicNumberJS
-    setTimeout(main, 24 * 60_000);
+    setTimeout(main, 0 * 60_000);
 }
