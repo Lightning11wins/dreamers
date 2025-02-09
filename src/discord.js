@@ -287,7 +287,7 @@ class Discord {
 		}, rateLimitInterval);
 	}
 
-	async getChannel({ channel, messages = 10, before, token}) {
+	async getChannel({ channel, messages = 10, before, token = defaultToken }) {
 		if (messages > Discord.maxMessages) {
 			throw new Error(`Requested ${messages} (max 100)`);
 		}

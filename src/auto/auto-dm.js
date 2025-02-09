@@ -1,10 +1,12 @@
 
 const { AI } = require("../ai");
-const { discord, me } = require('../discord');
+const { discord, me, tokens } = require('../discord');
 const { wait } = require('../utils');
 
 const POLLING_INTERVAL = 2_000;
 const HUMAN_DELAY = 20_000;
+
+const token = tokens.lightning;
 
 const DMs = [
 	// ['1295226079887228959', 0], // Hostages
@@ -14,7 +16,7 @@ const DMs = [
 	// ['780933130449321995', 0], // Calcuilder
 	// ['1196575384804802661', 0], // Dreamers
 	// ['1325561544087703574', 0], // Mia
-	// ['1329939544589729873', 0], // Reggie
+	['1329939544589729873', 0], // Reggie
 	// ['1327108616863481986', HUMAN_DELAY], // Zeldya
 	// ['1303434632221560922', HUMAN_DELAY], // leafa_ise
 	// ['1301232519441813615', HUMAN_DELAY], // kevyno__0025
@@ -31,15 +33,17 @@ function getRandom(array) {
 }
 
 async function scanDM([channel, delay]) {
-	let messages = await discord.getChannel({ channel, messages: 10 });
+	let messages = await discord.getChannel({ channel, messages: 10, token });
 	const author = messages[0].author;
-	if (author.username === me.username) return;
+	if (author.username === me.username) {
+        return;
+    }
 
 	if (delay > 0) {
 		await wait(delay);
 
-		// Update messages in case they talked again.
-		messages = await discord.getChannel({ channel, messages: 10 });
+		// Update messages in case the conversation has progressed.
+		messages = await discord.getChannel({ channel, messages: 10, token });
 	}
 
 	const history = messages.reduce((ac, message) => `${message.author.username}: ${message.content.trim()}\n${ac}`, '');
@@ -68,8 +72,8 @@ async function scanDM([channel, delay]) {
 
 	await AI.start();
 	const response = await AI.query(prompt_text, false);
-	console.log('AI says: ' + response, `('${response_length}')`);
-	discord.send({ channel, message: response });
+	console.log(`AI says: ${response} ('${response_length}')`);
+	discord.send({ channel, message: response, token });
 }
 
 async function scanAllDMs() {

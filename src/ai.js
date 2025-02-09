@@ -2,10 +2,11 @@
 const axios = require('axios');
 const { exec } = require('child_process');
 const { wait } = require("./utils");
-// Start AI: wsl ollama run neutral-chat
+// Start AI: wsl ollama run neural-chat
 
+const model = 'neural-chat';
 const commands = {
-	start: 'wsl ollama run neutral-chat',
+	start: `wsl ollama run ${model}`,
 	stop: 'wsl --shutdown',
 };
 
@@ -34,16 +35,22 @@ async function cmd(command) {
 }
 
 async function query(prompt, autoWSL = true) {
-	if (autoWSL) await start();
+	if (autoWSL) {
+        await start();
+    }
+
 	let result = 'AI ERROR';
 	try {
-		const response = await axios.post(url, { model: 'llama3', prompt });
+		const response = await axios.post(url, { model, prompt });
 		const lines = response.data.trim().split('\n');
-		result = lines.map((line) => JSON.parse(line).response).join('');
+		result = lines.map((line) => JSON.parse(line).response).join('').trim();
 	} catch (error) {
 		console.error('Error:', error);
 	}
-	if (autoWSL) await stop();
+
+	if (autoWSL) {
+        await stop();
+    }
 	return result;
 }
 
