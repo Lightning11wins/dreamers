@@ -3,27 +3,28 @@
 // Properly handles error assessment and recovery.
 
 const fs = require('node:fs');
-const {	interactionURL, getHeaders, tokens } = require('../config');
-const { Discord, channels } = require('../discord');
+const {	interactionURL, getHeaders, tokens, defaultToken } = require('../config');
+const { discord, channels } = require('../discord');
 const { wait, shuffleArray } = require('../utils');
 
-const discord = new Discord();
-
 const NOTIFICATION_THRESHOLD = 40;
-const lightningId = '349274318196441088'; // System Controller
+const LIGHTNING_ID = '349274318196441088'; // System Controller
+const COMMAND_CHANNEL = '1336126961524936704';
 
-const SUMMON_COOLDOWN = 31 * 60_000;
+const SUMMON_COOLDOWN = 29 * 60_000;
 const RETRY_ON_ERROR_DELAY = 3_000;
 const INITIAL_MESSAGE_POLLING_DELAY = 1_000;
-const MESSAGE_POLLING_DELAY = 2_000;
+const MESSAGE_POLLING_DELAY = 5_000;
+const MAX_WAIT_FOR_COOLDOWN = 120_000;
 
 const characterNameRegex = /\*\*(.*?)\*\*/g;
 const characterGameRegex = /\*(.*?)\*/g;
 const emojis = {
-    ssr: '<:e:1299999361211564044>',
-    sr: '<:e:1295775855334789331>',
-    r: '<:e:1295775867946930319>',
-    c: '<:e:1295775877887557703>',
+    c: '<a:e:1342202221558763571>',
+    r: '<a:e:1342202219574857788>',
+    sr: '<a:e:1342202597389373530>',
+    ssr: '<a:e:1342202212948115510>',
+    ur: '<a:e:1342202203515125801>',
 }, emojiMap = Object.entries(emojis).reduce((obj, [key, value]) => {
     obj[value] = key;
     return obj;
@@ -31,14 +32,14 @@ const emojis = {
 
 // noinspection SpellCheckingInspection
 const command = ({
-    inventory: ['------WebKitFormBoundaryEdbCKkJbjudLV0uF\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"1336126961524936704","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320960222084337756","id":"1320960222084337755","name":"inventory","type":1}}\n------WebKitFormBoundaryEdbCKkJbjudLV0uF--', 'multipart/form-data; boundary=----WebKitFormBoundaryEdbCKkJbjudLV0uF', 'inventory'],
-    packs: ['------WebKitFormBoundaryAXo2HOAesPB70ugB\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"1336126961524936704","session_id":"1835ba371b5206f1eb15ef25a56a4354","data":{"version":"1320893120476352560","id":"1276865860606365696","name":"packs","type":1}}\n------WebKitFormBoundaryAXo2HOAesPB70ugB--', 'multipart/form-data; boundary=----WebKitFormBoundaryAXo2HOAesPB70ugB', 'packs'],
-    daily: ['------WebKitFormBoundaryzTDJbd7ssBUAAnD7\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"1336126961524936704","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320893120476352554","id":"1295773511972950090","name":"daily","type":1}}\n------WebKitFormBoundaryzTDJbd7ssBUAAnD7--', 'multipart/form-data; boundary=----WebKitFormBoundaryzTDJbd7ssBUAAnD7', 'daily'],
-    openDaily: ['------WebKitFormBoundaryKNXP7IIH51pAkXd1\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"1336126961524936704","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320893120476352556","id":"1295773511972950091","name":"open","type":1,"options":[{"type":3,"name":"pack","value":"daily"}]}}\n------WebKitFormBoundaryKNXP7IIH51pAkXd1--', 'multipart/form-data; boundary=----WebKitFormBoundaryKNXP7IIH51pAkXd1', 'openDaily'],
-    summon: ['------WebKitFormBoundaryA9Xo3enec1MFlP2r\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"1336126961524936704","session_id":"7e3a197b1218283366a9be252ff775b6","data":{"version":"1320893120203980849","id":"1301277778385174601","name":"summon","type":1}}\n------WebKitFormBoundaryA9Xo3enec1MFlP2r--', 'multipart/form-data; boundary=----WebKitFormBoundaryA9Xo3enec1MFlP2r', 'summon'],
+    inventory: ['------WebKitFormBoundaryEdbCKkJbjudLV0uF\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"' + COMMAND_CHANNEL + '","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320960222084337756","id":"1320960222084337755","name":"inventory","type":1}}\n------WebKitFormBoundaryEdbCKkJbjudLV0uF--', 'multipart/form-data; boundary=----WebKitFormBoundaryEdbCKkJbjudLV0uF', 'inventory'],
+    packs: ['------WebKitFormBoundaryAXo2HOAesPB70ugB\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"' + COMMAND_CHANNEL + '","session_id":"1835ba371b5206f1eb15ef25a56a4354","data":{"version":"1320893120476352560","id":"1276865860606365696","name":"packs","type":1}}\n------WebKitFormBoundaryAXo2HOAesPB70ugB--', 'multipart/form-data; boundary=----WebKitFormBoundaryAXo2HOAesPB70ugB', 'packs'],
+    daily: ['------WebKitFormBoundaryzTDJbd7ssBUAAnD7\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"' + COMMAND_CHANNEL + '","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320893120476352554","id":"1295773511972950090","name":"daily","type":1}}\n------WebKitFormBoundaryzTDJbd7ssBUAAnD7--', 'multipart/form-data; boundary=----WebKitFormBoundaryzTDJbd7ssBUAAnD7', 'daily'],
+    openDaily: ['------WebKitFormBoundaryKNXP7IIH51pAkXd1\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"' + COMMAND_CHANNEL + '","session_id":"d4f2e74af82fe48101af43eaec658c99","data":{"version":"1320893120476352556","id":"1295773511972950091","name":"open","type":1,"options":[{"type":3,"name":"pack","value":"daily"}]}}\n------WebKitFormBoundaryKNXP7IIH51pAkXd1--', 'multipart/form-data; boundary=----WebKitFormBoundaryKNXP7IIH51pAkXd1', 'openDaily'],
+    summon: ['------WebKitFormBoundaryA9Xo3enec1MFlP2r\nContent-Disposition: form-data; name="payload_json"\n\n{"type":2,"application_id":"1242388858897956906","guild_id":"1209913055362818048","channel_id":"' + COMMAND_CHANNEL + '","session_id":"7e3a197b1218283366a9be252ff775b6","data":{"version":"1320893120203980849","id":"1301277778385174601","name":"summon","type":1}}\n------WebKitFormBoundaryA9Xo3enec1MFlP2r--', 'multipart/form-data; boundary=----WebKitFormBoundaryA9Xo3enec1MFlP2r', 'summon'],
 });
 
-const execute = async (token, command, username) => {
+const execute = async (command, token = defaultToken, username = undefined) => {
     if (username) {
         console.log(`Executing /${command[2]} for ${username}.`);
     }
@@ -83,13 +84,17 @@ const filterFunctions = [
     [34, ({game}) => game.includes('Wuthering Waves')],
     [33, ({game}) => game.includes('Zenless Zone Zero')],
     [32, ({game}) => game.includes('Cookie Run')],
-    [31, ({game}) => game.includes('Project Sekai') || game.includes('Vocaloid')],
-    [29, ({name}) => name.includes('Lightning')],
-    [29, ({name}) => name.includes('Israel')],
-    [29, ({name}) => name === 'Mia'],
-    [101,({emoji}) => emoji === emojis.ssr],
-    [30, ({emoji}) => emoji === emojis.sr],
+    [31, ({game}) => game.includes('Project Sekai') ||
+                     game.includes('Vocaloid') ||
+                     game.includes('Devil May Cry')],
+    [48, ({name}) => name.includes('Lunari')],
+    [29, ({name}) => name.includes('Lightning') ||
+                     name.includes('Israel') ||
+                     name.includes('Mia')],
     [10, ({emoji}) => emoji === emojis.r],
+    [54, ({emoji}) => emoji === emojis.sr],
+    [101,({emoji}) => emoji === emojis.ssr],
+    [251,({emoji}) => emoji === emojis.ur],
 ];
 
 const pickCharacter = (characters) => {
@@ -153,27 +158,52 @@ const pickCharacterAutonomous = (characters, log = true, username) => {
     return choice.index;
 };
 
+const extractCooldown = (message) => {
+    const match = message.match(/<t:(\d+):R>/);
+    if (match) {
+        const timestampMs = parseInt(match[1], 10) * 1000;
+        return Math.max(timestampMs + 1000 - Date.now(), 1);
+    }
+    return undefined;
+};
+
 const clickButton = async (token, message_id, button_id) => {
-    const command = `{"type":3,"guild_id":"1209913055362818048","channel_id":"1336126961524936704","message_flags":0,"message_id":"${message_id}","application_id":"1242388858897956906","session_id":"fc9e72eab33f9baf1e2c4ca941cfe101","data":{"component_type":2,"custom_id":"${button_id}"}}`;
-    await execute(token, [command, 'application/json', 'click']);
+    const command = `{"type":3,"guild_id":"1209913055362818048","channel_id":"${COMMAND_CHANNEL}","message_flags":0,"message_id":"${message_id}","application_id":"1242388858897956906","session_id":"fc9e72eab33f9baf1e2c4ca941cfe101","data":{"component_type":2,"custom_id":"${button_id}"}}`;
+    await execute([command, 'application/json', 'click'], token);
 };
 
 const summon = async (token, username, autonomous = false) => {
-    await execute(token, command.summon, username); // Initial summon command.
 
     let components, firstMessage;
     do {
+        await execute(command.summon, token, username); // Initial summon command.
         await wait(MESSAGE_POLLING_DELAY);
-        firstMessage = (await discord.getChannel({ channel: '1336126961524936704', messages: 1, token }))[0];
+
+        firstMessage = (await discord.getChannel({ channel: COMMAND_CHANNEL, messages: 1, token }))[0];
         const content = firstMessage.content.trim();
         if (content === '0') {
-            console.log('Skipping summon.');
+            console.warn('Skipping summon: User request.');
             return;
         } else if (content === 'There was an error executing this command.') {
-            console.warn('Error detected, retrying after 3 seconds...');
+            console.warn(`Error detected, retrying after ${RETRY_ON_ERROR_DELAY / 1000} seconds...`);
             await wait(RETRY_ON_ERROR_DELAY);
-            await execute(token, command.summon, username); // Retry the summon command.
+        } else if (
+            firstMessage.embeds &&
+            firstMessage.embeds[0] &&
+            firstMessage.embeds[0].description.startsWith('You can summon again')
+        ) {
+            const cooldown = extractCooldown(firstMessage.embeds[0].description);
+            const delay = (cooldown) ? cooldown + 1_000 : RETRY_ON_ERROR_DELAY;
+
+            if (delay > MAX_WAIT_FOR_COOLDOWN) {
+                console.warn(`Skipping summon: Cooldown ${(delay / 1_000).toFixed(0)} > ${MAX_WAIT_FOR_COOLDOWN / 1_000} seconds.`);
+                return;
+            } else {
+                console.warn(`Cooldown detected, retrying after ${(delay / 1_000).toFixed(0)} seconds...`);
+                await wait(delay);
+            }
         }
+
         components = firstMessage.components;
     } while (!components.length);
 
@@ -206,8 +236,8 @@ const summon = async (token, username, autonomous = false) => {
     let resolve;
     const promise = new Promise((r) => resolve = r);
     const poll = async () => {
-        const secondMessage = (await discord.getChannel({ channel: '1336126961524936704', messages: 1, token }))[0];
-        if (secondMessage.author.id !== lightningId) {
+        const secondMessage = (await discord.getChannel({ channel: COMMAND_CHANNEL, messages: 1, token }))[0];
+        if (secondMessage.author.id !== LIGHTNING_ID) {
             setTimeout(poll, MESSAGE_POLLING_DELAY);
             return;
         }
@@ -230,7 +260,7 @@ const executeAll = async (command, delay = 1_000) => {
         if (delay > 0) {
             await wait(delay);
         }
-        await execute(token, command, username);
+        await execute(command, token, username);
     }
 };
 
@@ -243,10 +273,20 @@ const summonAll = async (delay = 1_000, autonomous = false) => {
         await summon(token, username, autonomous);
     }
 
-    // Show the time until the next valid summon may be preformed.
-    await execute(Object.values(tokens)[0], command.summon);
-};
+    await wait(15_000);
 
+    // Get the time until the next summon may be preformed.
+    const token = Object.values(tokens)[0];
+    await execute(command.summon, token);
+    await wait(INITIAL_MESSAGE_POLLING_DELAY);
+    const message = (await discord.getChannel({ channel: COMMAND_CHANNEL, messages: 1, token }))[0];
+
+    return (
+        message.embeds &&
+        message.embeds[0] &&
+        message.embeds[0].description.startsWith('You can summon again')
+    ) ? extractCooldown(message.embeds[0].description) : undefined;
+};
 
 const test = ({ log = true } = {}) => {
     const testcases = [
@@ -326,8 +366,8 @@ const test = ({ log = true } = {}) => {
             { index: 3, emoji: emojis.c, name: 'Hu Tao', game: 'Genshin Impact' },
         ],
         [
-            'Prefer SR Raiden over Nahida',
-            2,
+            'Prefer SR Mauvika over Rare Nahida',
+            1,
             { index: 1, emoji: emojis.sr, name: 'Raiden', game: 'Genshin Impact' },
             { index: 2, emoji: emojis.r, name: 'Nahida', game: 'Genshin Impact' },
             { index: 3, emoji: emojis.c, name: 'Hu Tao', game: 'Genshin Impact' },
@@ -427,7 +467,7 @@ const test = ({ log = true } = {}) => {
             { index: 12, emoji: emojis.r, name: 'Kokomi', game: 'Genshin Impact' },
             { index: 13, emoji: emojis.r, name: 'Ningguang', game: 'Genshin Impact' },
             { index: 14, emoji: emojis.r, name: 'Mavuika', game: 'Genshin Impact' },
-            { index: 15, emoji: emojis.sr, name: 'Dori', game: 'Genshin Impact' },
+            { index: 15, emoji: emojis.r, name: 'Dori', game: 'Genshin Impact' },
             { index: 16, emoji: emojis.sr, name: 'Fu Xuan', game: 'Honkai Star Rail' },
             { index: 17, emoji: emojis.sr, name: 'Seele', game: 'Honkai Impact 3rd' },
             { index: 18, emoji: emojis.sr, name: 'Apple', game: 'Reverse: 1999' },
@@ -437,10 +477,10 @@ const test = ({ log = true } = {}) => {
             { index: 22, emoji: emojis.sr, name: 'Hatsune Miku', game: 'Project Sekai' },
         ],
         [
-            'Prefer SR Mavuika over SSR',
+            'Prefer SR Dori over SSR',
             2,
             { index: 1, emoji: emojis.ssr, name: 'Random', game: 'Who Knows' },
-            { index: 2, emoji: emojis.sr, name: 'Mavuika', game: 'Genshin Impact' },
+            { index: 2, emoji: emojis.sr, name: 'Dori', game: 'Genshin Impact' },
         ],
         [
             'Prefer SSR Mavuika over SR Nahida',
@@ -465,21 +505,26 @@ const test = ({ log = true } = {}) => {
         ],
     ];
 
+    const repetitions = 8;
     let pass = 0, fail = 0;
-    for (const [testName, expect, ...characters] of testcases) {
-        const choice = pickCharacterAutonomous(characters, false, 'Test');
-        if (choice !== expect) {
-            fail++;
-            if (log) {
-                console.error(`TEST FAILED: '${testName}' expected ${expect} but got ${choice}.`);
-            }
-        } else {
-            pass++;
-            if (log) {
-                console.info(`TEST PASSED: '${testName}'`);
+    for (let i = 0; i < repetitions; i++) {
+        for (const [testName, expect, ...characters] of testcases) {
+            const choice = pickCharacterAutonomous(characters, false, 'Test');
+            if (choice !== expect) {
+                fail++;
+                if (log) {
+                    console.error(`TEST FAILED: '${testName}' expected ${expect} but got ${choice}.`);
+                }
+            } else {
+                pass++;
+                if (log) {
+                    console.info(`TEST PASSED: '${testName}'`);
+                }
             }
         }
     }
+    pass /= repetitions;
+    fail /= repetitions;
 
     if (log) {
         console.log();
@@ -496,33 +541,30 @@ const test = ({ log = true } = {}) => {
 const main = async () => {
     console.log('Starting...');
 
-    // await executeAll(command.inventory, 0);
-    // await executeAll(command.packs, 0);
+    // Execute dailies
+    await executeAll(command.daily, 2_000);
+    await executeAll(command.openDaily, 2_000);
 
-    // await executeAll(command.daily, 2_000);
-    // await executeAll(command.openDaily, 2_000);
+    // Execute summons
+    const cooldown = await summonAll(4_000, true);
 
-    // discord.getChannel({ channel: '1336126961524936704', messages: 1 }).then((result) => console.log(JSON.stringify(result, null, 2)));
+    if (autonomousResults) {
+        discord.send({
+            channel: channels.system,
+            token: tokens.dreamers,
+            message: (autonomousResults) ? autonomousResults : `Summon completed, no characters scoring over ${NOTIFICATION_THRESHOLD} were found.`
+        });
+        autonomousResults = '';
+    }
 
-    await summonAll(4_000, true); // Autonomous summon all.
-
-    // discord.send({ channel: channels.system, token: tokens.dreamers, message: autonomousResults.trim() });
-    // autonomousResults = '';
-
-    // await execute(tokens.seriunion, command.summon);
-    // await summon(tokens.seriunion, 'seriunion');
-
-    // await execute(tokens.lightning, command.daily);
-    // await wait(5_000);
-    // await execute(tokens.lightning, command.openDaily);
-    // await wait(5_000);
-
-    setTimeout(main, SUMMON_COOLDOWN);
+    console.log(`Summoning completed, waiting ${(cooldown / 1000).toFixed(0)} seconds for cooldown.`);
+    setTimeout(main, cooldown ?? SUMMON_COOLDOWN);
 
     console.log('Done');
 };
 
 if (require.main === module) {
+    // Ensure that tests pass before running the code.
     if (!test({ log: false })) {
         test({ log: true });
         console.error('Start aborted: Tests failed');
@@ -530,6 +572,6 @@ if (require.main === module) {
     }
     console.log('Tests passed');
 
-    // noinspection MagicNumberJS
-    setTimeout(main, 0 * 60_000);
+    // Call the main code with an optional delay.
+    setTimeout(main, 0);
 }
