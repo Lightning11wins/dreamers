@@ -502,15 +502,10 @@ const main = async () => {
     // await executeAll(command.daily, 2_000);
     // await executeAll(command.openDaily, 2_000);
 
-    // discord.getChannel({ channel: '1336126961524936704', messages: 1 }).then((result) => console.log(JSON.stringify(result, null, 2)));
-
     await summonAll(4_000, true); // Autonomous summon all.
 
-    // discord.send({ channel: channels.system, token: tokens.dreamers, message: autonomousResults.trim() });
-    // autonomousResults = '';
-
-    // await execute(tokens.seriunion, command.summon);
-    // await summon(tokens.seriunion, 'seriunion');
+    discord.send({ channel: channels.system, token: tokens.dreamers, message: autonomousResults.trim() });
+    autonomousResults = '';
 
     // await execute(tokens.lightning, command.daily);
     // await wait(5_000);
@@ -522,6 +517,7 @@ const main = async () => {
     console.log('Done');
 };
 
+const delayMinutes = 0;
 if (require.main === module) {
     if (!test({ log: false })) {
         test({ log: true });
@@ -531,5 +527,5 @@ if (require.main === module) {
     console.log('Tests passed');
 
     // noinspection MagicNumberJS
-    setTimeout(main, 0 * 60_000);
+    setTimeout(main, delayMinutes * 60_000);
 }
