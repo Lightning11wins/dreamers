@@ -88,7 +88,7 @@ const filterFunctions = [
     [29, ({name}) => name.includes('Israel')],
     [29, ({name}) => name === 'Mia'],
     [101,({emoji}) => emoji === emojis.ssr],
-    [30, ({emoji}) => emoji === emojis.sr],
+    [54, ({emoji}) => emoji === emojis.sr],
     [10, ({emoji}) => emoji === emojis.r],
 ];
 
@@ -326,8 +326,8 @@ const test = ({ log = true } = {}) => {
             { index: 3, emoji: emojis.c, name: 'Hu Tao', game: 'Genshin Impact' },
         ],
         [
-            'Prefer SR Raiden over Nahida',
-            2,
+            'Prefer SR Mauvika over Rare Nahida',
+            1,
             { index: 1, emoji: emojis.sr, name: 'Raiden', game: 'Genshin Impact' },
             { index: 2, emoji: emojis.r, name: 'Nahida', game: 'Genshin Impact' },
             { index: 3, emoji: emojis.c, name: 'Hu Tao', game: 'Genshin Impact' },
@@ -427,7 +427,7 @@ const test = ({ log = true } = {}) => {
             { index: 12, emoji: emojis.r, name: 'Kokomi', game: 'Genshin Impact' },
             { index: 13, emoji: emojis.r, name: 'Ningguang', game: 'Genshin Impact' },
             { index: 14, emoji: emojis.r, name: 'Mavuika', game: 'Genshin Impact' },
-            { index: 15, emoji: emojis.sr, name: 'Dori', game: 'Genshin Impact' },
+            { index: 15, emoji: emojis.r, name: 'Dori', game: 'Genshin Impact' },
             { index: 16, emoji: emojis.sr, name: 'Fu Xuan', game: 'Honkai Star Rail' },
             { index: 17, emoji: emojis.sr, name: 'Seele', game: 'Honkai Impact 3rd' },
             { index: 18, emoji: emojis.sr, name: 'Apple', game: 'Reverse: 1999' },
@@ -437,10 +437,10 @@ const test = ({ log = true } = {}) => {
             { index: 22, emoji: emojis.sr, name: 'Hatsune Miku', game: 'Project Sekai' },
         ],
         [
-            'Prefer SR Mavuika over SSR',
+            'Prefer SR Dori over SSR',
             2,
             { index: 1, emoji: emojis.ssr, name: 'Random', game: 'Who Knows' },
-            { index: 2, emoji: emojis.sr, name: 'Mavuika', game: 'Genshin Impact' },
+            { index: 2, emoji: emojis.sr, name: 'Dori', game: 'Genshin Impact' },
         ],
         [
             'Prefer SSR Mavuika over SR Nahida',
@@ -465,21 +465,26 @@ const test = ({ log = true } = {}) => {
         ],
     ];
 
+    const repetitions = 8;
     let pass = 0, fail = 0;
-    for (const [testName, expect, ...characters] of testcases) {
-        const choice = pickCharacterAutonomous(characters, false, 'Test');
-        if (choice !== expect) {
-            fail++;
-            if (log) {
-                console.error(`TEST FAILED: '${testName}' expected ${expect} but got ${choice}.`);
-            }
-        } else {
-            pass++;
-            if (log) {
-                console.info(`TEST PASSED: '${testName}'`);
+    for (let i = 0; i < repetitions; i++) {
+        for (const [testName, expect, ...characters] of testcases) {
+            const choice = pickCharacterAutonomous(characters, false, 'Test');
+            if (choice !== expect) {
+                fail++;
+                if (log) {
+                    console.error(`TEST FAILED: '${testName}' expected ${expect} but got ${choice}.`);
+                }
+            } else {
+                pass++;
+                if (log) {
+                    console.info(`TEST PASSED: '${testName}'`);
+                }
             }
         }
     }
+    pass /= repetitions;
+    fail /= repetitions;
 
     if (log) {
         console.log();
