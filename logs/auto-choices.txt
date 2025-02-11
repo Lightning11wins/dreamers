@@ -369,12 +369,10 @@
 > 41  r Len & Rin - Vocaloid                                         0   c Kikyou Kushida - Classroom of the Elite                      0   c Raze - VALORANT                                              
 > 0   c Chizuru Yoshida - Kimi ni Todoke                             0   c Lucia Rea Regulus - Isekai Smartphone                        0   c Laon - Villains Are Destined to Die                          
 > 0   c Richelieu - Kantai Collection                                0   c Eucliwood Hellscythe - Kore wa Zombie Desu ka?               0   c Nio Hashiri - Akuma no Riddle                                
-> 
-> 50  c Arlecchino - Genshin Impact                                  0   c Death the Kid - Soul Eater                                   0   c Hanzou Hattori - The Irregular at Magic High School          
+> 50  c Arlecchino - Genshin Impact                                  0   c Death the Kid - Soul Eater                                   0   c Hanzou Hattori - The Irregular at Magic High School
 > 10  r Kurousagi - Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?  0   c Makima - Chainsaw Man                                        0   c Eiko Houzuki - Dark Gathering                                
 > 0   c Ankou - Shuuen no Virche                                     0   c Lilith - Nikki Series                                        0   c Caesar - Girls und Panzer                                    
-> 
-> 31  c Saki Tenma - Project Sekai                                   0   c Silas Karlisle - Beyblade Series                             0   c Akari Watanabe - Fuufu Ijou, Koibito Miman                   
+> 31  c Saki Tenma - Project Sekai                                   0   c Silas Karlisle - Beyblade Series                             0   c Akari Watanabe - Fuufu Ijou, Koibito Miman
 > 10  r Kurumi Shiratori - D4DJ                                      0   c Baishuo - Nikki Series                                       0   c Elias Ainsworth - The Ancient Magus Bride                    
 > 10  r Midoriya, Bakugo and Todoroki - My Hero Academia             0   c Belkis - Takt Op. Series                                     0   c Chisa Sasuga - World Dai Star                                
 > 10  r Licia Pleide - Tensei Kizoku, Kantei Skill de Nariagaru      0   c Yumeko Suzukiri - Sentai Daishikkaku                         0   c Lee Yerin - Circles                                          
@@ -583,8 +581,7 @@
 > 0   c Julis-Alexia von Riessfeld - The Asterisk War                0   c Shion Kaminari - VTuber Legend                               0   c Yukikaze Kamina - 18TRIP                                     
 > 44  c Medicine Pocket - Reverse: 1999                              0   c Natsuko Hirose - Zenshuu.                                    0   c Kotori Itsuka - Date A Live                                  
 > 0   c Kengo Yozakura - Yozakura-san Chi no Daisakusen              0   c Lance Crown - Mashle                                         0   c Choso - Jujutsu Kaisen                                       
-> 
-> 35  c Flandre Scarlet - Touhou                                     0   c Saki Maruyama - Girls und Panzer                             0   c Hacker - Akudama Drive                                       
+> 35  c Flandre Scarlet - Touhou                                     0   c Saki Maruyama - Girls und Panzer                             0   c Hacker - Akudama Drive
 > 0   c Illya Ornstein - Princess Connect! Re:Dive                   0   c Kotone Fujita - The iDOLM@STER Series                        0   c Giann von Hagen - Tears of Themis                            
 > 0   c Alexia Midgar - The Eminence in Shadow                       0   c Tsukasa Shishio - Dr. Stone                                  0   c Erwin - Girls und Paner                                      
 > 10  r Karen Inukai - My Life as Inukai-san's Dog                   0   c Delta - The Eminence in Shadow                               0   c Nergigante - Monster Hunter Series                           
@@ -1132,8 +1129,7 @@
 > 0   c Orisa - Overwatch                                            0   c Hare Menjou - Guilty Crown                                   0   c Pochacco - Sanrio Series                                     
 > 10  r Ruby Rose - RWBY                                             0   c Rin Shima - Yuru Camp                                        0   c Yoshino Himekawa - Date A Live                               
 > 0   c Mari Iochi - Blue Archive                                    0   c Nanachi - Made in Abyss                                      0   c Miyuki Shirogane - Kaguya-sama: Love is War                  
-> 
-> 10  r Park Moondae - Debut or Die                                  10  r MC & Unknown - Mystic Messenger                              10  r Krai  Tino - Let This Grieving Soul Retire                   
+> 10  r Park Moondae - Debut or Die                                  10  r MC & Unknown - Mystic Messenger                              10  r Krai  Tino - Let This Grieving Soul Retire
 > 35  c Fujiwara no Mokou - Touhou                                   0   c Ayase Shinomiya - Guilty Crown                               0   c Kosaki Onodera - Nisekoi                                     
 > 0   c Chizuru Ichinose - Kanojo Okarishimasu                       0   c Mahiro Oyama - Oniichan wa Oshimai!                          0   c Yuu Koito - Bloom Into You                                   
 > 55  r Himeko and Kiana - Honkai Impact 3rd                         0   c Nagisa Shiota - Assassination Classroom                      0   c Reisalin Stout - Atelier Ryza                                
@@ -1497,3 +1493,201 @@
 > 50  c Xiao - Genshin Impact                                        0   c Mash Kyrielight - Fate Series                                0   c Chiharu Utou - Can You Keep A Secret?                        
 > 60  r Lynette - Genshin Impact                                     0   c Taki Tachibana - Your Name                                   0   c Berry Shirayuki - Tokyo Mew Mew                              
 > 0   c Remi Ayasaki - Horimiya                                      0   c Mahoro Saeki - Fugou Keiji Balance                           0   c Arthur Leywin - The Beginning After The End                  
+> 0   c Viper Ning - Naraka: Bladepoint                              0   c Ako Amau - Blue Archive                                      0   c Lilim - Trinity Seven
+> 0   c Nao Tomori - Charlotte                                       0   c Sonic - Sonic X                                              0   c Kaede Kayano - Assassination Classroom
+> 10  r Anisphia and Euphyllia - Tenten Kakumei                      0   c Thistle - Dungeon Meshi                                      0   c Shimamura Hougetsu - Adachi to Shimamura
+> 0   c Tritsch Tratsch Polka - Takt Op. Series                      0   c Arc - Skeleton Knight in Another World                       0   c Akuta Isotake - 18TRIP
+> 50  c Xianyun - Genshin Impact                                     0   c Glorio - Draon Ball                                          0   c Teru Minamoto - Toilet-Bound Hanako-Kun
+> 46  c Dang Heng - Honkai Star Rail                                 0   c Shouya Ishida - A Silent Voice                               0   c Tae Yamada - Zombieland Saga
+> 0   c Muni Ohnaruto - D4DJ                                         0   c Kento Nanami - Jujutsu Kaisen                                0   c Zen Gaho - Paradox Live
+> 0   c Koyuki Kurosaki - Blue Archive                               0   c Bolero - Takt. Op                                            0   c Yuuri Katsuki - Yuri!!! on Ice
+> 0   c Zhu Jin - Jigokuraku                                         0   c Momo Kisaragi - Mekakucity Actors                            0   c Sonohara Mizuka - Plunderer
+> 10  r Nadeko Sengoku - Monogatari Series                           0   c Crowley Eusford - Owari no Seraph                            0   c Qi Rong - Heaven Official's Blessing
+> 10  r Tsubasa Nanase - Classroom of the Elite                      0   c David Martinez - Cyberpunk: Edgerunners                      0   c Dot Barrett - Mashle
+> 0   c Omori - OMORI                                                0   c Haruka - Loner Life in Another World                         0   c Pixie - The Irregular at Magic High School
+> 0   c Kafka Hibino - Kaiju No. 8                                   0   c Gyoumei Himejima - Demon Slayer                              0   c Shizuku Hasei - Undead Girl Murder Farce
+> 0   c Mai Valentine - Yu-Gi-Oh!                                    0   c White Queen - Date A Live                                    0   c Mai-Mai - In the Land of Leadale
+> 0   c Claire Redfield - Biohazard                                  0   c Kaeru Yamatani - VTuber Legend                               0   c Aoi Todo - Jujutsu Kaisen
+> 34  c Sanhua - Wuthering Waves                                     10  r Exodia the Forbidden One - Yu-Gi-Oh!                         0   c China Kuramoto - The iDOLM@STER Series
+> 0   c Tetora Nagumo - Ensemble Stars!                              0   c Gintoki Sakata - Gintama                                     0   c Takuma Murase - Slow Damage
+> 10  r Arisa Ichigaya - BanG Dream!                                 0   c Taro Misaki - Captain Tsubasa                                0   c Chu Wanning - The Husky and His White Cat Shizun
+> 10  r Mash Kyrielight - Fate Series                                0   c Hiro Shinosawa - The iDOLM@STER Series                       0   c Zenitsu Agatsuma - Demon Slayer
+> 0   c Alexia Midgar - The Eminence in Shadow                       0   c Tomoe - Tsukimichi Moonlit Fantasy                           0   c Taiki Inomata - Blue Box
+> 35  c Sakuya Izayoi - Touhou                                       10  r Beta - The Eminence in Shadow                                0   c Choze - One Punch Man
+> 50  c Paimon - Genshin Impact                                      0   c Kyaru - Princess Connect! Re:Dive                            0   c Ichika Amasawa - Classroom of the Elite
+> 50  c Yanfei - Genshin Impact                                      0   c Suzu Narumiya - IDOLY PRIDE                                  0   c Maria Suzuki - Girls und Panzer
+> 55  r Thelema and Serapeum - Honkai Impact 3rd                     10  r Toshiro Hitsugaya - Bleach                                   0   c Wakana Gojou - My Dress-Up Darling
+> 46  c Kafka - Honkai Star Rail                                     0   c Darkness - KonoSuba                                          0   c Lee Sin - League of Legends
+> 0   c Chiikawa - Chiikawa                                          0   c Osaragi - Sakamoto Days                                      0   c Yve - Mobile Legends
+> 46  c Black Swan - Honkai Star Rail                                0   c Askeladd - Vinland Saga                                      0   c Yuugi Mutou - Yu-Gi-Oh!
+> 0   c Szayel Aporro Grantz - Bleach                                0   c Sherlock Holmes - Moriarty the Patriot                       0   c Rena - Tears of Themis
+> 100 c Nahida - Genshin Impact                                      0   c Rathalos - Monster Hunter Series                             0   c Tessa - Naraka: Bladepoint
+> 0   c Aphrodite - Hades                                            0   c Hiro Soma - Fruits Basket                                    0   c Yuuki Utsugi - Girls und Panzer
+> 10  r Megu  Kasumi - Blue Archive                                  0   c Kim Gong-Ja - SSS-Class Suicide Hunter                       0   c Kafka Oguro - 18TRIP
+> 0   c Kyaru - Princess Connect! Re:Dive                            0   c Chilchuck Tims - Dungeon Meshi                               0   c Sova - VALORANT
+> 46  c Rappa - Honkai Star Rail                                     0   c Virginia Robertson - Luminous Witch                          0   c Sunny - Omori
+> 55  r Serapeum - Honkai Impact 3rd                                 10  r Zen and Shirayuki - Akagami no Shirayuki-hime                0   c Übel - Sousou no Frieren
+> 0   c Sugar - NIKKE                                                0   c Legoshi - Beastars                                           0   c Koshi Torako - My Deer Friend Nokotan
+> 0   c Penguin? - Sumikko Gurashi                                   0   c Ichinose Tokiya - Uta no Prince-sama                         0   c Sona - League of Legends
+> 0   c Astraea - Sora no Otoshimono                                 0   c Falin Touden - Dungeon Meshi                                 0   c Shinka Nibutani - Chuunibyou demo Koi ga Shitai!
+> 0   c Willem Kmetsch - SukaSuka                                    0   c Shinoa Hiiragi - Owari no Seraph                             0   c Mashirao Ojiro - My Hero Academia
+> 10  r Souradel  Adelia - The Killer Whale's Comfort Penguin        0   c Ponta - Skeleton Knight in Another World                     0   c Quinella - Sword Art Online
+> 0   c Reo Mikage - Blue Lock                                       0   c KAY/O - VALORANT                                             0   c Diana Cavendish - Little Witch Academia
+> 10  r Yamato - One Piece                                           0   c Taiyo Asano - Yozakura-san Chi no Daisakusen                 0   c Moonlight - Takt Op. Series
+> 44  c Ms. NewBabel - Reverse: 1999                                 0   c Yuu Koito - Bloom Into You                                   0   c Killer Bee - Naruto
+> 0   c Itsuki - Yumekuro                                            0   c Miyo Saimori - My Happy Marriage                             0   c Mai Sakurajima - Seishun Buta Yarou
+> 0   c Nagisa Ran - Ensemble Stars                                  0   c Kanata Shinkai - Ensemble Stars!                             0   c Xavier - Love and Deepspace
+> 0   c Ayumu Gouriki - Odd Taxi                                     0   c Yuuki Konno - Sword Art Online                               0   c John - Shadows House
+> 44  c Shamane - Reverse: 1999                                      0   c Sylus - Love and Deepspace                                   0   c Drow Ranger - Dota Series
+> 0   c Touka Tsuyuri - Loner Life in Another World                  0   c Alvida - One Piece                                           0   c Shiro - No Game No Life
+> 0   c Erena Todo - Love Live!                                      0   c Till Nys - Gundam Series                                     0   c Haruna Kurodate - Blue Archive
+> 0   c Hirano Taiga - Sasaki and Miyano                             0   c Ren Saionji - MF Ghost                                       0   c Hae-In Cha - Solo Leveling
+> 10  r Charlotte Reinout - The Lady's Butler                        10  r Karen Inukai - My Life as Inukai-san's Dog                   0   c Elinalise Dragonroad - Mushoku Tensei
+> 0   c Lady - Devil May Cry                                         0   c Yami Sukehiro - Black Clover                                 0   c Amari - Joker Game
+> 0   c Buro - Muse Dash                                             0   c No. 21 (Feral) - Punishing Gray Raven                        0   c Yorishige Suwa - The Elusive Samurai
+> 0   c Neito Monoma - My Hero Academia                              0   c Mona Kawai - Mona x Medaka                                   0   c Kaju Nukumizu - Make Heroine ga Oosugiru!
+> 10  r Akemi Homura - Puella Magi Madoka Magica                     0   c Izumi Miyamura - Horimiya                                    0   c Ging Freecss - Hunter x Hunter
+> 44  c Jessica - Reverse: 1999                                      0   c Driftblade - Monsuno                                         0   c Isabella - The Promised Neverland
+> 31  c Haruka Kiritani - Project Sekai                              0   c Lylia - Mobile Legends                                       0   c Shouma Toriashi - Raise wa Tanin ga Ii
+> 10  r Quinella - Sword Art Online                                  0   c Yuusei Nishida - Chihayafuru                                 0   c Sylphiette - Mushoku Tensei
+> 0   c Meiko Shiraki - Prison School                                0   c Kaname Madoka - Puella Magi Madoka Magica                    0   c Illari - Overwatch
+> 0   c Krul Tepes - Owari no Seraph                                 0   c Makoto Takeda - Tying the Knot with an Amagami Sister        0   c Ouka Makuzawa - Megami no Café Terrace
+> 31  c Saki Tenma - Project Sekai                                   0   c Moonlight - Takt Op. Series                                  0   c Rin - Muse Dash
+> 10  r Maomao and Jinshi - The Apothecary Diaries                   0   c Ryunosuke Tanaka - Haikyuu!!                                 0   c Luo Yi - Mobile Legends
+> 50  c Dehya - Genshin Impact                                       44  c Fatutu - Reverse: 1999                                       31  c An Shiraishi - Project Sekai
+> 0   c Shuten-Douji (Assassin) - Fate Series                        0   c Hana Yurikawa - Mieruko-chan                                 0   c Yoko Littner - Gurren Lagann
+> 46  c Asta - Honkai Star Rail                                      46  c Xueyi - Honkai Star Rail                                     0   c Ango Sakaguchi - Bungou Stray Dogs
+> 0   c May - Alchemy Stars                                          0   c Fubuki - One Punch Man                                       0   c Aoi Asahina - Danganronpa
+> 10  r Holo and Lawrence - Spice and Wolf                           0   c Maple - BOFURI                                               0   c Ban - Nanatsu no Taizai
+> 0   c Paul Greyrat - Mushoku Tensei                                0   c Karen Matsugazaki - Tying the Knot with an Amagami Sister    0   c Akari Watanabe - Fuufu Ijou, Koibito Miman
+> 10  r Unchou Kan'u - Ikkitousen                                    0   c Sagiri - Jigokuraku                                          0   c Minami Natsume - IDOLiSH7
+> 0   c Suiseiseki - Rozen Maiden                                    0   c Mei and Yuzu - Citrus                                        0   c Michiru Matsushima - Grisaia no Kajitsu
+> 44  c Liang Yue - Reverse: 1999                                    10  r Genya Shinazugawa - Demon Slayer                             0   c Amy Rose - Sonic X
+> 50  c Clorinde - Genshin Impact                                    41  r MEIKO - Vocaloid                                             0   c Raze - VALORANT
+> 10  r Chinatsu Kano - Blue Box                                     0   c Sumireko Sanshokuin - Oresuki                                0   c Chiharu Youki - Oresuki
+> 50  c Paimon - Genshin Impact                                      0   c Saki Shiraishi - IDOLY PRIDE                                 0   c Kuromi - Sanrio Series
+> 0   c Kaho Hinata - Blend S                                        0   c Crusch Karsten - Re:Zero                                     0   c Isabella - The Promised Neverland
+> 0   c Yu Eunhee - Circles                                          0   c Kita Ikuyo - Bocchi the Rock!                                0   c Akemi Homura - Puella Magi Madoka Magica
+> 0   c Kanon Kusama - Guilty Crown                                  0   c Lee Joo-Hee - Solo Leveling                                  0   c Tsubasa Kazanari - Senki Zesshou Symphogear
+> 0   c Hokori - Sumikko Gurashi                                     0   c Peer Gynt - Takt Op. Series                                  0   c Junkrat - Overwatch
+> 46  c Boothill - Honkai Star Rail                                  0   c Aki Hayakawa - Chainsaw Man                                  0   c No. 21 (Feral) - Punishing Gray Raven
+> 0   c Kaede Naruse - Shikizakura                                   0   c Miranda - Biohazard                                          0   c Laby - Elsword
+> 46  c Guinaifen - Honkai Star Rail                                 0   c Chelsea - Akame Ga Kill!                                     0   c Mayoi Ayase - Ensemble Stars!
+> 0   c Nagi Hachinoya - 18TRIP                                      0   c Tachibana Hibiki - Senki Zesshou Symphogear                  0   c Fyra - NieR Series
+> 44  c Tooth Fairy - Reverse: 1999                                  10  r Charlotte Pudding - One Piece                                0   c Eine kleine Nachtmusik - Takt. Op
+> 56  r Misha - Honkai Star Rail                                     0   c Reyna - VALORANT                                             0   c Usagi Tsukishiro - My Life as Inukai-san's Dog
+> 0   c Osamu Mikumo - World Trigger                                 0   c Kaminaga - Joker Game                                        0   c Syr Flova - DanMachi
+> 0   c Jun Sazanami - Ensemble Stars                                0   c Entoma Vasilissa - Overlord                                  0   c Mina Ashiro - Kaiju No. 8
+> 0   c Yukichi Fukuzawa - Bungou Stray Dogs                         0   c Kraft Lawrence - Spice and Wolf                              0   c Izuna Hatsuse - No Game No Life
+> 46  c Yukong - Honkai Star Rail                                    0   c Rouge the Bat - Sonic X                                      0   c Orihime Inoue - Bleach
+> 10  r Allen and Earl - D.Gray-Man                                  0   c Hana Isuzu - Girls und Panzer                                0   c Wadanohara - Wadanohara and the Great Blue Sea
+> 0   c Lupusregina Beta - Overlord                                  0   c Karin Houou - DEN-ON-BU                                      0   c Anne Shelley - My Next Life as a Villainess
+> 10  r Nasa and Tsukasa - Tonikaku Kawaii                           10  r Netaro Yowa - 18TRIP                                         0   c Yennefer of Vengerberg - The Witcher Series
+> 0   c Shiori Katase - My Tiny Senpai                               0   c Chitoge Kirisaki - Nisekoi                                   0   c Shenron - Dragon Ball Z
+> 0   c Yukina Minato - BanG Dream!                                  0   c JUNKY - Gray Sheep                                           0   c Unknown - Mystic Messenger
+> 41  r Kohane Azusawa - Project Sekai                               10  r Aurelion Sol - League of Legends                             0   c Gragas - League of Legends
+> 45  r Koishi Komeiji - Touhou                                      0   c Mina Konoe - Blue Archive                                    0   c Ailine Weiss - Tears of Themis
+> 0   c Amy Rose - Sonic X                                           0   c Zenyatta - Overwatch                                         0   c Edamame - Food Fantasy
+> 50  c Yoimiya - Genshin Impact                                     0   c Vergil Sparda - Devil May Cry                                0   c Licht Bach - Plunderer
+> 10  r Ulquiorra Cifer - Bleach                                     0   c Shiori Sakurazaka - Fuufu Ijou, Koibito Miman                0   c Yuki - Kimi wa Meido-sama
+> 0   c Kazuhiko Nukumizu - Make Heroine ga Oosugiru!                0   c Chihiro Kamina - Lord of Vermilion: The Crimson King         0   c Saeko Busujima - High School of the Dead
+> 10  r Ouka Makuzawa - Megami no Café Terrace                       0   c Kuroeda - Elf-san wa Yaserarenai                             0   c Raphiel Shiraha Ainsworth - Gabriel DropOut
+> 0   c Alkaid McGrath - Lovebrush Chronicles                        0   c Akiko Yosano - Bungou Stray Dogs                             0   c Harbor - VALORANT
+> 44  c Tooth Fairy - Reverse: 1999                                  0   c Zassou - Sumikko Gurashi                                     0   c Nikolai Gogol - Bungou Stray Dogs
+> 10  r Rin Okumura - Blue Exorcist                                  0   c Saki Maruyama - Girls und Panzer                             0   c Claire Redfield - Biohazard
+> 0   c King - Nanatsu no Taizai                                     0   c Pomp and Circumstance - Takt Op. Series                      0   c Setsuna - Redo of Healer
+> 60  r Streetward Rambler - Genshin Impact                          46  c Himeko - Honkai Star Rail                                    10  r Winter - Takt Op. Series
+> 0   c Hinata Hyuuga - Naruto                                       0   c Asahi Amagami - Tying the Knot with an Amagami Sister        0   c Wendy Marvell - Fairy Tail
+> 50  c Yae Miko - Genshin Impact                                    0   c Tet - No Game No Life                                        0   c Tang Rou - The King's Avatar
+> 0   c Mitsuko Umenoki - Tying the Knot with an Amagami Sister      0   c Mao Takasaki - Megami no Café Terrace                        0   c Yuuka Hayase - Blue Archive
+> 0   c Lanzhu Zhong - Love Live!                                    0   c Ryusei Shido - Blue Lock                                     0   c Arnold Hein - 7th Time Loop
+> 44  c Anjo Nala - Reverse: 1999                                    0   c Orisa - Overwatch                                            0   c Ryou Yoake - ReLIFE
+> 10  r Kyouko Touno - Seiren                                        0   c Rindo Kobayashi - Food Wars!                                 0   c Sumire Hanano - Chihayafuru
+> 60  r Paimon - Genshin Impact                                      10  r Alpha - The Eminence in Shadow                               0   c Louterstella - Fragaria Memories
+> 0   c Reina Kousaka - Hibike! Euphonium                            0   c Inori Yuzuriha - Guilty Crown                                0   c Kensuke Shibagaki - Odd Taxi
+> 10  r Seraphimon - Digimon Series                                  0   c Shigure Soma - Fruits Basket                                 0   c Lux - League of Legends
+> 60  r Lynette - Genshin Impact                                     10  r La Pucelle and Snow White - Magical Girl Raising Project     0   c Choze - One Punch Man
+> 44  r Xiangli Yao - Wuthering Waves                                10  r MC & Unknown - Mystic Messenger                              0   c Hasebe Haruka - Classroom of the Elite
+> 0   c Kaju Nukumizu - Make Heroine ga Oosugiru!                    0   c Han Sooyong - Omniscient Reader's Viewpoint                  0   c China Kuramoto - The iDOLM@STER Series
+> 44  c Willow - Reverse: 1999                                       0   c Isuzu Sento - Amagi Brilliant Park                           0   c Plana - Blue Archive
+> 0   c Hanami - Jujutsu Kaisen                                      0   c Sylus - Love and Deepspace                                   0   c Yunyun - KonoSuba
+> 0   c Kyouko Sakura - Puella Magi Madoka Magica                    0   c Rintarou Okabe - Steins; Gate                                0   c NURSE - Gray Sheep
+> 0   c Giann von Hagen - Tears of Themis                            0   c Suzu Narumiya - IDOLY PRIDE                                  0   c Komachi Aizome - Sentai Daishikkaku
+> 0   c Saber - Fate Series                                          0   c Yayoi Houzuki - Dark Gathering                               0   c Mutsumi Yozakura - Yozakura-san Chi no Daisakusen
+> 10  r Kou Mukami - Diabolik Lovers                                 0   c Momo Chiyoda - Machikado Mazoku                              0   c Goku - Dragon Ball
+> 10  r Astolfo (Rider) - Fate Series                                0   c Mei Aihara - Citrus                                          0   c Gongjin Zhou - The Irregular at Magic High School
+> 0   c Hatori Soma - Fruits Basket                                  0   c Arthur Pendragon - Fate series                               0   c Hwang Dong-Su - Solo Leveling
+> 96  c Kinich - Genshin Impact                                      0   c Ai Izawa - Renai Flops                                       0   c Wei Wuxian - Mo Dao Zu Shi
+> 0   c Miho Shirakawa - Odd Taxi                                    0   c Aura - Sousou no Frieren                                     0   c Yunyun - KonoSuba
+> 0   c Sushie Urnea Ortlinde - Isekai Smartphone                    0   c Mimori Mizuha - Blue Archive                                 0   c Woo Jin-Chul - Solo Leveling
+> 10  r Wakamo Kosaka - Blue Archive                                 0   c Areia - Alchemy Stars                                        0   c Sasha Necron - Misfit of Demon King Academy
+> 0   c Masato Hijirikawa - Uta no Prince-sama                       0   c Rammus - League of Legends                                   0   c Legoshi - Beastars
+> 44  c Willow - Reverse: 1999                                       0   c Rangiku Matsumoto - Bleach                                   0   c Kim Anouk Mei Takanashi - Yorukura
+> 0   c Mao Takasaki - Megami no Café Terrace                        0   c Gojo Satoru - Jujutsu Kaisen                                 0   c Rinami Himesaki - The iDOLM@STER Series
+> 35  c Marisa Kirisame - Touhou                                     10  r Yamato Hyuuga - Uta no Prince-sama                           0   c Momoi Saiba - Blue Archive
+> 0   c Mazuru Ameku - Ameku M.D.: Doctor Detective                  0   c Aubrey - Omori                                               0   c Keith Claes - My Next Life as a Villainess
+> 54  sr Kanae Kanai - Kimi ni Aisarete Itakatta                     0   c Chizuru Ichinose - Kanojo Okarishimasu                       0   c Azusa Aizawa - Slime Taoshite 300-nen
+> 33  c Soukaku - Zenless Zone Zero                                  10  r Lowji  Tougo - Sentai Red Isekai                             0   c Yukari Akiyama - Girls und Panzer
+> 10  r Shunsui Kyouraku - Bleach                                    0   c Yumina Urnea Belfast - Isekai Smartphone                     0   c Kureha Clyret - Redo of Healer
+> 0   c Yami Sukehiro - Black Clover                                 0   c Faye Valentine - Cowboy Bebop                                0   c Shō Kusakabe - Fire Force
+> 0   c Alice Zuberg - Sword Art Online                              0   c Brimstone - VALORANT                                         0   c Djeeta - Granblue Fantasy
+> 44  c Kaalaa Baunaa - Reverse: 1999                                0   c Kirschtaria Wodime - Fate Series                             0   c Hello Kitty - Sanrio Series
+> 0   c Muichiro Tokito - Demon Slayer                               0   c Kadita - Mobile Legends                                      0   c Orochi Ginba - Beyblade Series
+> 0   c Shian Inubousaki - DEN-ON-BU                                 0   c Caitlyn - League of Legends                                  0   c Hideri Kanzaki - Blend S
+> 10  r Mafuyu and Kaho - Blend S                                    0   c Saki Kawasaki - My Teen Romantic Comedy SNAFU                0   c Koshi Torako - My Deer Friend Nokotan
+> 78  c Hu Tao - Genshin Impact                                      0   c Conny - The Promised Neverland                               0   c Yukio Okumura - Blue Exorcist
+> 0   c Brewmaster - Dota Series                                     0   c Kabru - Dungeon Meshi                                        0   c Sonohara Mizuka - Plunderer
+> 34  c Camellya - Wuthering Waves                                   0   c Tails - Sonic X                                              0   c Sei Takanashi - Saint's Magic Power
+> 0   c Yuuki Konno - Sword Art Online                               0   c Lucy Heartfilia - Fairy Tail                                 0   c Lilith Asami - Trinity Seven
+> 0   c Riho Tsukishima - Megami no Café Terrace                     0   c Tori Himemiya - Ensemble Stars!                              0   c Tokage - Sumikko Gurashi
+> 10  r Atri - Atri -My Dear Moments-                                0   c Kirika Akatsuki - Senki Zesshou Symphogear                   0   c Pixie - The Irregular at Magic High School
+> 0   c Jeanne - Vanitas no Karte                                    0   c Nagisa Ibuki - IDOLY PRIDE                                   0   c Elinalise Dragonroad - Mushoku Tensei
+> 60  r Nilou - Genshin Impact                                       0   c Tifa Lockheart - Final Fantasy Series                        0   c Shintarou Kisaragi - Mekakucity Actors
+> 0   c Seto Kaiba - Yu-Gi-Oh!                                       0   c Lu Gonghu - The Irregular at Magic High School               0   c Ariane Glenys Maple - Skeleton Knight in Another World
+> 0   c Pavane - Takt Op. Series                                     0   c Mashirao Ojiro - My Hero Academia                            0   c Hidan - Naruto
+> 60  r Paimon - Genshin Impact                                      0   c Yuki Suou - Roshidere                                        0   c Garack Gazelt - Akagami no Shirayuki-hime
+> 10  r Himari Kino - Whisper Me a Love Song                         0   c Aki Adagaki - Masamune-kun no Revenge                        0   c Wei Wuxian - Mo Dao Zu Shi
+> 0   c Melissa - Mobile Legends                                     0   c Azest Kingscrown - A Returner's Magic Should Be Special      0   c Tet - No Game No Life
+> 0   c Odagiri - Joker Game                                         0   c Vikir Van Baskerville - Revenge of the Baskerville Bloodhound 0   c Believe - Uma Musume: Pretty Derby
+> 0   c Azami Suou - Raise wa Tanin ga Ii                            0   c Artem Wing - Tears of Themis                                 0   c Saitama - One Punch Man
+> 0   c Genzo Wakabayashi - Captain Tsubasa                          0   c Jun Wu - Heaven Official's Blessing                          0   c Koyomi Senju - World Dai Star
+> 44  r Jiyan - Wuthering Waves                                      10  r Shino & Ren - Shino to Ren                                   0   c Kosei Arima - Your Lie in April
+> 0   c Iris Cannary - Violet Evergarden                             0   c Yuri - Doki Doki Literature Club                             0   c Tada Banri - Golden Time
+> 0   c Puruth - Fragaria Memories                                   0   c Ren Saionji - MF Ghost                                       0   c Mai Sakurajima - Seishun Buta Yarou
+> 10  r Vergil Sparda - Devil May Cry                                0   c Buro - Muse Dash                                             0   c Mitsuru Tenma - Ensemble Stars
+> 0   c Oga - Elf-san wa Yaserarenai                                 0   c Rouge the Bat - Sonic X                                      0   c Komachi Aizome - Sentai Daishikkaku
+> 0   c Eiden - NU: Carnival                                         0   c Yuu Nishinoya - Haikyuu!!                                    0   c Chocola - Nekopara
+> 50  c Xianyun - Genshin Impact                                     50  c Faruzan - Genshin Impact                                     0   c Shouko and Satou - Happy Sugar Life
+> 0   c Glavenus - Monster Hunter Series                             0   c Kaoru Hakaze - Ensemble Stars                                0   c Tada Banri - Golden Time
+> 50  c Beidou - Genshin Impact                                      33  c Burnice White - Zenless Zone Zero                            10  r Gintoki Sakata - Gintama
+> 0   c Moge-ko - Mogeko Castle                                      0   c Ryusei Shido - Blue Lock                                     0   c Ryou Yoake - ReLIFE
+> 0   c Omori - OMORI                                                0   c Oga - Elf-san wa Yaserarenai                                 0   c Riddle Rosehearts - Twisted Wonderland
+> 0   c Kurimanju - Chiikawa                                         0   c Saltherine Aldarake - Peach Boy Riverside                    0   c Uranus - Mobile Legends
+> 50  c Navia - Genshin Impact                                       0   c Naberius Kalego - Mairimashita! Iruma-kun                    0   c Miyako Shikimori - Shikimori's not just a Cutie
+> 0   c Paquito - Mobile Legends                                     0   c Areia - Alchemy Stars                                        0   c Kashiwazaki Hatsune - Princess Connect! Re:Dive
+> 10  r Touko and Yuu - Bloom Into You                               0   c Nadeko Sengoku - Monogatari Series                           0   c Zombieman - One Punch Man
+> 10  r Lilial Lo Po Bia Jahad - Tower of God                        0   c Chris Redfield - Biohazard                                   0   c Iori Suiseki - Paradox Live
+> 0   c Tachibana Hinata - Fabiniku                                  0   c Aldebaran - Re:Zero                                          0   c Karane Inda - Hyakkano
+> 0   c Momo Ayase - Dandadan                                        0   c Aya Oono - Girls und Panzer                                  0   c Pamela Ibis - Atelier Ryza
+> 45  c Theresa Apocalypse - Honkai Impact 3rd                       10  r Beom Tae-Ha - Tears On A Withered Flower                     0   c Akihiko Sanada - Persona Series
+> 50  c Yae Miko - Genshin Impact                                    0   c Kenyu Yukimiya - Blue Lock                                   0   c Ram - Re:Zero
+> 0   c Rin - Muse Dash                                              0   c Naomi Anderson - Tears of Themis                             0   c Masatora Akutsu - The Foolish Angel Dances with the Devil
+> 10  r Obi - Akagami no Shirayuki-hime                              0   c Setsuna - Redo of Healer                                     0   c Kyoichiro Yozakura - Yozakura-san Chi no Daisakusen
+> 0   c Mahiru Tsuyuzaki - Revue Starlight                           0   c Nezuko Kamado - Demon Slayer                                 0   c Shuhei Hisagi - Bleach
+> 10  r Grimmjow Jaegerjaquez - Bleach                               0   c Mari Iochi - Blue Archive                                    0   c Keith Claes - My Next Life as a Villainess
+> 10  r Jacques de Molay (Foreigner) - Fate Series                   0   c Mahiru Anekouji - Tying the Knot with an Amagami Sister      0   c Ging Freecss - Hunter x Hunter
+> 0   c Kotaro Kawaii - Puniru Is a Cute Slime                       0   c Hirano Taiga - Sasaki and Miyano                             0   c Hyuse - World Trigger
+> 0   c Toast - Food Fantasy                                         0   c Yae Niizuma - World Dai Star                                 0   c Tamaki Amajiki - My Hero Academia
+> 50  c Gorou - Genshin Impact                                       0   c Suoh Genji - Beyblade Series                                 0   c Sense - Sousou no Frieren
+> 10  r Nagisa Furukawa - Clannad                                    0   c Ayane Yano - Kimi ni Todoke                                  0   c Mari - Omori
+> 33  c Koleda Belobog - Zenless Zone Zero                           10  r Sora Kasugano and Haruka Kasugano - Yosuga no Sora           10  r Nagi Rokuya - IDOLiSH7
+> 0   c Misaki Imashino - Blue Archive                               0   c Rammus - League of Legends                                   0   c Roswaal Mathers - Re:Zero
+> 0   c Carrot - Peach Boy Riverside                                 0   c Cow Girl - Goblin Slayer                                     0   c Matthew Richter - Tears of Themis
+> 44  c Anjo Nala - Reverse: 1999                                    10  r Natalia - Mobile Legends                                     0   c Portgas D. Ace - One Piece
+> 10  r Zwei - NIKKE                                                 0   c Naotsugu Chiba - The Irregular at Magic High School          0   c Serena Cadenzavna Eve - Senki Zesshou Symphogear
+> 46  c Himeko - Honkai Star Rail                                    0   c Mami Nanami - Kanojo Okarishimasu                            0   c Kirishima Miyama - Raise wa Tanin ga Ii
+> 0   c Enigma - Takt. Op                                            0   c Norman - The Promised Neverland                              0   c Rose Oriana - The Eminence in Shadow
+> 0   c Miyoshi - Joker Game                                         0   c Cow Girl - Goblin Slayer                                     0   c Iroha Natsume - Blue Archive
+> 0   c Sage - VALORANT                                              0   c Nier (Brother) - NieR Series                                 0   c Rishe Irmgard Weitzner - 7th Time Loop
+> 10  r Emily - Villains Are Destined to Die                         0   c Ruby Hoshino - Oshi no Ko                                    0   c Fatalis - Monster Hunter Series
+> 0   c Golliwogg's Cakewalk - Takt Op. Series                       0   c Katsuki Bakugo - My Hero Academia                            0   c Kikoru Shinomiya - Kaiju No. 8
