@@ -191,10 +191,10 @@ const summon = async (token, username, autonomous = false) => {
             const delay = (cooldown) ? cooldown + 1_000 : RETRY_ON_ERROR_DELAY;
 
             if (delay > MAX_WAIT_FOR_COOLDOWN) {
-                console.warn(`Skipping summon: On cooldown for ${delay / 1_000} seconds.`);
+                console.warn(`Skipping summon: Cooldown ${(delay / 1_000).toFixed(0)} > ${MAX_WAIT_FOR_COOLDOWN / 1_000} seconds.`);
                 return;
             } else {
-                console.warn(`Cooldown detected, retrying after ${delay / 1_000} seconds...`);
+                console.warn(`Cooldown detected, retrying after ${(delay / 1_000).toFixed(0)} seconds...`);
                 await wait(delay);
             }
         }
@@ -273,7 +273,8 @@ const summonAll = async (delay = 1_000, autonomous = false) => {
     // Get the time until the next summon may be preformed.
     const token = Object.values(tokens)[0];
     await execute(command.summon, token);
-    const message = (await discord.getChannel({ channel: COMMAND_CHANNEL, messages: 1, token}))[0];
+    await wait(INITIAL_MESSAGE_POLLING_DELAY);
+    const message = (await discord.getChannel({ channel: COMMAND_CHANNEL, messages: 1, token }))[0];
 
     return (
         message.embeds &&
@@ -543,15 +544,21 @@ const main = async () => {
 
     const cooldown = await summonAll(4_000, true); // Autonomous summon all.
 
-    discord.send({ channel: channels.system, token: tokens.dreamers, message: autonomousResults.trim() });
-    autonomousResults = '';
+    if (autonomousResults) {
+        discord.send({
+            channel: channels.system,
+            token: tokens.dreamers,
+            message: (autonomousResults) ? autonomousResults : `Summon completed, no characters scoring over ${NOTIFICATION_THRESHOLD} were found.`
+        });
+        autonomousResults = '';
+    }
 
     // await execute(tokens.lightning, command.daily);
     // await wait(5_000);
     // await execute(tokens.lightning, command.openDaily);
     // await wait(5_000);
 
-    console.log(`Summoning completed, waiting ${cooldown / 1000} seconds for cooldown.`);
+    console.log(`Summoning completed, waiting ${(cooldown / 1000).toFixed(0)} seconds for cooldown.`);
     setTimeout(main, cooldown ?? SUMMON_COOLDOWN);
 
     console.log('Done');
