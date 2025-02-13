@@ -84,6 +84,7 @@ const filterFunctions = [
     [33, ({game}) => game.includes('Zenless Zone Zero')],
     [32, ({game}) => game.includes('Cookie Run')],
     [31, ({game}) => game.includes('Project Sekai') || game.includes('Vocaloid')],
+    [48, ({name}) => name.includes('Lunari')],
     [29, ({name}) => name.includes('Lightning')],
     [29, ({name}) => name.includes('Israel')],
     [29, ({name}) => name === 'Mia'],
