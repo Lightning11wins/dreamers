@@ -159,7 +159,7 @@ const pickCharacterAutonomous = (characters, log = true, username) => {
 const extractCooldown = (message) => {
     const match = message.match(/<t:(\d+):R>/);
     if (match) {
-        const timestampMs = parseInt(match[1], 10) * 1000; // convert seconds to ms
+        const timestampMs = parseInt(match[1], 10) * 1000;
         return Math.max(timestampMs + 1000 - Date.now(), 1);
     }
     return undefined;
