@@ -568,6 +568,7 @@ const main = async () => {
 };
 
 if (require.main === module) {
+    // Ensure that tests pass before running the code.
     if (!test({ log: false })) {
         test({ log: true });
         console.error('Start aborted: Tests failed');
@@ -575,5 +576,6 @@ if (require.main === module) {
     }
     console.log('Tests passed');
 
+    // Call the main code with an optional delay.
     setTimeout(main, 0);
 }
