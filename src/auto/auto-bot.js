@@ -573,5 +573,5 @@ if (require.main === module) {
     }
     console.log('Tests passed');
 
-    main().then();
+    setTimeout(main, 0);
 }
