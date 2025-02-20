@@ -8260,8 +8260,8 @@
 > 0   undefined Manjirou Sano - Tokyo Revengers                      0   undefined Subaru Awa - Girls Band Cry                          0   undefined Ame - Needy Streamer Overload                        
 > 0   undefined Elegg - NIKKE                                        0   undefined Aka Ohtori - Magicami                                0   undefined Tazaki - Joker Game                                  
 > 0   undefined Atri - Atri -My Dear Moments-                        0   undefined Joey Wheeler - Yu-Gi-Oh!                             0   undefined Cracker Charlotte - One Piece                        
-> 0   undefined Koume Sakiyama - Lord of Vermilion: The Crimson King 0   undefined Doppo Kunikida - Bungou Stray Dogs                   0   undefined Takt Asahina - Takt Op. Series                       
-> 
+> 0   undefined Koume Sakiyama - Lord of Vermilion: The Crimson King 0   undefined Doppo Kunikida - Bungou Stray Dogs                   0   undefined Takt Asahina - Takt Op. Series
+>
 > 0   undefined Tomoyo Daidouji - Cardcaptor Sakura                  0   undefined King of Facade - NieR Series                         0   undefined Latifa Flaurenza - Amagi Brilliant Park              
 > 0   undefined Sinbad - Magi: The Labyrinth of Magic                0   undefined Tsutomu Komano - Chihayafuru                         0   undefined Hayabusa - Mobile Legends                            
 > 44  undefined Regulus - Reverse: 1999                              31  undefined Ena Shinonome - Project Sekai                        0   undefined Midori Saiba - Blue Archive                          
@@ -8284,3 +8284,11 @@
 > 50  undefined Kamisato Ayato - Genshin Impact                      0   undefined Smoker - One Piece                                   0   undefined Julis-Alexia von Riessfeld - The Asterisk War        
 > 0   undefined Asta - Black Clover                                  0   undefined Aza Chobei - Jigokuraku                              0   undefined Arisa Ayase - Love Live!                             
 > 50  undefined Chongyun - Genshin Impact                            0   undefined Nimaiya Oetsu - Bleach                               0   undefined Ai Hoshino - Oshi no Ko                              
+> 54  c Verina - Wuthering Waves                                     50  c Qiqi - Genshin Impact                                        0   c Riddle Rosehearts - Twisted Wonderland
+> 10  r Ereshkigal - Fate Series                                     0   c Rakunera Arakunera - Monster Musume no Iru Nichijou          0   c Silver the Hedgehog - Sonic X
+> 10  r Yuuki - Playing Death Games to Put Food on the Table         0   c Kasumi Toyama - BanG Dream!                                  0   c Nana Hayashida - Golden Time
+> 10  r Sun Jing - Tamen De Gushi                                    0   c Rigoletto - Takt Op. Series                                  0   c Enigma - Takt. Op
+> 10  r Chiaki Morisawa - Ensemble Stars!                            0   c Filimøs Harrifenas - Kumo Desu ga, Nani ka?                  0   c Kim Min-ji - Bad Thinking Diary
+> 0   c Shinji Hirako - Bleach                                       0   c Gyoumei Himejima - Demon Slayer                              0   c Rammus - League of Legends
+> 10  r Crystal Maiden - Dota                                        0   c Tomoya Mashiro - Ensemble Stars                              0   c Woo Jin-Chul - Solo Leveling
+> 0   c Arata Kaizaki - ReLIFE                                       0   c Zarya - Overwatch                                            0   c Lux - League of Legends
