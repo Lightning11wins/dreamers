@@ -8279,3 +8279,8 @@
 > 0   undefined Doomfist - Overwatch                                 0   undefined Momo Ayase - Dandadan                                0   undefined Sweet Mask - One Punch Man                           
 > 0   undefined Maple - BOFURI                                       0   undefined Naoka Ueno - A Silent Voice                          0   undefined Louis - Beastars                                     
 > 0   undefined Junko Sumida - Ameku M.D.: Doctor Detective          0   undefined Anisphia Wynn Palettia - Tenten Kakumei              0   undefined Uranus - Mobile Legends                              
+> 0   undefined Meiko Ootsuka - Yamada-kun and the Seven Witches     0   undefined Yoshino Koiwai - Masamune-kun no Revenge             0   undefined Alok - Free Fire                                     
+> 0   undefined Sakuta Azusagawa - Seishun Buta Yarou                0   undefined Haruo Yaguchi - High Score Girl                      0   undefined Kanade Tachibana - Angel Beats!                      
+> 50  undefined Kamisato Ayato - Genshin Impact                      0   undefined Smoker - One Piece                                   0   undefined Julis-Alexia von Riessfeld - The Asterisk War        
+> 0   undefined Asta - Black Clover                                  0   undefined Aza Chobei - Jigokuraku                              0   undefined Arisa Ayase - Love Live!                             
+> 50  undefined Chongyun - Genshin Impact                            0   undefined Nimaiya Oetsu - Bleach                               0   undefined Ai Hoshino - Oshi no Ko                              
