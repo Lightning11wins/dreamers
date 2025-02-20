@@ -8161,3 +8161,121 @@
 > 44  undefined Marcus - Reverse: 1999                               34  undefined Encore - Wuthering Waves                             0   undefined Furohoya - Chiikawa                                  
 > 0   undefined Ikki - Amnesia                                       0   undefined Riza Hawkeye - Fullmetal Alchemist                   0   undefined Ashley Graham - Biohazard                            
 > 0   undefined Maria Campbell - My Next Life as a Villainess        0   undefined Hakurou - Tensei Shitara Slime Datta Ken             0   undefined Tsutomu Komano - Chihayafuru                         
+> 0   undefined Suletta Mercury - Gundam: The Witch from Mercury     0   undefined Moge-ko - Mogeko Castle                              0   undefined Qiao Ling - Link Click                               
+> 0   undefined Tony Tony Chopper - One Piece                        0   undefined Nagi Hachinoya - 18TRIP                              0   undefined Vanilla - Nekopara                                   
+> 0   undefined Saki Kawasaki - My Teen Romantic Comedy SNAFU        0   undefined Hodaka Morishima - Weathering with You               0   undefined Charlotte Reis - Tensei Kizoku, Kantei Skill de Nariagaru 
+> 46  undefined Ruan Mei - Honkai Star Rail                          0   undefined Portgas D. Ace - One Piece                           0   undefined Itaru Shiodome - Nagi no Asukara                     
+> 0   undefined Emi Yusa - The Devil is a Part-Timer!                0   undefined Sumomo - Blue Archive                                0   undefined Ymir - Attack on Titan                               
+> 0   undefined Inosuke Hashibira - Demon Slayer                     0   undefined Aladdin - Magi: The Labyrinth of Magic               0   undefined Makoto Sunakawa - My Love Story!!                    
+> 
+> 0   undefined Popol and Kupa - Mobile Legends                      0   undefined Shouko Nishimiya - A Silent Voice                    0   undefined Shun Miller and Byakuya Mimori - Katsute Mahou Shoujo 
+> 46  undefined Aventurine - Honkai Star Rail                        0   undefined Nanase Asamiya - Liar Liar                           0   undefined opera - Mairimashita! Iruma-kun                      
+> 0   undefined Kenta Mikoshiba - Paradox Live                       0   undefined Tomoya Mashiro - Ensemble Stars                      0   undefined Saki Shiraishi - IDOLY PRIDE                         
+> 0   undefined Langa Hasegawa - SK8 the Infinity                    0   undefined Tori Himemiya - Ensemble Stars!                      0   undefined Tomoe - Kamisama Kiss                                
+> 0   undefined Oga - Elf-san wa Yaserarenai                         0   undefined Sakuma - Joker Game                                  0   undefined Wang Ling - The Daily Life of the Immortal King      
+> 50  undefined Chasca - Genshin Impact                              0   undefined Tsubaki Asahina - Brothers Conflict                  0   undefined Hirano Taiga - Sasaki and Miyano                     
+> 50  undefined Chasca - Genshin Impact                              0   undefined Tsubaki Asahina - Brothers Conflict                  0   undefined Hirano Taiga - Sasaki and Miyano                     
+> 50  undefined Chasca - Genshin Impact                              0   undefined Tsubaki Asahina - Brothers Conflict                  0   undefined Hirano Taiga - Sasaki and Miyano                     
+> 50  undefined Chasca - Genshin Impact                              0   undefined Tsubaki Asahina - Brothers Conflict                  0   undefined Hirano Taiga - Sasaki and Miyano                     
+> 50  undefined Chasca - Genshin Impact                              0   undefined Tsubaki Asahina - Brothers Conflict                  0   undefined Hirano Taiga - Sasaki and Miyano                     
+> 0   undefined Tengen Uzui - Demon Slayer                           0   undefined Hanamaruobake - Sanrio Series                        0   undefined Liv - Punishing Gray Raven                           
+> 0   undefined Arnest Flaming - Eiyuu Kyoushitsu                    0   undefined Archer - Fate Series                                 0   undefined Lilith Asami - Trinity Seven                         
+> 0   undefined Artem Wing - Tears of Themis                         0   undefined Haru - Beastars                                      0   undefined Yo Hiori - Blue Lock                                 
+> 0   undefined Baby 5 - One Piece                                   0   undefined Rena Natsukawa - Hokkaido Gals                       0   undefined Rachel - Tower of God                                
+> 0   undefined Orter Mádl - Mashle                                  0   undefined Rui Tachibana - Domestic Girlfriend                  0   undefined Rukia Kuchiki - Bleach                               
+> 75  undefined Klee - Genshin Impact                                0   undefined Finn Ames - Mashle                                   0   undefined Thistle - Dungeon Meshi                              
+> 0   undefined Jack - Beastars                                      0   undefined Eiko Houzuki - Dark Gathering                        0   undefined Quincy - NU: Carnival                                
+> 0   undefined Albert and Sei - Saint's Magic Power                 0   undefined Drow Ranger - Dota Series                            0   undefined Asuka Suzumori - Are You Lost?                       
+> 46  undefined Jiaoqiu - Honkai Star Rail                           0   undefined Shion Yozakura - Yozakura-san Chi no Daisakusen      0   undefined Alice Asmodeus - Mairimashita! Iruma-kun             
+> 0   undefined Ame - Needy Streamer Overload                        0   undefined Furohonya - Chiikawa                                 0   undefined Death Prophet - Dota Series                          
+> 0   undefined Tuxam - Fragaria Memories                            0   undefined Belphegor - Obey Me!                                 0   undefined Tessia Eralith - The Beginning After The End         
+> 0   undefined Roronoa Zoro - One Piece                             0   undefined Sakura - Isekai Smartphone                           0   undefined Meringue Salveria - Kore wa Zombie Desu ka?          
+> 0   undefined Kei Kaname - Boukyaku Battery                        0   undefined Ryou Yamada - Bocchi the Rock!                       0   undefined Liliana Masquerade - Re:Zero                         
+> 0   undefined Dabi - My Hero Academia                              0   undefined Bastion & Ganymede - Overwatch                       0   undefined Saki Saki - Kanojo mo Kanojo                         
+> 31  undefined Nene Kusanagi - Project Sekai                        0   undefined Haru - Beastars                                      0   undefined Kohaku - Dr. Stone                                   
+> 0   undefined Rin - Shelter                                        0   undefined Yagi & Kashima - Given                               0   undefined Marcille Donato - Dungeon Meshi                      
+> 0   undefined Trafalgar D. Water Law - One Piece                   0   undefined Claudine Saijou - Revue Starlight                    0   undefined Nadeko Sengoku - Monogatari Series                   
+> 0   undefined Kano Yamanouchi - Yorukura                           0   undefined Vengeful Spirit - Dota                               0   undefined Marianne Okada - Magicami                            
+> 0   undefined Tomori Takamatsu - BanG Dream!                       0   undefined Sakura Minamoto - Zombieland Saga                    0   undefined Lululee Ashford - Girumasu                           
+> 46  undefined Herta - Honkai Star Rail                             0   undefined Caitlyn - League of Legends                          0   undefined Kishibe - Chainsaw Man                               
+> 0   undefined Madara Uchiha - Naruto                               0   undefined Noor - I Parry Everything                            0   undefined Suzume Iwato - Suzume                                
+> 0   undefined Novaria - Mobile Legends                             0   undefined Ritsuka Uenoyama - Given                             0   undefined Mai Zenin - Jujutsu Kaisen                           
+> 0   undefined Nijimura Yuki - Princess Connect! Re:Dive            0   undefined Iseria - Epic Seven                                  0   undefined Violet Evergarden - Violet Evergarden                
+> 46  undefined Yukong - Honkai Star Rail                            0   undefined Ivern - League of Legends                            0   undefined Hikaru Asahina - Brothers Conflict                   
+> 0   undefined Shouko Nishimiya - A Silent Voice                    0   undefined Riko & Reg - Made in Abyss                           0   undefined Ai Kamiyo - Dark Gathering                           
+> 31  undefined IA - Vocaloid                                        31  undefined Toya Aoyagi - Project Sekai                          0   undefined Risa  Oonuwa - Good Ending                           
+> 0   undefined Astraea - Sora no Otoshimono                         0   undefined Yoru - VALORANT                                      0   undefined Nami - One Piece                                     
+> 0   undefined Jupiter - Takt. Op                                   0   undefined Bell Cranel - DanMachi                               0   undefined Mine - Akame Ga Kill!                                
+> 0   undefined Belphegor - Obey Me!                                 0   undefined Shizuku - The Elusive Samurai                        0   undefined Miku Kohinata - Senki Zesshou Symphogear             
+> 0   undefined Nero - Devil May Cry                                 0   undefined Ophelia - Vivy: Fluorite Eye's Song                  0   undefined Emma - The Promised Neverland                        
+> 0   undefined Lucas Proust - Shuuen no Virche                      0   undefined Tokiyuki Houjou - The Elusive Samurai                0   undefined Rize Kamishiro - Tokyo Ghoul                         
+> 46  undefined Jingliu - Honkai Star Rail                           0   undefined Zac Kaneguro - Beyblade Series                       0   undefined Angel Usukubo - Sentai Daishikkaku                   
+> 0   undefined Kousuke Seto - Mekakucity Actors                     0   undefined Noor - I Parry Everything                            0   undefined Rindo Kobayashi - Food Wars!                         
+> 0   undefined Madara Uchiha - Naruto                               0   undefined Momo Nishimiya - Jujutsu Kaisen                      0   undefined Ichigo Kurosaki - Bleach                             
+> 0   undefined Haruka - Loner Life in Another World                 0   undefined Reisalin Stout - Atelier Ryza                        0   undefined Lucas Proust - Shuuen no Virche                      
+> 0   undefined Hijiri Kasuga - Trinity Seven                        0   undefined Itsuki Akazawa - Otonari no Tenshi-sama              0   undefined Rin Shima - Yuru Camp                                
+> 0   undefined Hikari Tsuneki - Seiren                              0   undefined Kuresawa Tasuku - Sasaki and Miyano                  0   undefined Karna - Fate Series                                  
+> 0   undefined Jibril - No Game No Life                             0   undefined Jiwoo Seo - Eleceed                                  0   undefined Axe - Dota Series                                    
+> 0   undefined Chaco - Fragaria Memories                            0   undefined Grell Sutcliff - Black Butler                        0   undefined Shunpei Chihaya - Boukyaku Battery                   
+> 0   undefined Chiyo Kurihara - Prison School                       0   undefined Seraphine - League of Legends                        0   undefined Shuuya Kano - Mekakucity Actors                      
+> 0   undefined Ais Wallenstein - DanMachi                           0   undefined Evileye - Overlord                                   0   undefined Yukino Yukinoshita - My Teen Romantic Comedy SNAFU   
+> 0   undefined Hacker - Akudama Drive                               0   undefined Luban No.7 - Honor of Kings                          0   undefined Glorio - Draon Ball                                  
+> 0   undefined Ryo Ishizaki - Captain Tsubasa                       0   undefined Hisashi Otomo and Mao Tsuchiya - Twilight Out of Focus 0   undefined Remi Ayasaki - Horimiya                              
+> 0   undefined Sebastian Michaelis - Black Butler                   0   undefined Shidou Itsuka - Date A Live                          0   undefined King - Nanatsu no Taizai                             
+> 0   undefined Merlin - Nanatsu no Taizai                           0   undefined Aatrox - League of Legends                           0   undefined Shunpei Chihaya - Boukyaku Battery                   
+> 0   undefined Tseng - Final Fantasy Series                         0   undefined Hiiro Amagi - Ensemble Stars!                        0   undefined Kenta Mikoshiba - Paradox Live                       
+> 0   undefined Kai Chisaki - My Hero Academia                       0   undefined Yuki Itose - A Sign of Affection                     0   undefined Ryo Saeba - City Hunter                              
+> 44  undefined Argus - Reverse: 1999                                0   undefined Alvida - One Piece                                   0   undefined Clara Valac - Mairimashita! Iruma-kun                
+> 0   undefined Jumin Han - Mystic Messenger                         0   undefined Richelieu - Kantai Collection                        0   undefined Dot Barrett - Mashle                                 
+> 0   undefined Yasaka - High School DxD                             0   undefined Azazel Ameri - Mairimashita Iruma-kun                0   undefined Licht Bach - Plunderer                               
+> 0   undefined Shalltear Bloodfallen - Overlord                     0   undefined Sumomo - Blue Archive                                0   undefined Oku - Elf-san wa Yaserarenai                         
+> 0   undefined Nezuko Kamado - Demon Slayer                         0   undefined Van Kiryuin - Uta no Prince-sama                     0   undefined Nero - Devil May Cry                                 
+> 0   undefined Rin Itoshi - Blue Lock                               0   undefined Aoi Hinata - Oresuki                                 0   undefined Lucyna Kushinada - Cyberpunk: Edgerunners            
+> 46  undefined Topaz - Honkai Star Rail                             0   undefined Rouji Chante - Gundam Series                         0   undefined Morgiana - Magi: The Labyrinth of Magic              
+> 0   undefined Mafuyu Satou - Given                                 0   undefined Iguro Obanai - Demon Slayer                          0   undefined Yukino and Yui - My Teen Romantic Comedy SNAFU       
+> 45  undefined Ai-Chan - Honkai Impact 3rd                          0   undefined Akemi Homura - Puella Magi Madoka Magica             0   undefined Dio Brando - JoJo's Bizarre Adventure                
+> 0   undefined Suoh Genji - Beyblade Series                         0   undefined Kaho Hinata - Blend S                                0   undefined Haruka Amami - The iDOLM@STER Series                 
+> 0   undefined Mikasa Ackerman - Attack on Titan                    0   undefined Hwang Dong-Su - Solo Leveling                        0   undefined Inori Yuzuriha - Guilty Crown                        
+> 0   undefined Eustass Kid - One Piece                              0   undefined Death Gatling - One Punch Man                        0   undefined Shino Kiryuu - Kanojo mo Kanojo                      
+> 0   undefined Ruka Sarashina - Kanojo Okarishimasu                 0   undefined Suguru Geto - Jujutsu Kaisen                         0   undefined Monika - Spy Classroom                               
+> 0   undefined Sephiroth - Final Fantasy Series                     0   undefined Iris Midgar - The Eminence in Shadow                 0   undefined Maka Albarn - Soul Eater                             
+> 0   undefined Tamamo-no-Mae (Caster) - Fate Series                 0   undefined Mei Aihara - Citrus                                  0   undefined Baylord Yama - Tower of God                          
+> 0   undefined Rukia Kuchiki - Bleach                               0   undefined Kuon - Utawarerumono                                 0   undefined Sung Jin-Ah - Solo Leveling                          
+> 0   undefined Wang Mei-Yu - Classroom of the Elite                 0   undefined Miyo Saimori - My Happy Marriage                     0   undefined Anna Yanami - Make Heroine ga Oosugiru!              
+> 0   undefined Rin Shinomiya - The Dreaming Boy is a Realist        0   undefined Pannacotta Fugo - JoJo's Bizarre Adventure           0   undefined Penelope Eckhart - Villains Are Destined to Die      
+> 50  undefined Yanfei - Genshin Impact                              31  undefined Kaito - Vocaloid                                     0   undefined Kakashi & Ninja Dogs - Naruto                        
+> 0   undefined Itsuki Sumeragi - Kakegurui                          0   undefined Sonohara Mizuka - Plunderer                          0   undefined Lum - Urusei Yatsura                                 
+> 0   undefined Henry Legolant - Black Clover                        0   undefined Ereshkigal - Fate Series                             0   undefined Mai Sakurajima - Seishun Buta Yarou                  
+> 50  undefined Yelan - Genshin Impact                               44  undefined Spathodea - Reverse: 1999                            0   undefined Himemiya Maho - Princess Connect! Re:Dive            
+> 0   undefined Meninas McAllon - Bleach                             0   undefined Ikki NIko - Blue Lock                                0   undefined Matthew Richter - Tears of Themis                    
+> 0   undefined Leorio Paladiknight - Hunter x Hunter                0   undefined May - Alchemy Stars                                  0   undefined Neko Fujinomiya - Masamune-kun no Revenge            
+> 33  undefined Anby Demara - Zenless Zone Zero                      0   undefined Titan - Takt Op. Series                              0   undefined Itsuki Sumeragi - Kakegurui                          
+> 0   undefined Tsunayoshi Sawada - Katekyo Hitman Reborn!           0   undefined Tae Yamada - Zombieland Saga                         0   undefined All Might - My Hero Academia                         
+> 0   undefined Belkis - Takt Op. Series                             0   undefined Aki Adagaki - Masamune-kun no Revenge                0   undefined Izumo Miyako - Princess Connect! Re:Dive             
+> 0   undefined Monika - Doki Doki Literature Club                   0   undefined Shin - Bubble                                        0   undefined Crowley Eusford - Owari no Seraph                    
+> 0   undefined Kim Sangshik - Solo Leveling                         0   undefined Toast - Food Fantasy                                 0   undefined Imhotep - Im: Great Priest Imhotep                   
+> 
+> 0   undefined Sakura Akino - Oresuki                               0   undefined Himari Kino - Whisper Me a Love Song                 0   undefined Leviathan - Obey Me!                                 
+> 0   undefined Sayu Hisanuma - Nagi no Asukara                      0   undefined Noel Niihashi - Burn the Witch                       0   undefined Arthur Leywin - The Beginning After The End          
+> 0   undefined Manjirou Sano - Tokyo Revengers                      0   undefined Subaru Awa - Girls Band Cry                          0   undefined Ame - Needy Streamer Overload                        
+> 0   undefined Elegg - NIKKE                                        0   undefined Aka Ohtori - Magicami                                0   undefined Tazaki - Joker Game                                  
+> 0   undefined Atri - Atri -My Dear Moments-                        0   undefined Joey Wheeler - Yu-Gi-Oh!                             0   undefined Cracker Charlotte - One Piece                        
+> 0   undefined Koume Sakiyama - Lord of Vermilion: The Crimson King 0   undefined Doppo Kunikida - Bungou Stray Dogs                   0   undefined Takt Asahina - Takt Op. Series                       
+> 
+> 0   undefined Tomoyo Daidouji - Cardcaptor Sakura                  0   undefined King of Facade - NieR Series                         0   undefined Latifa Flaurenza - Amagi Brilliant Park              
+> 0   undefined Sinbad - Magi: The Labyrinth of Magic                0   undefined Tsutomu Komano - Chihayafuru                         0   undefined Hayabusa - Mobile Legends                            
+> 44  undefined Regulus - Reverse: 1999                              31  undefined Ena Shinonome - Project Sekai                        0   undefined Midori Saiba - Blue Archive                          
+> 0   undefined Itsuki - Yumekuro                                    0   undefined Ume Hanami - The iDOLM@STER Series                   0   undefined Thresh - League of Legends                           
+> 46  undefined Kafka - Honkai Star Rail                             0   undefined Haruna Kurodate - Blue Archive                       0   undefined Diggie - Mobile Legends                              
+> 0   undefined Jail Murdoch - Plunderer                             0   undefined Haku - Naruto                                        0   undefined AE3803 - Cells at Work!                              
+> 0   undefined Rei Ayanami - Neon Genesis Evangelion                0   undefined Yozakura Kirara - Blue Archive                       0   undefined Monika  Yuri - Doki Doki Literature Club             
+> 0   undefined Akali - League of Legends                            0   undefined Hokori - Sumikko Gurashi                             0   undefined Ango Sakaguchi - Bungou Stray Dogs                   
+> 0   undefined Haruhi Suzumiya - Suzumiya Haruhi no Yuuutsu         0   undefined Hero - Omori                                         0   undefined Noa Takigawa - Yamada-kun and the Seven Witches      
+> 0   undefined Tsunade - Naruto                                     0   undefined Lucy Heartfilia - Fairy Tail                         0   undefined Shinra Kusakabe - Fire Force                         
+> 0   undefined Alexandrov Grigorovich - Plunderer                   0   undefined Tobio Kageyama - Haikyuu!!                           0   undefined JUNKY - Gray Sheep                                   
+> 0   undefined Rude - Final Fantasy Series                          0   undefined Exia - NIKKE                                         0   undefined Saphir - Kekkon Yubiwa Monogatari                    
+> 0   undefined Willem Kmetsch - SukaSuka                            0   undefined Mai and Sakuta - Seishun Buta Yarou                  0   undefined Irina Ilyukhina - Renai Flops                        
+> 46  undefined Black Swan - Honkai Star Rail                        0   undefined Miko Iino - Kaguya-sama: Love is War                 0   undefined Rukia Kuchiki - Bleach                               
+> 0   undefined Doomfist - Overwatch                                 0   undefined Momo Ayase - Dandadan                                0   undefined Sweet Mask - One Punch Man                           
+> 0   undefined Maple - BOFURI                                       0   undefined Naoka Ueno - A Silent Voice                          0   undefined Louis - Beastars                                     
+> 0   undefined Junko Sumida - Ameku M.D.: Doctor Detective          0   undefined Anisphia Wynn Palettia - Tenten Kakumei              0   undefined Uranus - Mobile Legends                              
