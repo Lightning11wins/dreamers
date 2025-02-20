@@ -20,11 +20,11 @@ const MAX_WAIT_FOR_COOLDOWN = 120_000;
 const characterNameRegex = /\*\*(.*?)\*\*/g;
 const characterGameRegex = /\*(.*?)\*/g;
 const emojis = {
-    c: '<:e:1342202203515125801>',
-    r: '<:e:1342202212948115510>',
-    sr: '<:e:1342202597389373530>',
-    ssr: '<:e:1342202219574857788>',
-    ur: '<:e:1342202221558763571>',
+    c: '<a:e:1342202221558763571>',
+    r: '<a:e:1342202219574857788>',
+    sr: '<a:e:1342202597389373530>',
+    ssr: '<a:e:1342202212948115510>',
+    ur: '<a:e:1342202203515125801>',
 }, emojiMap = Object.entries(emojis).reduce((obj, [key, value]) => {
     obj[value] = key;
     return obj;
