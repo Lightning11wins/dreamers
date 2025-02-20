@@ -539,9 +539,6 @@ const test = ({ log = true } = {}) => {
 const main = async () => {
     console.log('Starting...');
 
-    // await executeAll(command.inventory, 0);
-    // await executeAll(command.packs, 0);
-
     // await executeAll(command.daily, 2_000);
     // await executeAll(command.openDaily, 2_000);
 
