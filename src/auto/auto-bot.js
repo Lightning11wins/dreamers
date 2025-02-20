@@ -92,7 +92,7 @@ const filterFunctions = [
     [10, ({emoji}) => emoji === emojis.r],
     [54, ({emoji}) => emoji === emojis.sr],
     [101,({emoji}) => emoji === emojis.ssr],
-    [201,({emoji}) => emoji === emojis.ur],
+    [251,({emoji}) => emoji === emojis.ur],
 ];
 
 const pickCharacter = (characters) => {
