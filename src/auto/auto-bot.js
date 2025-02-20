@@ -556,11 +556,6 @@ const main = async () => {
         autonomousResults = '';
     }
 
-    // await execute(tokens.lightning, command.daily);
-    // await wait(5_000);
-    // await execute(tokens.lightning, command.openDaily);
-    // await wait(5_000);
-
     console.log(`Summoning completed, waiting ${(cooldown / 1000).toFixed(0)} seconds for cooldown.`);
     setTimeout(main, cooldown ?? SUMMON_COOLDOWN);
 
