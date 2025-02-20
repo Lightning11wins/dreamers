@@ -545,7 +545,7 @@ const main = async () => {
     // await executeAll(command.daily, 2_000);
     // await executeAll(command.openDaily, 2_000);
 
-    const cooldown = await summonAll(4_000, true); // Autonomous summon all.
+    const cooldown = await summonAll(4_000, true);
 
     if (autonomousResults) {
         discord.send({
