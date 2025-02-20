@@ -20,10 +20,11 @@ const MAX_WAIT_FOR_COOLDOWN = 120_000;
 const characterNameRegex = /\*\*(.*?)\*\*/g;
 const characterGameRegex = /\*(.*?)\*/g;
 const emojis = {
-    ssr: '<:e:1299999361211564044>',
-    sr: '<:e:1295775855334789331>',
-    r: '<:e:1295775867946930319>',
-    c: '<:e:1295775877887557703>',
+    c: '<:e:1342202203515125801>',
+    r: '<:e:1342202212948115510>',
+    sr: '<:e:1342202597389373530>',
+    ssr: '<:e:1342202219574857788>',
+    ur: '<:e:1342202221558763571>',
 }, emojiMap = Object.entries(emojis).reduce((obj, [key, value]) => {
     obj[value] = key;
     return obj;
@@ -88,9 +89,10 @@ const filterFunctions = [
     [29, ({name}) => name.includes('Lightning')],
     [29, ({name}) => name.includes('Israel')],
     [29, ({name}) => name === 'Mia'],
-    [101,({emoji}) => emoji === emojis.ssr],
-    [54, ({emoji}) => emoji === emojis.sr],
     [10, ({emoji}) => emoji === emojis.r],
+    [54, ({emoji}) => emoji === emojis.sr],
+    [101,({emoji}) => emoji === emojis.ssr],
+    [201,({emoji}) => emoji === emojis.ur],
 ];
 
 const pickCharacter = (characters) => {
