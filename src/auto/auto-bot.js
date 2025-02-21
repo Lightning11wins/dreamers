@@ -84,11 +84,13 @@ const filterFunctions = [
     [34, ({game}) => game.includes('Wuthering Waves')],
     [33, ({game}) => game.includes('Zenless Zone Zero')],
     [32, ({game}) => game.includes('Cookie Run')],
-    [31, ({game}) => game.includes('Project Sekai') || game.includes('Vocaloid')],
+    [31, ({game}) => game.includes('Project Sekai') ||
+                     game.includes('Vocaloid') ||
+                     game.includes('Devil May Cry')],
     [48, ({name}) => name.includes('Lunari')],
-    [29, ({name}) => name.includes('Lightning')],
-    [29, ({name}) => name.includes('Israel')],
-    [29, ({name}) => name === 'Mia'],
+    [29, ({name}) => name.includes('Lightning') ||
+                     name.includes('Israel') ||
+                     name.includes('Mia')],
     [10, ({emoji}) => emoji === emojis.r],
     [54, ({emoji}) => emoji === emojis.sr],
     [101,({emoji}) => emoji === emojis.ssr],
